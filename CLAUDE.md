@@ -64,7 +64,6 @@ Two cookies sent directly to Substack (no proxy):
 ### Testing Strategy
 - **Unit tests**: Mock CycleTLS responses, test business logic
 - **Integration tests**: Mock CycleTLS with route-based handler, test full client flow
-- **E2E tests**: Full workflow tests requiring API credentials
 
 ### File Organization
 - `src/domain/` - Domain entities (Profile, Post, Note, Comment)
@@ -72,7 +71,6 @@ Two cookies sent directly to Substack (no proxy):
 - `src/types/` - Public type definitions
 - `tests/unit/` - Unit tests
 - `tests/integration/` - Integration tests
-- `tests/e2e/` - End-to-end tests
 - `samples/` - Example usage code
 - `scripts/` - Discovery and utility scripts (not published)
 
@@ -83,9 +81,19 @@ Two cookies sent directly to Substack (no proxy):
 
 ## Commit Guidelines
 
-Follow [Conventional Commits](https://www.conventionalcommits.org/):
-- `feat: add post scheduling`
-- `fix: correct auth token refresh`
-- `chore: update dependencies`
+Follow [Conventional Commits](https://www.conventionalcommits.org/). The release workflow scans
+all commits since the last version tag and picks the highest-priority bump:
+
+### Version bump priority (highest wins)
+1. **Major** (`feat!:` or `BREAKING CHANGE` in footer) - `0.2.0 → 1.0.0`
+2. **Minor** (`feat:`) - `0.2.0 → 0.3.0`
+3. **Patch** (`fix:`) - `0.2.0 → 0.2.1`
+4. **No release** (`chore:`, `docs:`, `test:`, `ci:`, `refactor:`, `style:`) - skips publishing
+
+### Examples
+- `feat!: replace auth model with OAuth2` (major)
+- `feat: add post scheduling` (minor)
+- `fix: correct session cookie refresh` (patch)
+- `chore: update dependencies` (no release)
 
 Pull request titles should use the same format.

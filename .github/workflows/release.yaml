@@ -12,9 +12,12 @@ jobs:
         environment: release
         permissions:
             id-token: write
-            contents: read
+            contents: write
         steps:
             - uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+                  token: ${{ secrets.GH_ACCESS_TOKEN }}
             - uses: pnpm/action-setup@v4
               with:
                   version: 10
@@ -29,5 +32,56 @@ jobs:
               run: pnpm build
             - name: Run tests
               run: pnpm test
+            - name: Determine version bump
+              id: bump
+              run: |
+                  # Find the latest version tag
+                  LAST_TAG=$(git tag --sort=-v:refname | grep '^v' | head -1)
+                  if [ -z "$LAST_TAG" ]; then
+                    echo "No version tags found, using initial commit"
+                    COMMIT_RANGE="HEAD"
+                  else
+                    COMMIT_RANGE="${LAST_TAG}..HEAD"
+                  fi
+
+                  echo "Scanning commits in range: $COMMIT_RANGE"
+
+                  # Get all commit messages in range
+                  COMMITS=$(git log "$COMMIT_RANGE" --pretty=format:"%s%n%b" 2>/dev/null || git log --pretty=format:"%s%n%b")
+
+                  # Determine bump type by priority
+                  BUMP="none"
+
+                  if echo "$COMMITS" | grep -qiE '^feat(\(.+\))?!:|BREAKING CHANGE'; then
+                    BUMP="major"
+                  elif echo "$COMMITS" | grep -qiE '^feat(\(.+\))?:'; then
+                    BUMP="minor"
+                  elif echo "$COMMITS" | grep -qiE '^fix(\(.+\))?:'; then
+                    BUMP="patch"
+                  fi
+
+                  echo "bump=$BUMP" >> "$GITHUB_OUTPUT"
+                  echo "Determined bump type: $BUMP"
+            - name: Bump version
+              if: steps.bump.outputs.bump != 'none'
+              run: |
+                  BUMP=${{ steps.bump.outputs.bump }}
+                  npm version "$BUMP" --no-git-tag-version
+                  NEW_VERSION=$(node -p "require('./package.json').version")
+                  echo "Bumped to $NEW_VERSION"
+                  echo "NEW_VERSION=$NEW_VERSION" >> "$GITHUB_ENV"
+            - name: Commit and tag version
+              if: steps.bump.outputs.bump != 'none'
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "github-actions[bot]@users.noreply.github.com"
+                  git add package.json
+                  git commit -m "chore(release): v${NEW_VERSION} [skip ci]"
+                  git tag "v${NEW_VERSION}"
+                  git push origin main --tags
             - name: Publish to NPM
+              if: steps.bump.outputs.bump != 'none'
               run: npm publish --provenance --access public
+            - name: Skip release
+              if: steps.bump.outputs.bump == 'none'
+              run: echo "No feat or fix commits found since last tag. Skipping release."
