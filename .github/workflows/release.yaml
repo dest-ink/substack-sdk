@@ -12,19 +12,15 @@ jobs:
         environment: release
         permissions:
             id-token: write
-            contents: write
+            contents: read
         steps:
             - uses: actions/checkout@v4
-              with:
-                  persist-credentials: false
-                  fetch-depth: 0
-                  token: ${{ secrets.GH_ACCESS_TOKEN }}
             - uses: pnpm/action-setup@v4
               with:
                   version: 10
             - uses: actions/setup-node@v4
               with:
-                  node-version: 20
+                  node-version: 22
                   cache: 'pnpm'
                   registry-url: 'https://registry.npmjs.org'
             - name: Install dependencies
@@ -33,11 +29,5 @@ jobs:
               run: pnpm build
             - name: Run tests
               run: pnpm test
-            - name: Semantic Release
-              uses: cycjimmy/semantic-release-action@v4
-              id: semantic
-              with:
-                  tag_format: v${version}
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
-                  NPM_CONFIG_PROVENANCE: true
+            - name: Publish to NPM
+              run: npm publish --provenance --access public
