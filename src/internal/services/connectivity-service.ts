@@ -5,7 +5,8 @@ export class ConnectivityService {
 
   async isConnected(): Promise<boolean> {
     try {
-      await this.client.get('/health/ready')
+      // Use a lightweight profile self-check as a health probe
+      await this.client.get('/api/v1/subscriptions/page')
       return true
     } catch {
       return false

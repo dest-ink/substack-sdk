@@ -1,0 +1,433 @@
+{
+  "comments": [
+    {
+      "id": 228345986,
+      "body": "I have a 90% confidence that this article is bs haha",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "I have a 90% confidence that this article is bs haha"
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 6219272,
+      "post_id": 191067613,
+      "user_id": 389976224,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-03-15T22:10:57.874Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "gavin yu",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/517d62d7-dfa6-41cd-8fa7-5f572fdb10c6_96x96.png",
+      "handle": "gavinyu",
+      "reactor_names": [
+        "alex"
+      ],
+      "reaction": "❤",
+      "reactions": {
+        "❤": 5
+      },
+      "reaction_count": 5,
+      "children": [
+        {
+          "id": 228346486,
+          "body": "lil bro not even on substack notes",
+          "body_json": {
+            "type": "doc",
+            "attrs": {
+              "schemaVersion": "v1"
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "lil bro not even on substack notes"
+                  }
+                ]
+              }
+            ]
+          },
+          "publication_id": 6219272,
+          "post_id": 191067613,
+          "user_id": 113060464,
+          "ancestor_path": "228345986",
+          "type": "comment",
+          "deleted": false,
+          "date": "2026-03-15T22:12:19.848Z",
+          "edited_at": null,
+          "status": "published",
+          "pinned_by_user_id": null,
+          "restacks": 0,
+          "name": "alex",
+          "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/5ea58246-7af5-4930-8ed1-17bfc919841c_360x360.png",
+          "handle": "usrnmtaken",
+          "reactor_names": [
+            "alex"
+          ],
+          "reaction": null,
+          "reactions": {
+            "❤": 2
+          },
+          "reaction_count": 2,
+          "children": [
+            {
+              "id": 228346895,
+              "body": "LOL.",
+              "body_json": {
+                "type": "doc",
+                "attrs": {
+                  "schemaVersion": "v1"
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "LOL."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "publication_id": 6219272,
+              "post_id": 191067613,
+              "user_id": 389998224,
+              "ancestor_path": "228345986.228346486",
+              "type": "comment",
+              "deleted": false,
+              "date": "2026-03-15T22:13:24.630Z",
+              "edited_at": null,
+              "status": "published",
+              "pinned_by_user_id": null,
+              "restacks": 0,
+              "name": "joe_kurt",
+              "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/264a3c39-0ec5-40f6-b9cc-e86d40e5078d_144x144.png",
+              "handle": "joekurt2025",
+              "reactor_names": [
+                "alex"
+              ],
+              "reaction": null,
+              "reactions": {
+                "❤": 1
+              },
+              "reaction_count": 1,
+              "children": [],
+              "bans": [],
+              "suppressed": false,
+              "user_banned": false,
+              "user_banned_for_comment": false,
+              "user_slug": "joekurt2025",
+              "metadata": {
+                "is_author": false,
+                "membership_state": "free_signup",
+                "eligibleForGift": false,
+                "author_on_other_pub": {
+                  "name": "joe_kurt",
+                  "id": 7722199,
+                  "base_url": "https://joekurt2025.substack.com"
+                }
+              },
+              "user_bestseller_tier": null,
+              "can_dm": true,
+              "userStatus": {
+                "bestsellerTier": null,
+                "subscriberTier": null,
+                "leaderboard": null,
+                "vip": false,
+                "badge": null,
+                "subscriber": null
+              },
+              "score": 6,
+              "children_count": 0,
+              "reported_by_user": false,
+              "restacked": false
+            }
+          ],
+          "bans": [],
+          "suppressed": false,
+          "user_banned": false,
+          "user_banned_for_comment": false,
+          "user_slug": "usrnmtaken",
+          "metadata": {
+            "is_author": true,
+            "membership_state": "subscribed",
+            "eligibleForGift": false,
+            "author_on_other_pub": {
+              "name": "facts [unfiltered]",
+              "id": 6219272,
+              "base_url": "https://aalx.substack.com"
+            }
+          },
+          "user_bestseller_tier": null,
+          "can_dm": true,
+          "userStatus": null,
+          "score": 35,
+          "children_count": 1,
+          "reported_by_user": false,
+          "restacked": false
+        },
+        {
+          "id": 228347758,
+          "body": "The article is actually real though.",
+          "body_json": {
+            "type": "doc",
+            "attrs": {
+              "schemaVersion": "v1"
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "The article is actually real though."
+                  }
+                ]
+              }
+            ]
+          },
+          "publication_id": 6219272,
+          "post_id": 191067613,
+          "user_id": 464577183,
+          "ancestor_path": "228345986",
+          "type": "comment",
+          "deleted": false,
+          "date": "2026-03-15T22:15:39.939Z",
+          "edited_at": null,
+          "status": "published",
+          "pinned_by_user_id": null,
+          "restacks": 0,
+          "name": "mysteriousgooner",
+          "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/c275d05a-6684-4276-a193-6b5e0f637e45_144x144.png",
+          "handle": "whatisthisusername",
+          "reactor_names": [
+            "alex"
+          ],
+          "reaction": null,
+          "reactions": {
+            "❤": 2
+          },
+          "reaction_count": 2,
+          "children": [],
+          "bans": [],
+          "suppressed": false,
+          "user_banned": false,
+          "user_banned_for_comment": false,
+          "user_slug": "whatisthisusername",
+          "metadata": {
+            "is_author": false,
+            "membership_state": "free_signup",
+            "eligibleForGift": false,
+            "author_on_other_pub": {
+              "name": "mysteriousgooner",
+              "id": 8144932,
+              "base_url": "https://whatisthisusername.substack.com"
+            }
+          },
+          "user_bestseller_tier": null,
+          "can_dm": true,
+          "userStatus": {
+            "bestsellerTier": null,
+            "subscriberTier": null,
+            "leaderboard": null,
+            "vip": false,
+            "badge": null,
+            "subscriber": null
+          },
+          "score": 7,
+          "children_count": 0,
+          "reported_by_user": false,
+          "restacked": false
+        },
+        "... (3 total)"
+      ],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "gavinyu",
+      "metadata": {
+        "is_author": false,
+        "membership_state": "free_signup",
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "gavin yu",
+          "id": 8169577,
+          "base_url": "https://gavinyu.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 10,
+      "children_count": 3,
+      "reported_by_user": false,
+      "restacked": false
+    },
+    {
+      "id": 228401700,
+      "body": "90% of the people telling you that they want to “read your work” are lying to you -- very true. my substack homepage is filled by this kind of Notes. it's almost like the email junk folder now. Some are really asking for reading matter, while some just post that for increasing followers without any inspiring idea 😓",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "90% of the people telling you that they want to “read your work” are lying to you -- very true. my substack homepage is filled by this kind of Notes. it's almost like the email junk folder now. Some are really asking for reading matter, while some just post that for increasing followers without any inspiring idea 😓"
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 6219272,
+      "post_id": 191067613,
+      "user_id": 478217046,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-03-16T00:45:07.666Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "LucioX",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/016867d0-444d-4cee-898e-da0bc84a49cf_992x1070.png",
+      "handle": "luciox",
+      "reactor_names": [
+        "alex"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [
+        {
+          "id": 228402080,
+          "body": "Yeah. You post those notes all you want, just remember to read and follow through on your promises! Many people do not :(",
+          "body_json": {
+            "type": "doc",
+            "attrs": {
+              "schemaVersion": "v1"
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Yeah. You post those notes all you want, just remember to read and follow through on your promises! Many people do not :("
+                  }
+                ]
+              }
+            ]
+          },
+          "publication_id": 6219272,
+          "post_id": 191067613,
+          "user_id": 113060464,
+          "ancestor_path": "228401700",
+          "type": "comment",
+          "deleted": false,
+          "date": "2026-03-16T00:46:22.724Z",
+          "edited_at": null,
+          "status": "published",
+          "pinned_by_user_id": null,
+          "restacks": 0,
+          "name": "alex",
+          "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/5ea58246-7af5-4930-8ed1-17bfc919841c_360x360.png",
+          "handle": "usrnmtaken",
+          "reactor_names": [
+            "alex"
+          ],
+          "reaction": null,
+          "reactions": {
+            "❤": 2
+          },
+          "reaction_count": 2,
+          "children": [],
+          "bans": [],
+          "suppressed": false,
+          "user_banned": false,
+          "user_banned_for_comment": false,
+          "user_slug": "usrnmtaken",
+          "metadata": {
+            "is_author": true,
+            "membership_state": "subscribed",
+            "eligibleForGift": false,
+            "author_on_other_pub": {
+              "name": "facts [unfiltered]",
+              "id": 6219272,
+              "base_url": "https://aalx.substack.com"
+            }
+          },
+          "user_bestseller_tier": null,
+          "can_dm": true,
+          "userStatus": null,
+          "score": 35,
+          "children_count": 0,
+          "reported_by_user": false,
+          "restacked": false
+        }
+      ],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "luciox",
+      "metadata": {
+        "is_author": false,
+        "membership_state": "free_signup",
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "China Close-Up",
+          "id": 8311095,
+          "base_url": "https://chinacloseup.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 6,
+      "children_count": 1,
+      "reported_by_user": false,
+      "restacked": false
+    },
+    "... (9 total)"
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "items": [
+    {
+      "entity_key": "c-217303447",
+      "type": "comment",
+      "context": {
+        "type": "note",
+        "typeBucket": "notes",
+        "timestamp": "2026-02-20T18:12:49.652Z",
+        "users": [
+          {
+            "id": 151257329,
+            "name": "Will Walker | Media Literacy",
+            "handle": "williamthinks",
+            "previous_name": "William Walker",
+            "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/77d61745-d23b-44c8-9021-6176054a348a_1066x1070.png",
+            "bio": "Your favorite creator isn’t smarter than you—they just read the article you didn’t.",
+            "profile_set_up_at": "2026-01-03T18:54:27.413Z",
+            "reader_installed_at": "2026-01-03T18:54:12.247Z",
+            "bestseller_tier": null,
+            "status": {
+              "bestsellerTier": null,
+              "subscriberTier": null,
+              "leaderboard": null,
+              "vip": false,
+              "badge": null,
+              "paidPublicationIds": [],
+              "subscriber": null
+            },
+            "primary_publication": {
+              "id": 7549642,
+              "subdomain": "thoughtcurators",
+              "custom_domain_optional": false,
+              "name": "Thought Curators",
+              "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/a1c63e3d-83eb-48bb-969d-a8a1629e3d81_1024x1024.png",
+              "author_id": 151257329,
+              "user_id": 151257329,
+              "handles_enabled": false,
+              "explicit": false,
+              "is_personal_mode": false,
+              "payments_state": "disabled",
+              "pledges_enabled": false
+            }
+          }
+        ],
+        "fallbackReason": "//TODO: create fallback reasons",
+        "fallbackUrl": null,
+        "isFresh": true,
+        "source": "model",
+        "model_rank": 89,
+        "model_score": 5.662553412208199,
+        "scores": {
+          "retrieval": 0.00019402348,
+          "negative_interaction": 0.02093742,
+          "like": 0.0137133775,
+          "reply": 0.016942378,
+          "sign_up": 0.0038400986,
+          "click": 0.062344506,
+          "share": 0.0006405938,
+          "long_click": 0.05398202
+        },
+        "page": 0,
+        "page_rank": 0
+      },
+      "publication": null,
+      "post": null,
+      "comment": {
+        "name": "Will Walker | Media Literacy",
+        "handle": "williamthinks",
+        "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/77d61745-d23b-44c8-9021-6176054a348a_1066x1070.png",
+        "id": 217303447,
+        "body": "Send me some stuff to read. I’ll leave a comment with some thoughts ",
+        "body_json": {
+          "content": [
+            {
+              "content": [
+                {
+                  "text": "Send me some stuff to read. I’ll leave a comment with some thoughts ",
+                  "type": "text"
+                }
+              ],
+              "type": "paragraph"
+            }
+          ],
+          "type": "doc",
+          "attrs": {
+            "schemaVersion": "v1"
+          }
+        },
+        "publication_id": null,
+        "post_id": null,
+        "user_id": 151257329,
+        "type": "feed",
+        "date": "2026-02-20T18:12:49.652Z",
+        "edited_at": null,
+        "ancestor_path": "",
+        "reply_minimum_role": "everyone",
+        "media_clip_id": null,
+        "reaction_count": 199,
+        "reactions": {
+          "❤": 199
+        },
+        "restacks": 6,
+        "restacked": false,
+        "children_count": 360,
+        "attachments": [],
+        "user_bestseller_tier": null,
+        "userStatus": {
+          "bestsellerTier": null,
+          "subscriberTier": null,
+          "leaderboard": null,
+          "vip": false,
+          "badge": null,
+          "paidPublicationIds": [],
+          "subscriber": null
+        },
+        "user_primary_publication": {
+          "id": 7549642,
+          "subdomain": "thoughtcurators",
+          "custom_domain_optional": false,
+          "name": "Thought Curators",
+          "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/a1c63e3d-83eb-48bb-969d-a8a1629e3d81_1024x1024.png",
+          "author_id": 151257329,
+          "user_id": 151257329,
+          "handles_enabled": false,
+          "explicit": false,
+          "is_personal_mode": false,
+          "payments_state": "disabled",
+          "pledges_enabled": false
+        }
+      },
+      "parentComments": [],
+      "canReply": true,
+      "isMuted": false,
+      "trackingParameters": {
+        "item_primary_entity_key": "c-217303447",
+        "item_entity_key": "c-217303447",
+        "item_type": "comment",
+        "item_comment_id": 217303447,
+        "item_content_user_id": 151257329,
+        "item_content_timestamp": "2026-02-20T18:12:49.652Z",
+        "item_context_type": "note",
+        "item_context_type_bucket": "notes",
+        "item_context_timestamp": "2026-02-20T18:12:49.652Z",
+        "item_context_user_id": 151257329,
+        "item_context_user_ids": [
+          151257329
+        ],
+        "item_can_reply": true,
+        "item_is_fresh": true,
+        "item_last_impression_at": null,
+        "item_source": "model",
+        "item_model_rank": 89,
+        "item_model_score": 5.662553412208199,
+        "item_retrieval_score": 0.00019402348,
+        "score_negative_interaction": 0.02093742,
+        "score_like": 0.0137133775,
+        "score_reply": 0.016942378,
+        "score_sign_up": 0.0038400986,
+        "score_click": 0.062344506,
+        "score_share": 0.0006405938,
+        "score_long_click": 0.05398202,
+        "item_page": 0,
+        "item_page_rank": 0,
+        "tab_id": "for-you",
+        "feed_session_id": "e3f347bb-c020-4f10-a311-5af21084c163",
+        "impression_id": "9a8e791f-40d7-40f2-91d9-044febe1f502",
+        "followed_user_count": 2,
+        "subscribed_publication_count": 2,
+        "is_following": false,
+        "is_explicitly_subscribed": false,
+        "note_velocity_factor": 0.950343080261,
+        "note_delay_seconds": 158,
+        "note_notes_per_hour": 2576.061552,
+        "item_current_reaction_count": 199,
+        "item_current_restack_count": 6,
+        "item_current_reply_count": 360
+      },
+      "canShowFollowUpsell": false
+    },
+    {
+      "entity_key": "c-216441544",
+      "type": "comment",
+      "context": {
+        "type": "note",
+        "typeBucket": "notes",
+        "timestamp": "2026-02-18T22:35:17.620Z",
+        "users": [
+          {
+            "id": 387143022,
+            "name": "Soulhunting",
+            "handle": "soulhunting",
+            "previous_name": null,
+            "photo_url": "https://substackcdn.com/image/fetch/$s_!84Nj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d4f2a36-86a5-40d8-8caa-1d5609ae72da_736x736.jpeg",
+            "bio": "My essays are small human studies — tender, sometimes raw, always true to how they felt in the moment (evolution/anthropology).",
+            "profile_set_up_at": "2025-08-30T18:20:18.718Z",
+            "reader_installed_at": "2026-02-18T12:54:58.312Z",
+            "bestseller_tier": null,
+            "status": {
+              "bestsellerTier": null,
+              "subscriberTier": 1,
+              "leaderboard": null,
+              "vip": false,
+              "badge": {
+                "type": "subscriber",
+                "tier": 1,
+                "accent_colors": null
+              },
+              "paidPublicationIds": [
+                277517
+              ],
+              "subscriber": null
+            },
+            "primary_publication": {
+              "id": 6826137,
+              "subdomain": "soulhunting1",
+              "custom_domain_optional": false,
+              "name": "Soulhunting",
+              "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/721f7065-f795-4fb4-9bfa-a58f210a9429_500x500.png",
+              "author_id": 387143022,
+              "user_id": 387143022,
+              "handles_enabled": false,
+              "explicit": false,
+              "is_personal_mode": false,
+              "payments_state": "enabled",
+              "pledges_enabled": false
+            }
+          }
+        ],
+        "fallbackReason": "//TODO: create fallback reasons",
+        "fallbackUrl": null,
+        "isFresh": true,
+        "source": "model",
+        "model_rank": 669,
+        "model_score": 5.20396703813107,
+        "scores": {
+          "retrieval": 0.000021367805,
+          "negative_interaction": 0.016843611,
+          "like": 0.013875075,
+          "reply": 0.013523292,
+          "sign_up": 0.00435479,
+          "click": 0.04478648,
+          "share": 0.00033406387,
+          "long_click": 0.03492499
+        },
+        "page": 0,
+        "page_rank": 1
+      },
+      "publication": null,
+      "post": null,
+      "comment": {
+        "name": "Soulhunting",
+        "handle": "soulhunting",
+        "photo_url": "https://substackcdn.com/image/fetch/$s_!84Nj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d4f2a36-86a5-40d8-8caa-1d5609ae72da_736x736.jpeg",
+        "id": 216441544,
+        "body": "Day 2: Dear Substack, \n\nsend me hungry small writers. Let’s grow fast and grow loud ☄️",
+        "body_json": {
+          "type": "doc",
+          "attrs": {
+            "schemaVersion": "v1"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Day 2: Dear Substack, "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "send me hungry small writers. Let’s grow fast and grow loud ☄️"
+                }
+              ]
+            }
+          ]
+        },
+        "publication_id": null,
+        "post_id": null,
+        "user_id": 387143022,
+        "type": "feed",
+        "date": "2026-02-18T22:35:17.620Z",
+        "edited_at": null,
+        "ancestor_path": "",
+        "reply_minimum_role": null,
+        "media_clip_id": null,
+        "reaction_count": 304,
+        "reactions": {
+          "❤": 304
+        },
+        "restacks": 2,
+        "restacked": false,
+        "children_count": 317,
+        "attachments": [],
+        "user_bestseller_tier": null,
+        "userStatus": {
+          "bestsellerTier": null,
+          "subscriberTier": 1,
+          "leaderboard": null,
+          "vip": false,
+          "badge": {
+            "type": "subscriber",
+            "tier": 1,
+            "accent_colors": null
+          },
+          "paidPublicationIds": [
+            277517
+          ],
+          "subscriber": null
+        },
+        "user_primary_publication": {
+          "id": 6826137,
+          "subdomain": "soulhunting1",
+          "custom_domain_optional": false,
+          "name": "Soulhunting",
+          "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/721f7065-f795-4fb4-9bfa-a58f210a9429_500x500.png",
+          "author_id": 387143022,
+          "user_id": 387143022,
+          "handles_enabled": false,
+          "explicit": false,
+          "is_personal_mode": false,
+          "payments_state": "enabled",
+          "pledges_enabled": false
+        }
+      },
+      "parentComments": [],
+      "canReply": true,
+      "isMuted": false,
+      "trackingParameters": {
+        "item_primary_entity_key": "c-216441544",
+        "item_entity_key": "c-216441544",
+        "item_type": "comment",
+        "item_comment_id": 216441544,
+        "item_content_user_id": 387143022,
+        "item_content_timestamp": "2026-02-18T22:35:17.620Z",
+        "item_context_type": "note",
+        "item_context_type_bucket": "notes",
+        "item_context_timestamp": "2026-02-18T22:35:17.620Z",
+        "item_context_user_id": 387143022,
+        "item_context_user_ids": [
+          387143022
+        ],
+        "item_can_reply": true,
+        "item_is_fresh": true,
+        "item_last_impression_at": null,
+        "item_source": "model",
+        "item_model_rank": 669,
+        "item_model_score": 5.20396703813107,
+        "item_retrieval_score": 0.000021367805,
+        "score_negative_interaction": 0.016843611,
+        "score_like": 0.013875075,
+        "score_reply": 0.013523292,
+        "score_sign_up": 0.00435479,
+        "score_click": 0.04478648,
+        "score_share": 0.00033406387,
+        "score_long_click": 0.03492499,
+        "item_page": 0,
+        "item_page_rank": 1,
+        "tab_id": "for-you",
+        "feed_session_id": "e3f347bb-c020-4f10-a311-5af21084c163",
+        "impression_id": "6ba2f6d7-f68d-4e22-8237-e0751a26f907",
+        "followed_user_count": 2,
+        "subscribed_publication_count": 2,
+        "is_following": false,
+        "is_explicitly_subscribed": false,
+        "note_velocity_factor": 0.950343080261,
+        "note_delay_seconds": 158,
+        "note_notes_per_hour": 2576.061552,
+        "item_current_reaction_count": 304,
+        "item_current_restack_count": 2,
+        "item_current_reply_count": 317
+      },
+      "canShowFollowUpsell": false
+    },
+    "... (7 total items)"
+  ],
+  "originalCursorTimestamp": "2026-03-16T05:43:28.830Z",
+  "nextCursor": "eyJzZXNzaW9uX2lkIjoiZTNmMzQ3YmItYzAyMC00ZjEwLWEzMTEtNWFmMjEwODRjMTYzIiwiYmVmb3JlX3RpbWVzdGFtcCI6IjIwMjYtMDMtMTZUMDU6NDM6MjguODMwWiIsImFmdGVyX3RpbWVzdGFtcCI6IjIwMjYtMDMtMTZUMDU6NDM6MjguODMwWiIsInBhZ2VfbnVtYmVyIjoxLCJsYXN0X2J1Y2tldF9pdGVtcyI6eyJub3RlcyI6eyJlbnRpdHlfa2V5IjoiYy0yMTg3MDg2NzAiLCJ1c2VyX3Njb3JlIjo0Ljk3NDQyMDAwMjc1MDM5OX0sInBvc3RzIjp7ImVudGl0eV9rZXkiOiJwLTE2Mzc1MzIyNiIsInVzZXJfc2NvcmUiOjAuMTUwODc0NTN9LCJjaGF0cyI6eyJlbnRpdHlfa2V5IjoiY3AtYTY4MDlmYTMtNWEyNi00MmM4LTg5Y2YtOGNkMzM1NmMwMzY2IiwidXNlcl9zY29yZSI6MX19LCJwcmVwZW5kZWRfbm90ZV9pZHMiOltdfQ==",
+  "trackingParameters": {
+    "feed_session_id": "e3f347bb-c020-4f10-a311-5af21084c163",
+    "top_note_impression_id": "dd9cc141-072b-465c-af2c-fe679ff39d21",
+    "tab_id": "for-you",
+    "top_note_entity_key": "c-217303447",
+    "top_note_model_score": 5.662553412208199,
+    "top_note_retrieval_score": 0.00019402348,
+    "top_note_source": "model",
+    "top_note_context_user_ids": [
+      151257329
+    ],
+    "top_note_context_type": "note",
+    "is_following": false,
+    "followed_user_count": 2,
+    "subscribed_publication_count": 2
+  },
+  "tabs": [
+    {
+      "id": "for-you",
+      "name": "For you",
+      "type": "base",
+      "layout": "post_queue_head"
+    },
+    {
+      "id": "subscribed",
+      "name": "Following",
+      "type": "secondary",
+      "layout": "post_queue_head"
+    },
+    "... (33 total items)"
+  ]
+}

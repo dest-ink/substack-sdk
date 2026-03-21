@@ -1,25 +1,32 @@
 import type { HttpClient } from '@substack-api/internal/http-client'
-import { GatewayFullPostC, GatewayPostsPageC } from '@substack-api/internal/types'
-import type { GatewayFullPost, GatewayPost } from '@substack-api/internal/types'
+import { SubstackFullPostC, SubstackFeedPageC } from '@substack-api/internal/types'
+import type { SubstackFullPost, SubstackFeedItem } from '@substack-api/internal/types'
 import { decodeOrThrow } from '@substack-api/internal/validation'
+
+export interface PaginatedPosts {
+  posts: SubstackFeedItem[]
+  nextCursor?: string | null
+}
 
 export class PostService {
   constructor(private readonly client: HttpClient) {}
 
-  async getPostById(id: number): Promise<GatewayFullPost> {
-    const raw = await this.client.get<unknown>(`/posts/${id}`)
-    return decodeOrThrow(GatewayFullPostC, raw, 'GatewayFullPost')
+  async getPostBySlug(slug: string, subdomain?: string): Promise<SubstackFullPost> {
+    const scope = subdomain ? { subdomain } : ('publication' as const)
+    const raw = await this.client.get<unknown>(
+      `/api/v1/posts/${encodeURIComponent(slug)}`,
+      undefined,
+      scope
+    )
+    return decodeOrThrow(SubstackFullPostC, raw, 'SubstackFullPost')
   }
 
-  async getPostsForProfile(
-    slug: string,
-    options: { limit: number; offset: number }
-  ): Promise<GatewayPost[]> {
-    const raw = await this.client.get<unknown>(`/profiles/${encodeURIComponent(slug)}/posts`, {
-      limit: options.limit,
-      offset: options.offset
-    })
-    const page = decodeOrThrow(GatewayPostsPageC, raw, 'GatewayPostsPage')
-    return page.items
+  async getPostsForProfile(userId: number, options?: { cursor?: string }): Promise<PaginatedPosts> {
+    const params: Record<string, string | undefined> = {}
+    if (options?.cursor) params.cursor = options.cursor
+    const raw = await this.client.get<unknown>(`/api/v1/reader/feed/profile/${userId}`, params)
+    const page = decodeOrThrow(SubstackFeedPageC, raw, 'SubstackFeedPage')
+    const postItems = page.items.filter((item) => item.type === 'post')
+    return { posts: postItems, nextCursor: page.nextCursor }
   }
 }

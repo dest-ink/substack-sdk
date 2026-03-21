@@ -1,65 +1,181 @@
 /**
- * HTTP client for the Substack Gateway proxy
+ * HTTP client for direct Substack API access via CycleTLS
  *
- * All requests are authenticated via a base64-encoded JSON Bearer token
- * (containing substack_sid and connect_sid) and the x-publication-url header.
+ * Uses CycleTLS to bypass Cloudflare bot detection by spoofing browser
+ * TLS/JA3 fingerprints. Authentication is via session cookies sent directly
+ * to Substack — no third-party proxy involved.
  */
-import axios, { AxiosInstance } from 'axios'
-import rateLimit from 'axios-rate-limit'
+import initCycleTLS, { CycleTLSClient } from 'cycletls'
 
-export interface GatewayCredentials {
-  token: string
-  publicationUrl: string
-}
+const USER_AGENT =
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+
+export type RequestScope = 'global' | 'publication' | { subdomain: string }
 
 export class HttpClient {
-  private readonly httpClient: AxiosInstance
+  private client: CycleTLSClient | null = null
+  private readonly headers: Record<string, string>
+  private readonly publicationBaseUrl: string
+  private lastRequestTime = 0
+  private readonly minInterval: number
 
-  constructor(baseUrl: string, creds: GatewayCredentials, maxRequestsPerSecond: number = 25) {
-    const token = creds.token
-    const instance = axios.create({
-      baseURL: baseUrl,
-      headers: {
-        Authorization: `Bearer ${token}`,
-        'x-publication-url': creds.publicationUrl,
-        Accept: 'application/json',
-        'Content-Type': 'application/json'
+  constructor(config: {
+    substackSid: string
+    substackLli: string
+    publicationUrl: string
+    maxRequestsPerSecond?: number
+  }) {
+    this.headers = {
+      'Content-Type': 'application/json',
+      Cookie: `substack.sid=${config.substackSid}; substack.lli=${config.substackLli}`
+    }
+    this.publicationBaseUrl = config.publicationUrl.replace(/\/$/, '')
+    this.minInterval = 1000 / (config.maxRequestsPerSecond || 25)
+  }
+
+  private async getClient(): Promise<CycleTLSClient> {
+    if (!this.client) {
+      this.client = await initCycleTLS()
+    }
+    return this.client
+  }
+
+  private async throttle(): Promise<void> {
+    const now = Date.now()
+    const elapsed = now - this.lastRequestTime
+    if (elapsed < this.minInterval) {
+      await new Promise((r) => setTimeout(r, this.minInterval - elapsed))
+    }
+    this.lastRequestTime = Date.now()
+  }
+
+  private resolveBaseUrl(scope: RequestScope): string {
+    if (scope === 'global') return 'https://substack.com'
+    if (scope === 'publication') return this.publicationBaseUrl
+    return `https://${scope.subdomain}.substack.com`
+  }
+
+  private buildUrl(
+    path: string,
+    scope: RequestScope,
+    params?: Record<string, string | number | boolean | undefined>
+  ): string {
+    const base = this.resolveBaseUrl(scope)
+    let url = `${base}${path}`
+    if (params) {
+      const searchParams = new URLSearchParams()
+      for (const [key, value] of Object.entries(params)) {
+        if (value !== undefined) {
+          searchParams.set(key, String(value))
+        }
       }
-    })
-    this.httpClient = rateLimit(instance, {
-      maxRequests: maxRequestsPerSecond,
-      perMilliseconds: 1000
-    })
-  }
-
-  async get<T>(path: string, params?: Record<string, string | number | undefined>): Promise<T> {
-    const response = await this.httpClient.get(path, { params })
-    if (response.status !== 200) {
-      throw new Error(`HTTP ${response.status}: ${response.statusText}`)
+      const qs = searchParams.toString()
+      if (qs) url += `?${qs}`
     }
-    return response.data
+    return url
   }
 
-  async post<T>(path: string, data?: unknown): Promise<T> {
-    const response = await this.httpClient.post(path, data)
-    if (response.status !== 200 && response.status !== 201) {
-      throw new Error(`HTTP ${response.status}: ${response.statusText}`)
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  private parseResponseData(data: any): unknown {
+    if (typeof data === 'string') {
+      try {
+        return JSON.parse(data)
+      } catch {
+        return data
+      }
     }
-    return response.data
+    return data
   }
 
-  async put<T>(path: string, data?: unknown): Promise<T> {
-    const response = await this.httpClient.put(path, data)
-    if (response.status !== 200) {
-      throw new Error(`HTTP ${response.status}: ${response.statusText}`)
+  async get<T>(
+    path: string,
+    params?: Record<string, string | number | boolean | undefined>,
+    scope: RequestScope = 'global'
+  ): Promise<T> {
+    await this.throttle()
+    const url = this.buildUrl(path, scope, params)
+    const client = await this.getClient()
+    const response = await client(url, { headers: this.headers, userAgent: USER_AGENT }, 'get')
+
+    if (response.status === 401 || response.status === 403) {
+      throw new Error(
+        `Authentication failed (${response.status}). Your session cookies may have expired.`
+      )
     }
-    return response.data
+    if (response.status < 200 || response.status >= 300) {
+      throw new Error(`HTTP ${response.status} for GET ${path}`)
+    }
+
+    return this.parseResponseData(response.data) as T
   }
 
-  async delete(path: string): Promise<void> {
-    const response = await this.httpClient.delete(path)
-    if (response.status !== 200 && response.status !== 204) {
-      throw new Error(`HTTP ${response.status}: ${response.statusText}`)
+  async post<T>(path: string, data?: unknown, scope: RequestScope = 'global'): Promise<T> {
+    await this.throttle()
+    const url = this.buildUrl(path, scope)
+    const client = await this.getClient()
+    const response = await client(
+      url,
+      {
+        headers: this.headers,
+        userAgent: USER_AGENT,
+        ...(data !== undefined ? { body: JSON.stringify(data) } : {})
+      },
+      'post'
+    )
+
+    if (response.status === 401 || response.status === 403) {
+      throw new Error(
+        `Authentication failed (${response.status}). Your session cookies may have expired.`
+      )
+    }
+    if (response.status < 200 || response.status >= 300) {
+      throw new Error(`HTTP ${response.status} for POST ${path}`)
+    }
+
+    return this.parseResponseData(response.data) as T
+  }
+
+  async put<T>(path: string, data?: unknown, scope: RequestScope = 'global'): Promise<T> {
+    await this.throttle()
+    const url = this.buildUrl(path, scope)
+    const client = await this.getClient()
+    const response = await client(
+      url,
+      {
+        headers: this.headers,
+        userAgent: USER_AGENT,
+        ...(data !== undefined ? { body: JSON.stringify(data) } : {})
+      },
+      'put'
+    )
+
+    if (response.status === 401 || response.status === 403) {
+      throw new Error(
+        `Authentication failed (${response.status}). Your session cookies may have expired.`
+      )
+    }
+    if (response.status < 200 || response.status >= 300) {
+      throw new Error(`HTTP ${response.status} for PUT ${path}`)
+    }
+
+    return this.parseResponseData(response.data) as T
+  }
+
+  async delete(path: string, scope: RequestScope = 'global'): Promise<void> {
+    await this.throttle()
+    const url = this.buildUrl(path, scope)
+    const client = await this.getClient()
+    const response = await client(url, { headers: this.headers, userAgent: USER_AGENT }, 'delete')
+
+    if (response.status < 200 || response.status >= 300) {
+      throw new Error(`HTTP ${response.status} for DELETE ${path}`)
+    }
+  }
+
+  async close(): Promise<void> {
+    if (this.client) {
+      await this.client.exit()
+      this.client = null
     }
   }
 }

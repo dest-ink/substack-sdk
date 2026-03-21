@@ -1,0 +1,1514 @@
+{
+  "items": [
+    {
+      "entity_key": "p-191067613",
+      "type": "post",
+      "context": {
+        "type": "post_restack",
+        "timestamp": "2026-03-16T02:53:54.071Z",
+        "users": [
+          {
+            "id": 478606087,
+            "name": "Frankie Tubesocks",
+            "handle": "frankietubs",
+            "previous_name": null,
+            "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/97cb75af-074b-4e34-9acd-80468d3dda2c_144x144.png",
+            "bio": null,
+            "profile_set_up_at": "2026-03-14T01:33:40.890Z",
+            "reader_installed_at": null,
+            "bestseller_tier": null,
+            "status": {
+              "bestsellerTier": null,
+              "subscriberTier": null,
+              "leaderboard": null,
+              "vip": false,
+              "badge": null,
+              "paidPublicationIds": [],
+              "subscriber": null
+            },
+            "primary_publication": {
+              "id": 8334153,
+              "subdomain": "frankietubs",
+              "custom_domain_optional": false,
+              "name": "Frankie Tubesocks",
+              "author_id": 478606087,
+              "user_id": 478606087,
+              "handles_enabled": false,
+              "explicit": false,
+              "is_personal_mode": false,
+              "payments_state": "disabled",
+              "pledges_enabled": true
+            }
+          }
+        ],
+        "fallbackReason": "//TODO: create fallback reasons",
+        "fallbackUrl": null,
+        "isFresh": false,
+        "source": "db-restack",
+        "page": null,
+        "page_rank": 0
+      },
+      "isMuted": false,
+      "canReply": true,
+      "publication": {
+        "apple_pay_disabled": false,
+        "apex_domain": null,
+        "author_id": 113060464,
+        "byline_images_enabled": true,
+        "bylines_enabled": true,
+        "chartable_token": null,
+        "community_enabled": true,
+        "copyright": "alex",
+        "cover_photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/5b8f41af-213d-4c47-bcd4-75bb51f7bbeb_1280x854.png",
+        "created_at": "2025-09-07T17:59:32.692Z",
+        "custom_domain_optional": false,
+        "custom_domain": null,
+        "default_comment_sort": "best_first",
+        "default_coupon": null,
+        "default_group_coupon": null,
+        "default_show_guest_bios": true,
+        "email_banner_url": null,
+        "email_from_name": "usrnmtaken (alex)",
+        "email_from": null,
+        "embed_tracking_disabled": false,
+        "explicit": false,
+        "expose_paywall_content_to_search_engines": true,
+        "fb_pixel_id": "",
+        "fb_site_verification_token": "S-WHy2WzkPh39E3dHEMKpfl1AlDKWb2f8LgDqOb0rH8",
+        "flagged_as_spam": false,
+        "founding_subscription_benefits": null,
+        "free_subscription_benefits": null,
+        "ga_pixel_id": null,
+        "google_site_verification_token": null,
+        "google_tag_manager_token": " GTM-N35ZF522",
+        "hero_image": null,
+        "hero_text": "A substack I started to write some essays :)",
+        "hide_intro_subtitle": null,
+        "hide_intro_title": null,
+        "hide_podcast_feed_link": false,
+        "homepage_type": "magaziney",
+        "id": 6219272,
+        "image_thumbnails_always_enabled": false,
+        "invite_only": false,
+        "hide_podcast_from_pub_listings": false,
+        "language": "en",
+        "logo_url_wide": "https://substackcdn.com/image/fetch/$s_!q2T8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7c68cc8-68e9-4aa0-900f-eef84786b9c0_612x407.png",
+        "logo_url": "https://substackcdn.com/image/fetch/$s_!IGfl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb87a0e65-91e0-4a2c-8d26-773ad241bfc3_720x720.png",
+        "minimum_group_size": 2,
+        "moderation_enabled": true,
+        "name": "facts [unfiltered]",
+        "paid_subscription_benefits": null,
+        "parsely_pixel_id": null,
+        "chartbeat_domain": null,
+        "payments_state": "disabled",
+        "paywall_free_trial_enabled": false,
+        "podcast_art_url": null,
+        "paid_podcast_episode_art_url": null,
+        "podcast_byline": null,
+        "podcast_description": null,
+        "podcast_enabled": false,
+        "podcast_feed_url": null,
+        "podcast_title": null,
+        "post_preview_limit": null,
+        "primary_user_id": 113060464,
+        "require_clickthrough": false,
+        "show_pub_podcast_tab": false,
+        "show_recs_on_homepage": true,
+        "subdomain": "aalx",
+        "subscriber_invites": 0,
+        "support_email": null,
+        "theme_var_background_pop": "#FF6719",
+        "theme_var_color_links": true,
+        "theme_var_cover_bg_color": null,
+        "trial_end_override": null,
+        "twitter_pixel_id": null,
+        "type": "newsletter",
+        "post_reaction_faces_enabled": true,
+        "is_personal_mode": false,
+        "plans": null,
+        "stripe_user_id": null,
+        "stripe_country": null,
+        "stripe_publishable_key": null,
+        "stripe_platform_account": null,
+        "automatic_tax_enabled": null,
+        "author_name": "alex",
+        "author_handle": "usrnmtaken",
+        "author_photo_url": "https://substackcdn.com/image/fetch/$s_!jrjF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ea58246-7af5-4930-8ed1-17bfc919841c_360x360.png",
+        "author_bio": "14 || I write about politics, philosophy, culture, and more! - Subscribe. idk",
+        "has_custom_tos": false,
+        "has_custom_privacy": false,
+        "theme": {
+          "background_pop_color": "#3d9970",
+          "web_bg_color": "#f5f5dc",
+          "cover_bg_color": "#f5f5dc",
+          "publication_id": 6219272,
+          "color_links": null,
+          "font_preset_heading": "fancy_serif",
+          "font_preset_body": "sans",
+          "font_family_headings": null,
+          "font_family_body": null,
+          "font_family_ui": null,
+          "font_size_body_desktop": null,
+          "print_secondary": null,
+          "custom_css_web": null,
+          "custom_css_email": null,
+          "home_hero": "magaziney",
+          "home_posts": "custom",
+          "home_show_top_posts": true,
+          "hide_images_from_list": false,
+          "home_hero_alignment": "left",
+          "home_hero_show_podcast_links": true,
+          "default_post_header_variant": null,
+          "custom_header": null,
+          "custom_footer": {
+            "layout": "two-column",
+            "backgroundColor": null,
+            "publicationNameSize": 50,
+            "showPublicationName": true,
+            "publicationNameStyle": "text",
+            "publicationNamePosition": "bottom",
+            "publicationNameBackgroundColor": null
+          },
+          "social_media_links": null,
+          "font_options": null,
+          "section_template": null
+        },
+        "threads_v2_settings": {
+          "photo_replies_enabled": true,
+          "first_thread_email_sent_at": null,
+          "create_thread_minimum_role": "free_subscriber",
+          "activated_at": "2025-09-12T21:47:43.815+00:00",
+          "reader_thread_notifications_enabled": true,
+          "boost_free_subscriber_chat_preview_enabled": false,
+          "push_suppression_enabled": false
+        },
+        "default_group_coupon_percent_off": null,
+        "pause_return_date": null,
+        "has_posts": true,
+        "has_recommendations": true,
+        "first_post_date": "2025-09-07T19:18:51.567Z",
+        "has_podcast": false,
+        "has_free_podcast": false,
+        "has_subscriber_only_podcast": false,
+        "has_community_content": true,
+        "rankingDetail": "Launched 6 months ago",
+        "rankingDetailFreeIncluded": "Hundreds of subscribers",
+        "rankingDetailOrderOfMagnitude": 0,
+        "rankingDetailFreeIncludedOrderOfMagnitude": 100,
+        "rankingDetailFreeSubscriberCount": null,
+        "rankingDetailByLanguage": {
+          "ca": {
+            "rankingDetail": "S’ha llançat fa 6 mesos",
+            "rankingDetailFreeIncluded": "Centenars de subscriptors",
+            "rankingDetailOrderOfMagnitude": 0,
+            "rankingDetailFreeIncludedOrderOfMagnitude": 100,
+            "rankingDetailFreeSubscriberCount": null,
+            "freeSubscriberCount": null,
+            "freeSubscriberCountOrderOfMagnitude": "277"
+          },
+          "da": {
+            "rankingDetail": "Lancering 6 måneder",
+            "rankingDetailFreeIncluded": "Hundredvis af abonnenter",
+            "rankingDetailOrderOfMagnitude": 0,
+            "rankingDetailFreeIncludedOrderOfMagnitude": 100,
+            "rankingDetailFreeSubscriberCount": null,
+            "freeSubscriberCount": null,
+            "freeSubscriberCountOrderOfMagnitude": "277"
+          },
+          "de": {
+            "rankingDetail": "Vor vor 6 Monaten gelauncht",
+            "rankingDetailFreeIncluded": "Hunderte von Abonnenten",
+            "rankingDetailOrderOfMagnitude": 0,
+            "rankingDetailFreeIncludedOrderOfMagnitude": 100,
+            "rankingDetailFreeSubscriberCount": null,
+            "freeSubscriberCount": null,
+            "freeSubscriberCountOrderOfMagnitude": "277"
+          },
+          "es": {
+            "rankingDetail": "Lanzado hace 6 meses",
+            "rankingDetailFreeIncluded": "Cientos de suscriptores",
+            "rankingDetailOrderOfMagnitude": 0,
+            "rankingDetailFreeIncludedOrderOfMagnitude": 100,
+            "rankingDetailFreeSubscriberCount": null,
+            "freeSubscriberCount": null,
+            "freeSubscriberCountOrderOfMagnitude": "277"
+          },
+          "fr": {
+            "rankingDetail": "Lancé il y a 6 mois",
+            "rankingDetailFreeIncluded": "Des centaines d'abonnés",
+            "rankingDetailOrderOfMagnitude": 0,
+            "rankingDetailFreeIncludedOrderOfMagnitude": 100,
+            "rankingDetailFreeSubscriberCount": null,
+            "freeSubscriberCount": null,
+            "freeSubscriberCountOrderOfMagnitude": "277"
+          },
+          "ja": {
+            "rankingDetail": "開始日 6ヶ月前",
+            "rankingDetailFreeIncluded": "数百人の登録者",
+            "rankingDetailOrderOfMagnitude": 0,
+            "rankingDetailFreeIncludedOrderOfMagnitude": 100,
+            "rankingDetailFreeSubscriberCount": null,
+            "freeSubscriberCount": null,
+            "freeSubscriberCountOrderOfMagnitude": "277"
+          },
+          "nb": {
+            "rankingDetail": "Lansert 6 måneder",
+            "rankingDetailFreeIncluded": "Hundrevis av abonnenter",
+            "rankingDetailOrderOfMagnitude": 0,
+            "rankingDetailFreeIncludedOrderOfMagnitude": 100,
+            "rankingDetailFreeSubscriberCount": null,
+            "freeSubscriberCount": null,
+            "freeSubscriberCountOrderOfMagnitude": "277"
+          },
+          "nl": {
+            "rankingDetail": "Gelanceerd 6 maanden geleden",
+            "rankingDetailFreeIncluded": "Honderden abonnees",
+            "rankingDetailOrderOfMagnitude": 0,
+            "rankingDetailFreeIncludedOrderOfMagnitude": 100,
+            "rankingDetailFreeSubscriberCount": null,
+            "freeSubscriberCount": null,
+            "freeSubscriberCountOrderOfMagnitude": "277"
+          },
+          "pl": {
+            "rankingDetail": "Uruchomiono 6 miesięcy temu",
+            "rankingDetailFreeIncluded": "Setki subskrybentów",
+            "rankingDetailOrderOfMagnitude": 0,
+            "rankingDetailFreeIncludedOrderOfMagnitude": 100,
+            "rankingDetailFreeSubscriberCount": null,
+            "freeSubscriberCount": null,
+            "freeSubscriberCountOrderOfMagnitude": "277"
+          },
+          "pt": {
+            "rankingDetail": "Lançado 6 meses",
+            "rankingDetailFreeIncluded": "Centenas de subscritores",
+            "rankingDetailOrderOfMagnitude": 0,
+            "rankingDetailFreeIncludedOrderOfMagnitude": 100,
+            "rankingDetailFreeSubscriberCount": null,
+            "freeSubscriberCount": null,
+            "freeSubscriberCountOrderOfMagnitude": "277"
+          },
+          "pt-br": {
+            "rankingDetail": "Lançado 6 meses",
+            "rankingDetailFreeIncluded": "Centenas de assinantes",
+            "rankingDetailOrderOfMagnitude": 0,
+            "rankingDetailFreeIncludedOrderOfMagnitude": 100,
+            "rankingDetailFreeSubscriberCount": null,
+            "freeSubscriberCount": null,
+            "freeSubscriberCountOrderOfMagnitude": "277"
+          },
+          "it": {
+            "rankingDetail": "Lanciato 6 mesi",
+            "rankingDetailFreeIncluded": "Centinaia di abbonati",
+            "rankingDetailOrderOfMagnitude": 0,
+            "rankingDetailFreeIncludedOrderOfMagnitude": 100,
+            "rankingDetailFreeSubscriberCount": null,
+            "freeSubscriberCount": null,
+            "freeSubscriberCountOrderOfMagnitude": "277"
+          },
+          "tr": {
+            "rankingDetail": "6 ay başlatıldı",
+            "rankingDetailFreeIncluded": "Yüzlerce abone",
+            "rankingDetailOrderOfMagnitude": 0,
+            "rankingDetailFreeIncludedOrderOfMagnitude": 100,
+            "rankingDetailFreeSubscriberCount": null,
+            "freeSubscriberCount": null,
+            "freeSubscriberCountOrderOfMagnitude": "277"
+          },
+          "sv": {
+            "rankingDetail": "Lanserad 6 månader sedan",
+            "rankingDetailFreeIncluded": "Hundratals prenumeranter",
+            "rankingDetailOrderOfMagnitude": 0,
+            "rankingDetailFreeIncludedOrderOfMagnitude": 100,
+            "rankingDetailFreeSubscriberCount": null,
+            "freeSubscriberCount": null,
+            "freeSubscriberCountOrderOfMagnitude": "277"
+          },
+          "en": {
+            "rankingDetail": "Launched 6 months ago",
+            "rankingDetailFreeIncluded": "Hundreds of subscribers",
+            "rankingDetailOrderOfMagnitude": 0,
+            "rankingDetailFreeIncludedOrderOfMagnitude": 100,
+            "rankingDetailFreeSubscriberCount": null,
+            "freeSubscriberCount": null,
+            "freeSubscriberCountOrderOfMagnitude": "277"
+          }
+        },
+        "freeSubscriberCount": null,
+        "freeSubscriberCountOrderOfMagnitude": "277",
+        "author_bestseller_tier": 0,
+        "author_badge": null,
+        "disable_monthly_subscriptions": false,
+        "disable_annual_subscriptions": false,
+        "hide_post_restacks": false,
+        "notes_feed_enabled": true,
+        "showIntroModule": false,
+        "isPortraitLayout": false,
+        "last_chat_post_at": "2026-03-16T04:57:40.483Z",
+        "primary_profile_name": "alex",
+        "primary_profile_photo_url": "https://substackcdn.com/image/fetch/$s_!jrjF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ea58246-7af5-4930-8ed1-17bfc919841c_360x360.png",
+        "no_follow": false,
+        "paywall_chat": "free",
+        "sections": [],
+        "multipub_migration": null,
+        "navigationBarItems": [],
+        "contributors": [
+          {
+            "name": "alex",
+            "handle": "usrnmtaken",
+            "role": "admin",
+            "owner": true,
+            "user_id": 113060464,
+            "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/5ea58246-7af5-4930-8ed1-17bfc919841c_360x360.png",
+            "bio": "14 || I write about politics, philosophy, culture, and more! - Subscribe. idk"
+          }
+        ],
+        "threads_v2_enabled": true,
+        "viralGiftsConfig": null,
+        "tier": 2,
+        "no_index": false,
+        "can_set_google_site_verification": true,
+        "can_have_sitemap": true,
+        "founding_plan_name_english": "Founding Member",
+        "draft_plans": null,
+        "bundles": [],
+        "base_url": "https://aalx.substack.com",
+        "hostname": "aalx.substack.com",
+        "is_on_substack": false,
+        "spotify_podcast_settings": null,
+        "podcastPalette": {
+          "DarkMuted": {
+            "population": 72,
+            "rgb": [
+              73,
+              153,
+              137
+            ]
+          },
+          "DarkVibrant": {
+            "population": 6013,
+            "rgb": [
+              4,
+              100,
+              84
+            ]
+          },
+          "LightMuted": {
+            "population": 7,
+            "rgb": [
+              142,
+              198,
+              186
+            ]
+          },
+          "LightVibrant": {
+            "population": 3,
+            "rgb": [
+              166,
+              214,
+              206
+            ]
+          },
+          "Muted": {
+            "population": 6,
+            "rgb": [
+              92,
+              164,
+              156
+            ]
+          },
+          "Vibrant": {
+            "population": 5,
+            "rgb": [
+              76,
+              164,
+              146
+            ]
+          }
+        },
+        "pageThemes": {
+          "podcast": null
+        },
+        "multiple_pins": true,
+        "live_subscriber_counts": false,
+        "supports_ip_content_unlock": false,
+        "appTheme": {
+          "colors": {
+            "accent": {
+              "name": "#3d9970",
+              "primary": {
+                "r": 61,
+                "g": 153,
+                "b": 112,
+                "a": 1
+              },
+              "primary_hover": {
+                "r": 39,
+                "g": 134,
+                "b": 95,
+                "a": 1
+              },
+              "primary_elevated": {
+                "r": 39,
+                "g": 134,
+                "b": 95,
+                "a": 1
+              },
+              "secondary": {
+                "r": 61,
+                "g": 153,
+                "b": 112,
+                "a": 0.2
+              },
+              "contrast": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              },
+              "bg": {
+                "r": 61,
+                "g": 153,
+                "b": 112,
+                "a": 0.2
+              },
+              "bg_hover": {
+                "r": 61,
+                "g": 153,
+                "b": 112,
+                "a": 0.3
+              },
+              "dark": {
+                "primary": {
+                  "r": 61,
+                  "g": 153,
+                  "b": 112,
+                  "a": 1
+                },
+                "primary_hover": {
+                  "r": 81,
+                  "g": 172,
+                  "b": 130,
+                  "a": 1
+                },
+                "primary_elevated": {
+                  "r": 81,
+                  "g": 172,
+                  "b": 130,
+                  "a": 1
+                },
+                "secondary": {
+                  "r": 61,
+                  "g": 153,
+                  "b": 112,
+                  "a": 0.2
+                },
+                "contrast": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1
+                },
+                "bg": {
+                  "r": 61,
+                  "g": 153,
+                  "b": 112,
+                  "a": 0.2
+                },
+                "bg_hover": {
+                  "r": 61,
+                  "g": 153,
+                  "b": 112,
+                  "a": 0.3
+                }
+              }
+            },
+            "fg": {
+              "primary": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.8
+              },
+              "secondary": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.6
+              },
+              "tertiary": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.4
+              },
+              "accent": {
+                "r": 25,
+                "g": 124,
+                "b": 85,
+                "a": 1
+              },
+              "dark": {
+                "primary": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 0.9
+                },
+                "secondary": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 0.6
+                },
+                "tertiary": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 0.4
+                },
+                "accent": {
+                  "r": 61,
+                  "g": 153,
+                  "b": 112,
+                  "a": 1
+                }
+              }
+            },
+            "bg": {
+              "name": "#8b8500",
+              "hue": {
+                "r": 139,
+                "g": 133,
+                "b": 0,
+                "a": 1
+              },
+              "tint": {
+                "r": 139,
+                "g": 133,
+                "b": 0,
+                "a": 0.1
+              },
+              "primary": {
+                "r": 243.39999999999998,
+                "g": 242.8,
+                "b": 229.5,
+                "a": 1
+              },
+              "primary_hover": {
+                "r": 238.89999999999998,
+                "g": 238.29999999999998,
+                "b": 225,
+                "a": 1
+              },
+              "primary_elevated": {
+                "r": 238.89999999999998,
+                "g": 238.29999999999998,
+                "b": 225,
+                "a": 1
+              },
+              "secondary": {
+                "r": 228.1,
+                "g": 227.5,
+                "b": 214.2,
+                "a": 1
+              },
+              "secondary_elevated": {
+                "r": 198.38674378566338,
+                "g": 197.79182242872295,
+                "b": 184.82740282410364,
+                "a": 1
+              },
+              "tertiary": {
+                "r": 211,
+                "g": 210.4,
+                "b": 197.1,
+                "a": 1
+              },
+              "quaternary": {
+                "r": 177.70000000000002,
+                "g": 177.10000000000002,
+                "b": 163.79999999999998,
+                "a": 1
+              },
+              "dark": {
+                "primary": {
+                  "r": 33.699999999999996,
+                  "g": 34,
+                  "b": 21.599999999999998,
+                  "a": 1
+                },
+                "primary_hover": {
+                  "r": 38.199999999999996,
+                  "g": 38.50000000000001,
+                  "b": 26.1,
+                  "a": 1
+                },
+                "primary_elevated": {
+                  "r": 38.199999999999996,
+                  "g": 38.50000000000001,
+                  "b": 26.1,
+                  "a": 1
+                },
+                "secondary": {
+                  "r": 45.4,
+                  "g": 46.60000000000001,
+                  "b": 33.300000000000004,
+                  "a": 1
+                },
+                "secondary_elevated": {
+                  "r": 52.88794351818925,
+                  "g": 54.14880856496664,
+                  "b": 40.58605192088043,
+                  "a": 1
+                },
+                "tertiary": {
+                  "r": 62.5,
+                  "g": 62.8,
+                  "b": 49.5,
+                  "a": 1
+                },
+                "quaternary": {
+                  "r": 94.9,
+                  "g": 95.2,
+                  "b": 81.89999999999999,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "cover_image": {
+            "url": "https://substackcdn.com/image/fetch/$s_!wbN5!,w_1200,h_400,c_fill,f_auto,q_auto:best,fl_progressive:steep,g_auto,b_rgb:f5f5dc/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b8f41af-213d-4c47-bcd4-75bb51f7bbeb_1280x854.png",
+            "height": 854,
+            "width": 1280
+          }
+        },
+        "portalAppTheme": {
+          "colors": {
+            "accent": {
+              "name": "#3d9970",
+              "primary": {
+                "r": 61,
+                "g": 153,
+                "b": 112,
+                "a": 1
+              },
+              "primary_hover": {
+                "r": 54,
+                "g": 135,
+                "b": 99,
+                "a": 1
+              },
+              "primary_elevated": {
+                "r": 61,
+                "g": 153,
+                "b": 112,
+                "a": 1
+              },
+              "secondary": {
+                "r": 61,
+                "g": 153,
+                "b": 112,
+                "a": 1
+              },
+              "contrast": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              },
+              "bg": {
+                "r": 255,
+                "g": 103,
+                "b": 25,
+                "a": 0.2
+              },
+              "bg_hover": {
+                "r": 255,
+                "g": 103,
+                "b": 25,
+                "a": 0.3
+              },
+              "dark": {
+                "primary": {
+                  "r": 61,
+                  "g": 153,
+                  "b": 112,
+                  "a": 1
+                },
+                "primary_hover": {
+                  "r": 81,
+                  "g": 172,
+                  "b": 130,
+                  "a": 1
+                },
+                "primary_elevated": {
+                  "r": 81,
+                  "g": 172,
+                  "b": 130,
+                  "a": 1
+                },
+                "secondary": {
+                  "r": 61,
+                  "g": 153,
+                  "b": 112,
+                  "a": 0.2
+                },
+                "contrast": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1
+                },
+                "bg": {
+                  "r": 61,
+                  "g": 153,
+                  "b": 112,
+                  "a": 0.2
+                },
+                "bg_hover": {
+                  "r": 61,
+                  "g": 153,
+                  "b": 112,
+                  "a": 0.3
+                }
+              }
+            },
+            "fg": {
+              "primary": {
+                "r": 83,
+                "g": 83,
+                "b": 62,
+                "a": 1
+              },
+              "secondary": {
+                "r": 130,
+                "g": 131,
+                "b": 121,
+                "a": 1
+              },
+              "tertiary": {
+                "r": 141,
+                "g": 141,
+                "b": 126,
+                "a": 1
+              },
+              "accent": {
+                "r": 61,
+                "g": 153,
+                "b": 112,
+                "a": 1
+              },
+              "dark": {
+                "primary": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 0.9
+                },
+                "secondary": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 0.6
+                },
+                "tertiary": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 0.4
+                },
+                "accent": {
+                  "r": 61,
+                  "g": 153,
+                  "b": 112,
+                  "a": 1
+                }
+              }
+            },
+            "bg": {
+              "name": "#f5f5dc",
+              "hue": {
+                "r": 245,
+                "g": 245,
+                "b": 220,
+                "a": 1
+              },
+              "tint": {
+                "r": 245,
+                "g": 245,
+                "b": 220,
+                "a": 1
+              },
+              "primary": {
+                "r": 245,
+                "g": 245,
+                "b": 220,
+                "a": 1
+              },
+              "primary_hover": {
+                "r": 230,
+                "g": 230,
+                "b": 207,
+                "a": 1
+              },
+              "primary_elevated": {
+                "r": 245,
+                "g": 245,
+                "b": 220,
+                "a": 1
+              },
+              "secondary": {
+                "r": 230,
+                "g": 230,
+                "b": 207,
+                "a": 1
+              },
+              "secondary_elevated": {
+                "r": 230,
+                "g": 230,
+                "b": 207,
+                "a": 1
+              },
+              "tertiary": {
+                "r": 212,
+                "g": 212,
+                "b": 190,
+                "a": 1
+              },
+              "quaternary": {
+                "r": 176,
+                "g": 176,
+                "b": 158,
+                "a": 1
+              },
+              "dark": {
+                "primary": {
+                  "r": 33.699999999999996,
+                  "g": 34,
+                  "b": 21.599999999999998,
+                  "a": 1
+                },
+                "primary_hover": {
+                  "r": 38.199999999999996,
+                  "g": 38.50000000000001,
+                  "b": 26.1,
+                  "a": 1
+                },
+                "primary_elevated": {
+                  "r": 38.199999999999996,
+                  "g": 38.50000000000001,
+                  "b": 26.1,
+                  "a": 1
+                },
+                "secondary": {
+                  "r": 45.4,
+                  "g": 46.60000000000001,
+                  "b": 33.300000000000004,
+                  "a": 1
+                },
+                "secondary_elevated": {
+                  "r": 52.88794351818925,
+                  "g": 54.14880856496664,
+                  "b": 40.58605192088043,
+                  "a": 1
+                },
+                "tertiary": {
+                  "r": 62.5,
+                  "g": 62.8,
+                  "b": 49.5,
+                  "a": 1
+                },
+                "quaternary": {
+                  "r": 94.9,
+                  "g": 95.2,
+                  "b": 81.89999999999999,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "fonts": {
+            "heading": "fancy_serif",
+            "body": "sans"
+          }
+        },
+        "logoPalette": {
+          "Vibrant": {
+            "rgb": [
+              239,
+              204,
+              108
+            ],
+            "population": 34
+          },
+          "DarkVibrant": {
+            "rgb": [
+              81,
+              70,
+              38
+            ],
+            "population": 26
+          },
+          "LightVibrant": {
+            "rgb": [
+              252,
+              212,
+              116
+            ],
+            "population": 5996
+          },
+          "Muted": {
+            "rgb": [
+              180,
+              156,
+              84
+            ],
+            "population": 4
+          },
+          "DarkMuted": {
+            "rgb": [
+              108,
+              92,
+              52
+            ],
+            "population": 6
+          },
+          "LightMuted": {
+            "rgb": [
+              149.76760563380282,
+              106.66901408450701,
+              3.2323943661971786
+            ],
+            "population": 0
+          }
+        }
+      },
+      "post": {
+        "id": 191067613,
+        "publication_id": 6219272,
+        "title": "90% of your feed is a lie.",
+        "social_title": null,
+        "search_engine_title": null,
+        "search_engine_description": null,
+        "type": "newsletter",
+        "slug": "90-of-your-feed-is-a-lie",
+        "post_date": "2026-03-15T22:08:23.672Z",
+        "audience": "everyone",
+        "podcast_duration": null,
+        "video_upload_id": null,
+        "write_comment_permissions": "everyone",
+        "should_send_free_preview": false,
+        "free_unlock_required": false,
+        "default_comment_sort": null,
+        "canonical_url": "https://aalx.substack.com/p/90-of-your-feed-is-a-lie",
+        "section_id": null,
+        "podcast_art_url": null,
+        "is_published": true,
+        "live_stream_id": null,
+        "restacks": 7,
+        "top_exclusions": [],
+        "pins": [],
+        "is_section_pinned": false,
+        "has_shareable_clips": false,
+        "section_slug": null,
+        "section_name": null,
+        "reactions": {
+          "❤": 23
+        },
+        "subtitle": "stop performing for authenticity. real authenticity comes when you stop trying so hard to be genuine.",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!pu4J!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3baa88b-fb0a-4ea5-81e9-a2fa82140f2f_1280x720.png",
+        "cover_image_is_square": false,
+        "cover_image_is_explicit": false,
+        "podcast_url": null,
+        "videoUpload": null,
+        "podcastFields": {
+          "post_id": 191067613,
+          "podcast_episode_number": null,
+          "podcast_season_number": null,
+          "podcast_episode_type": null,
+          "should_syndicate_to_other_feed": null,
+          "syndicate_to_section_id": null,
+          "hide_from_feed": false,
+          "free_podcast_url": null,
+          "free_podcast_duration": null
+        },
+        "podcast_upload_id": null,
+        "podcast_preview_upload_id": null,
+        "podcastUpload": null,
+        "podcastPreviewUpload": null,
+        "voiceover_upload_id": null,
+        "voiceoverUpload": null,
+        "has_voiceover": false,
+        "description": "stop performing for authenticity. real authenticity comes when you stop trying so hard to be genuine.",
+        "body_json": null,
+        "body_html": null,
+        "truncated_body_text": "Performative authenticity is killing Substack.",
+        "wordcount": 1335,
+        "postTags": [
+          {
+            "id": "5e380ebd-295a-4d05-90a5-a3ed993c8f66",
+            "publication_id": 6219272,
+            "name": "Social media",
+            "slug": "social-media",
+            "hidden": false
+          },
+          {
+            "id": "8f9eb3ae-bab6-4290-b497-927018d08c16",
+            "publication_id": 6219272,
+            "name": "announcement",
+            "slug": "announcement",
+            "hidden": false
+          },
+          "... (3 total)"
+        ],
+        "teaser_post_eligible": true,
+        "postCountryBlocks": [],
+        "headlineTest": null,
+        "coverImagePalette": {
+          "Vibrant": {
+            "rgb": [
+              248,
+              232,
+              7
+            ],
+            "population": 477
+          },
+          "DarkVibrant": {
+            "rgb": [
+              151,
+              144,
+              4
+            ],
+            "population": 108
+          },
+          "LightVibrant": {
+            "rgb": [
+              237,
+              234,
+              134
+            ],
+            "population": 125
+          },
+          "Muted": {
+            "rgb": [
+              100,
+              113,
+              124
+            ],
+            "population": 3
+          },
+          "DarkMuted": {
+            "rgb": [
+              60,
+              64,
+              68
+            ],
+            "population": 6
+          },
+          "LightMuted": {
+            "rgb": [
+              176,
+              191,
+              202
+            ],
+            "population": 38
+          }
+        },
+        "publishedBylines": [
+          {
+            "id": 113060464,
+            "name": "alex",
+            "handle": "usrnmtaken",
+            "previous_name": "alx",
+            "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/5ea58246-7af5-4930-8ed1-17bfc919841c_360x360.png",
+            "bio": "14 || I write about politics, philosophy, culture, and more! - Subscribe. idk",
+            "profile_set_up_at": "2025-08-10T13:30:41.926Z",
+            "reader_installed_at": "2026-02-04T23:04:57.816Z",
+            "publicationUsers": [
+              {
+                "id": 6344959,
+                "user_id": 113060464,
+                "publication_id": 6219272,
+                "role": "admin",
+                "public": true,
+                "is_primary": false,
+                "publication": {
+                  "id": 6219272,
+                  "name": "facts [unfiltered]",
+                  "subdomain": "aalx",
+                  "custom_domain": null,
+                  "custom_domain_optional": false,
+                  "hero_text": "A substack I started to write some essays :)",
+                  "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/b87a0e65-91e0-4a2c-8d26-773ad241bfc3_720x720.png",
+                  "author_id": 113060464,
+                  "primary_user_id": 113060464,
+                  "theme_var_background_pop": "#FF6719",
+                  "created_at": "2025-09-07T17:59:32.692Z",
+                  "email_from_name": "usrnmtaken (alex)",
+                  "copyright": "alex",
+                  "founding_plan_name": null,
+                  "community_enabled": true,
+                  "invite_only": false,
+                  "payments_state": "disabled",
+                  "language": null,
+                  "explicit": false,
+                  "homepage_type": "magaziney",
+                  "is_personal_mode": false,
+                  "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/f7c68cc8-68e9-4aa0-900f-eef84786b9c0_612x407.png"
+                }
+              }
+            ],
+            "is_guest": false,
+            "bestseller_tier": null,
+            "status": null,
+            "primary_publication": {
+              "id": 6219272,
+              "subdomain": "aalx",
+              "custom_domain_optional": false,
+              "name": "facts [unfiltered]",
+              "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/b87a0e65-91e0-4a2c-8d26-773ad241bfc3_720x720.png",
+              "author_id": 113060464,
+              "user_id": 113060464,
+              "handles_enabled": false,
+              "explicit": false,
+              "is_personal_mode": false,
+              "payments_state": "disabled",
+              "pledges_enabled": true
+            }
+          }
+        ],
+        "reaction": true,
+        "reaction_count": 23,
+        "comment_count": 20,
+        "child_comment_count": 9,
+        "audio_items": [
+          {
+            "post_id": 191067613,
+            "voice_id": "en-US-OnyxTurboMultilingualNeural",
+            "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/191067613/tts/ca000d99-5ca2-4660-b230-2250a5b9cf6d/en-US-OnyxTurboMultilingualNeural.mp3",
+            "type": "tts",
+            "status": "completed"
+          }
+        ],
+        "is_geoblocked": false,
+        "hasCashtag": false,
+        "inboxItem": {
+          "content_key": "post:191067613",
+          "updated_at": "2026-03-16T03:38:01.192Z",
+          "content_date": "2026-03-15T22:08:23.672Z",
+          "seen_at": "2026-03-16T02:54:07.529Z",
+          "saved_at": null,
+          "archived_at": null,
+          "skip_inbox": true,
+          "type": "post",
+          "post_id": 191067613,
+          "extra_views": [],
+          "read_progress": 0,
+          "max_read_progress": 1,
+          "audio_progress": 0,
+          "max_audio_progress": 0,
+          "video_progress": 0,
+          "max_video_progress": 0,
+          "postType": "newsletter",
+          "title": "90% of your feed is a lie.",
+          "subtitle": "stop performing for authenticity. real authenticity comes when you stop trying so hard to be genuine.",
+          "detail_view_subtitle": "stop performing for authenticity. real authenticity comes when you stop trying so hard to be genuine.",
+          "cover_photo_url": "https://substackcdn.com/image/fetch/$s_!pu4J!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3baa88b-fb0a-4ea5-81e9-a2fa82140f2f_1280x720.png",
+          "audience": "everyone",
+          "is_preview": false,
+          "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/191067613/tts/ca000d99-5ca2-4660-b230-2250a5b9cf6d/en-US-OnyxTurboMultilingualNeural.mp3",
+          "audio_type": "tts",
+          "web_url": "https://aalx.substack.com/p/90-of-your-feed-is-a-lie",
+          "duration_metadata": {
+            "word_count": 1335
+          },
+          "authors": [
+            "alex"
+          ],
+          "published_bylines": [
+            {
+              "id": 113060464,
+              "name": "alex",
+              "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/5ea58246-7af5-4930-8ed1-17bfc919841c_360x360.png"
+            }
+          ],
+          "coverImagePalette": {
+            "Vibrant": {
+              "rgb": [
+                248,
+                232,
+                7
+              ],
+              "population": 477
+            },
+            "DarkVibrant": {
+              "rgb": [
+                151,
+                144,
+                4
+              ],
+              "population": 108
+            },
+            "LightVibrant": {
+              "rgb": [
+                237,
+                234,
+                134
+              ],
+              "population": 125
+            },
+            "Muted": {
+              "rgb": [
+                100,
+                113,
+                124
+              ],
+              "population": 3
+            },
+            "DarkMuted": {
+              "rgb": [
+                60,
+                64,
+                68
+              ],
+              "population": 6
+            },
+            "LightMuted": {
+              "rgb": [
+                176,
+                191,
+                202
+              ],
+              "population": 38
+            }
+          },
+          "publication_id": 6219272,
+          "publisher_image_url": "https://substackcdn.com/image/fetch/$s_!IGfl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb87a0e65-91e0-4a2c-8d26-773ad241bfc3_720x720.png",
+          "publisher_name": "facts [unfiltered]",
+          "is_personal_mode": false,
+          "like_count": 23,
+          "comment_count": 20,
+          "tracking_parameters": {
+            "is_saved": false,
+            "is_seen": true,
+            "post_id": 191067613,
+            "post_type": "newsletter",
+            "publication_id": 6219272,
+            "tabId": "home",
+            "tabType": "base",
+            "max_read_progress": 1,
+            "max_audio_progress": 0,
+            "max_video_progress": 0,
+            "last_seen_at": "2026-03-16T02:54:07.529Z",
+            "last_reading_queue_impression_at": "2026-03-16T03:38:01.192Z",
+            "impression_id": "3507a690-672a-459e-b05b-fef3c17de19e"
+          }
+        },
+        "is_saved": false,
+        "saved_at": null,
+        "is_viewed": true,
+        "read_progress": 0,
+        "max_read_progress": 1,
+        "audio_progress": 0,
+        "max_audio_progress": 0,
+        "video_progress": 0,
+        "max_video_progress": 0,
+        "restacked": true
+      },
+      "mediaClip": null,
+      "trackingParameters": {
+        "item_primary_entity_key": "p-191067613",
+        "item_entity_key": "p-191067613",
+        "item_type": "post",
+        "item_publication_id": 6219272,
+        "item_post_id": 191067613,
+        "item_media_clip_prompt_variant": null,
+        "item_media_clip_prompt_experiment_version": null,
+        "item_content_user_id": 113060464,
+        "item_content_timestamp": "2026-03-15T22:08:23.672Z",
+        "item_context_type": "post_restack",
+        "item_context_type_bucket": "",
+        "item_context_timestamp": "2026-03-16T02:53:54.071Z",
+        "item_context_user_id": 478606087,
+        "item_context_user_ids": [
+          478606087
+        ],
+        "item_can_reply": true,
+        "item_is_fresh": false,
+        "item_last_impression_at": null,
+        "item_source": "db-restack",
+        "item_live_stream_status": null,
+        "item_page": null,
+        "item_page_rank": 0,
+        "impression_id": "e1c1ab7d-94e2-4558-ace0-fab4bf73c10b",
+        "followed_user_count": 2,
+        "subscribed_publication_count": 2,
+        "is_following": false,
+        "is_explicitly_subscribed": true
+      }
+    },
+    {
+      "entity_key": "c-228442755",
+      "type": "comment",
+      "context": {
+        "type": "note",
+        "timestamp": "2026-03-16T02:52:56.708Z",
+        "users": [
+          {
+            "id": 478606087,
+            "name": "Frankie Tubesocks",
+            "handle": "frankietubs",
+            "previous_name": null,
+            "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/97cb75af-074b-4e34-9acd-80468d3dda2c_144x144.png",
+            "bio": null,
+            "profile_set_up_at": "2026-03-14T01:33:40.890Z",
+            "reader_installed_at": null,
+            "bestseller_tier": null,
+            "status": {
+              "bestsellerTier": null,
+              "subscriberTier": null,
+              "leaderboard": null,
+              "vip": false,
+              "badge": null,
+              "paidPublicationIds": [],
+              "subscriber": null
+            },
+            "primary_publication": {
+              "id": 8334153,
+              "subdomain": "frankietubs",
+              "custom_domain_optional": false,
+              "name": "Frankie Tubesocks",
+              "author_id": 478606087,
+              "user_id": 478606087,
+              "handles_enabled": false,
+              "explicit": false,
+              "is_personal_mode": false,
+              "payments_state": "disabled",
+              "pledges_enabled": true
+            }
+          }
+        ],
+        "fallbackReason": "//TODO: create fallback reasons",
+        "fallbackUrl": null,
+        "isFresh": false,
+        "source": "db-note",
+        "page": null,
+        "page_rank": 1
+      },
+      "publication": null,
+      "post": null,
+      "comment": {
+        "name": "Frankie Tubesocks",
+        "handle": "frankietubs",
+        "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/97cb75af-074b-4e34-9acd-80468d3dda2c_144x144.png",
+        "id": 228442755,
+        "body": "this is a photo",
+        "body_json": {
+          "type": "doc",
+          "attrs": {
+            "schemaVersion": "v1"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "this is a photo"
+                }
+              ]
+            }
+          ]
+        },
+        "publication_id": null,
+        "post_id": null,
+        "user_id": 478606087,
+        "type": "feed",
+        "date": "2026-03-16T02:52:56.708Z",
+        "edited_at": null,
+        "ancestor_path": "",
+        "reply_minimum_role": "everyone",
+        "media_clip_id": null,
+        "reaction_count": 0,
+        "reactions": {
+          "❤": 0
+        },
+        "restacks": 0,
+        "restacked": false,
+        "children_count": 0,
+        "attachments": [
+          {
+            "id": "c8317a30-a56b-4a5c-a311-f720f9f74c50",
+            "type": "image",
+            "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/efc78fb3-2ca9-4fcf-bb6e-a015d85ecc45_2816x1536.png",
+            "imageWidth": 2816,
+            "imageHeight": 1536,
+            "explicit": false
+          }
+        ],
+        "user_bestseller_tier": null,
+        "userStatus": {
+          "bestsellerTier": null,
+          "subscriberTier": null,
+          "leaderboard": null,
+          "vip": false,
+          "badge": null,
+          "paidPublicationIds": [],
+          "subscriber": null
+        },
+        "user_primary_publication": {
+          "id": 8334153,
+          "subdomain": "frankietubs",
+          "custom_domain_optional": false,
+          "name": "Frankie Tubesocks",
+          "author_id": 478606087,
+          "user_id": 478606087,
+          "handles_enabled": false,
+          "explicit": false,
+          "is_personal_mode": false,
+          "payments_state": "disabled",
+          "pledges_enabled": true
+        }
+      },
+      "parentComments": [],
+      "canReply": true,
+      "isMuted": false,
+      "trackingParameters": {
+        "item_primary_entity_key": "c-228442755",
+        "item_entity_key": "c-228442755",
+        "item_type": "comment",
+        "item_comment_id": 228442755,
+        "item_content_user_id": 478606087,
+        "item_content_timestamp": "2026-03-16T02:52:56.708Z",
+        "item_context_type": "note",
+        "item_context_type_bucket": "",
+        "item_context_timestamp": "2026-03-16T02:52:56.708Z",
+        "item_context_user_id": 478606087,
+        "item_context_user_ids": [
+          478606087
+        ],
+        "item_can_reply": true,
+        "item_is_fresh": false,
+        "item_last_impression_at": null,
+        "item_source": "db-note",
+        "item_page": null,
+        "item_page_rank": 1,
+        "impression_id": "c04f2687-968c-4fce-a0e4-f293ec136e0d",
+        "followed_user_count": 2,
+        "subscribed_publication_count": 2,
+        "is_following": true,
+        "is_explicitly_subscribed": false,
+        "note_velocity_factor": 0.950343080261,
+        "note_delay_seconds": 158,
+        "note_notes_per_hour": 2576.061552,
+        "item_current_reaction_count": 0,
+        "item_current_restack_count": 0,
+        "item_current_reply_count": 0
+      },
+      "canShowFollowUpsell": false
+    },
+    "... (3 total)"
+  ],
+  "originalCursorTimestamp": "2026-03-16T05:45:37.423Z",
+  "nextCursor": null
+}

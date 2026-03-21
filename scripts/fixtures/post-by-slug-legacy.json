@@ -1,0 +1,525 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://aalx.substack.com/p/90-of-your-feed-is-a-lie",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 191067613,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2026-03-15T22:08:23.672Z",
+  "updated_at": "2026-03-15T22:08:57.437Z",
+  "publication_id": 6219272,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "90-of-your-feed-is-a-lie",
+  "social_title": null,
+  "subtitle": "stop performing for authenticity. real authenticity comes when you stop trying so hard to be genuine.",
+  "teaser_post_eligible": true,
+  "title": "90% of your feed is a lie.",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 7,
+  "reactions": {
+    "❤": 23
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "the-greatest-ethical-puzzle-in-philosophy",
+  "next_post_slug": null,
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!pu4J!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3baa88b-fb0a-4ea5-81e9-a2fa82140f2f_1280x720.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 191067613,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null
+  },
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "stop performing for authenticity. real authenticity comes when you stop trying so hard to be genuine.",
+  "body_html": "<h1>Performative authenticity is killing Substack.</h1><p>Half of my notes feed is engagement baiting, the other half is AI-generated. Engagement baiting/performative authenticity notes are so prevalent on Substack that it’s comparable to short-form content memes that pollinate across TikTok and YouTube, except amongst a much more contained and smaller user base. (And of course, there’s AI-generated stuff) This article is much more of a “real talk” with you guys than a serious philosophy article.</p><p>90% of the people telling you that they want to “read your work” are lying to you. 90% of the people telling you that they want to “support you” are lying to you. Practically 100% of the writers telling you that they’ll “subscribe to everyone” are disingenuous liars. This is what happens when you reward “authenticity” with validation and engagement; even people posting notes talking about how they “don’t care about the numbers” are motivated by the likes they get from people who applaud them for being genuine.</p><p><em>If a creator tells you they don’t do it for the likes, the subscribers, or the views, they are lying to you.</em></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!pu4J!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3baa88b-fb0a-4ea5-81e9-a2fa82140f2f_1280x720.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!pu4J!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3baa88b-fb0a-4ea5-81e9-a2fa82140f2f_1280x720.png 424w, https://substackcdn.com/image/fetch/$s_!pu4J!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3baa88b-fb0a-4ea5-81e9-a2fa82140f2f_1280x720.png 848w, https://substackcdn.com/image/fetch/$s_!pu4J!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3baa88b-fb0a-4ea5-81e9-a2fa82140f2f_1280x720.png 1272w, https://substackcdn.com/image/fetch/$s_!pu4J!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3baa88b-fb0a-4ea5-81e9-a2fa82140f2f_1280x720.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!pu4J!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3baa88b-fb0a-4ea5-81e9-a2fa82140f2f_1280x720.png\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/c3baa88b-fb0a-4ea5-81e9-a2fa82140f2f_1280x720.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:null,&quot;width&quot;:null,&quot;resizeWidth&quot;:698,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!pu4J!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3baa88b-fb0a-4ea5-81e9-a2fa82140f2f_1280x720.png 424w, https://substackcdn.com/image/fetch/$s_!pu4J!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3baa88b-fb0a-4ea5-81e9-a2fa82140f2f_1280x720.png 848w, https://substackcdn.com/image/fetch/$s_!pu4J!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3baa88b-fb0a-4ea5-81e9-a2fa82140f2f_1280x720.png 1272w, https://substackcdn.com/image/fetch/$s_!pu4J!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3baa88b-fb0a-4ea5-81e9-a2fa82140f2f_1280x720.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div></div></div></a></figure></div><div class=\"captioned-button-wrap\" data-attrs=\"{&quot;url&quot;:&quot;https://aalx.substack.com/p/90-of-your-feed-is-a-lie?utm_source=substack&utm_medium=email&utm_content=share&action=share&token=eyJ1c2VyX2lkIjo0Nzg2MDYwODcsInBvc3RfaWQiOjE5MTA2NzYxMywiaWF0IjoxNzczNjM5OTkwLCJleHAiOjE3NzYyMzE5OTAsImlzcyI6InB1Yi02MjE5MjcyIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.UvqCNwt_3U4eFU3Dyo4hBvxzIaXnZ4HHEKZ4UmoNOjE&quot;,&quot;text&quot;:&quot;Share&quot;}\" data-component-name=\"CaptionedButtonToDOM\"><div class=\"preamble\"><p class=\"cta-caption\">Make sure to send this post to someone who needs to see it!</p></div><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://aalx.substack.com/p/90-of-your-feed-is-a-lie?utm_source=substack&utm_medium=email&utm_content=share&action=share&token=eyJ1c2VyX2lkIjo0Nzg2MDYwODcsInBvc3RfaWQiOjE5MTA2NzYxMywiaWF0IjoxNzczNjM5OTkwLCJleHAiOjE3NzYyMzE5OTAsImlzcyI6InB1Yi02MjE5MjcyIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.UvqCNwt_3U4eFU3Dyo4hBvxzIaXnZ4HHEKZ4UmoNOjE&quot;,&quot;text&quot;:&quot;Share&quot;}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://aalx.substack.com/p/90-of-your-feed-is-a-lie?utm_source=substack&utm_medium=email&utm_content=share&action=share&token=eyJ1c2VyX2lkIjo0Nzg2MDYwODcsInBvc3RfaWQiOjE5MTA2NzYxMywiaWF0IjoxNzczNjM5OTkwLCJleHAiOjE3NzYyMzE5OTAsImlzcyI6InB1Yi02MjE5MjcyIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.UvqCNwt_3U4eFU3Dyo4hBvxzIaXnZ4HHEKZ4UmoNOjE\"><span>Share</span></a></p></div><p>Most of it is subconscious; you’re not going to fix it by simply understanding that you need to just “stop faking it” and become genuine. Even I, as I’m writing this article, am reducing the technical jargon and longer sentences (plus even making intentional grammatical errors) because <em>I also want to be seen as genuine</em> and get my ideas heard!</p><p>And even if someone could decide to act entirely authentic, there is 0 incentive to do so! If you have quality content that needs to be seen, if you have ideas worth spreading, you rely on notes for people to discover those ideas. The algorithm has a limited number of notes it can show you on the top of your fyp. As long as other users keep engagement farming and feigning authenticity, they WILL outcompete you in those spots and get their work heard. You will just be sacrificing your own potential, this time with 0 people applauding you for being “authentic”.</p><p>Notes is way too much of a means to an end; the only reliable way to get your long-form content heard on Substack. Anyways, here are 3 notes that really piss me off—and if you’re new to this platform, this is the stuff that you’re in for. (enjoy your stay)</p><p>Here are 3 of these copy-pasted notes templates that have taken over Substack.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!juaZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dc49f45-0c29-4a70-aa11-77d9cabbefbc_1280x720.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!juaZ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dc49f45-0c29-4a70-aa11-77d9cabbefbc_1280x720.png 424w, https://substackcdn.com/image/fetch/$s_!juaZ!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dc49f45-0c29-4a70-aa11-77d9cabbefbc_1280x720.png 848w, https://substackcdn.com/image/fetch/$s_!juaZ!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dc49f45-0c29-4a70-aa11-77d9cabbefbc_1280x720.png 1272w, https://substackcdn.com/image/fetch/$s_!juaZ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dc49f45-0c29-4a70-aa11-77d9cabbefbc_1280x720.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!juaZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dc49f45-0c29-4a70-aa11-77d9cabbefbc_1280x720.png\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/5dc49f45-0c29-4a70-aa11-77d9cabbefbc_1280x720.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:null,&quot;width&quot;:null,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!juaZ!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dc49f45-0c29-4a70-aa11-77d9cabbefbc_1280x720.png 424w, https://substackcdn.com/image/fetch/$s_!juaZ!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dc49f45-0c29-4a70-aa11-77d9cabbefbc_1280x720.png 848w, https://substackcdn.com/image/fetch/$s_!juaZ!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dc49f45-0c29-4a70-aa11-77d9cabbefbc_1280x720.png 1272w, https://substackcdn.com/image/fetch/$s_!juaZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dc49f45-0c29-4a70-aa11-77d9cabbefbc_1280x720.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></a></figure></div><p>294 comments on this post. That would mean that in 5 days, this creator would’ve had to subscribe to 294 people. That’s just one that landed on my page, you can search for ones that get thousands of comments! Even if they subscribed without email notifications and hid their subscriptions to not seem like a bot; then, look at the receiving end! The people “benefiting” won’t get an engaged reader—90% of the content people send you is irrelevant to your niche or what you like to write about.</p><p>If I were to post a note that went like this:</p><p>“shamelessly subscribing to anyone i interact with here”</p><p>And got 800 comments, that would mean I’m obligated to subscribe to 800 people; and subscribing to 800 people within 2 or 3 days is a surefire way to get my account restricted or banned from Substack. I spend around 2 hours every single day just replying to comments on Substack when my notes perform well; someone working a 9-5 job is not going to have 2 or more hours every day to reply to comments on their notes. It is wild to me how millions of users comment, restack, and like these notes, expecting to get free subscribers or engaged readers from any of these notes.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!dad7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F767cb348-4262-4efc-9c4f-71a1afdf1fbb_1280x720.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!dad7!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F767cb348-4262-4efc-9c4f-71a1afdf1fbb_1280x720.png 424w, https://substackcdn.com/image/fetch/$s_!dad7!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F767cb348-4262-4efc-9c4f-71a1afdf1fbb_1280x720.png 848w, https://substackcdn.com/image/fetch/$s_!dad7!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F767cb348-4262-4efc-9c4f-71a1afdf1fbb_1280x720.png 1272w, https://substackcdn.com/image/fetch/$s_!dad7!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F767cb348-4262-4efc-9c4f-71a1afdf1fbb_1280x720.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!dad7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F767cb348-4262-4efc-9c4f-71a1afdf1fbb_1280x720.png\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/767cb348-4262-4efc-9c4f-71a1afdf1fbb_1280x720.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:null,&quot;width&quot;:null,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!dad7!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F767cb348-4262-4efc-9c4f-71a1afdf1fbb_1280x720.png 424w, https://substackcdn.com/image/fetch/$s_!dad7!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F767cb348-4262-4efc-9c4f-71a1afdf1fbb_1280x720.png 848w, https://substackcdn.com/image/fetch/$s_!dad7!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F767cb348-4262-4efc-9c4f-71a1afdf1fbb_1280x720.png 1272w, https://substackcdn.com/image/fetch/$s_!dad7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F767cb348-4262-4efc-9c4f-71a1afdf1fbb_1280x720.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></a></figure></div><p>^dude has 43k subscribers btw</p><p>There is 0 possibility that a person who treats Substack growth courses as his j*b is going to go through every single comment and read every single person’s Substack. There is 0 possibility that he’ll recommend a “few” that fit his audience. A recommendation means that if someone subscribes to you, they are <em>by default</em> checked as subscribing to the recommended creator. If you wanted Philip Hofmacher to even consider recommending you, you’re most likely going to need:</p><ul><li><p>10,000 to 100,000 subscribers</p></li><li><p>Very engaged readers, fits within is niche w/ huge audience overlap</p></li><li><p>Showing that you have great monetization potential (making $100k+ on Substack every year, good conversion rates)</p></li><li><p>And a plan for how Philip is going to benefit from your Substack</p></li></ul><p>Why does Philip scam people by doing this? Because it keeps up his growth quotas. Because it gets the engagement he wants. Because then he can keep selling courses telling people how to grow on Substack. It’s in his self-interest to do so.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!i7jY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F857ec522-5463-4b16-928f-6643e8a99dba_1280x720.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!i7jY!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F857ec522-5463-4b16-928f-6643e8a99dba_1280x720.png 424w, https://substackcdn.com/image/fetch/$s_!i7jY!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F857ec522-5463-4b16-928f-6643e8a99dba_1280x720.png 848w, https://substackcdn.com/image/fetch/$s_!i7jY!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F857ec522-5463-4b16-928f-6643e8a99dba_1280x720.png 1272w, https://substackcdn.com/image/fetch/$s_!i7jY!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F857ec522-5463-4b16-928f-6643e8a99dba_1280x720.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!i7jY!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F857ec522-5463-4b16-928f-6643e8a99dba_1280x720.png\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/857ec522-5463-4b16-928f-6643e8a99dba_1280x720.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:null,&quot;width&quot;:null,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!i7jY!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F857ec522-5463-4b16-928f-6643e8a99dba_1280x720.png 424w, https://substackcdn.com/image/fetch/$s_!i7jY!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F857ec522-5463-4b16-928f-6643e8a99dba_1280x720.png 848w, https://substackcdn.com/image/fetch/$s_!i7jY!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F857ec522-5463-4b16-928f-6643e8a99dba_1280x720.png 1272w, https://substackcdn.com/image/fetch/$s_!i7jY!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F857ec522-5463-4b16-928f-6643e8a99dba_1280x720.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></a></figure></div><p>These types of notes are the <em>worst</em>. People pretending to be anti-social media and “anti-algorithm” trying to gain algorithmic virality. I’m tired of people pretending that Substack’s algorithm is somehow better than Facebook’s, or that Substack is so much less toxic than Twitter. Substack rewards monetization, Substack rewards engagement, 1 comment or restack is worth multiple actual likes. Substack platforms anti-vaxxers, Substack platforms Nazis, Substack platforms Marxists. Substack has a lot of toxicity relative to its userbase, and users <em>have to admit it.</em> There is no point in treating Substack’s algorithm as “one of the good ones”.</p><p>You are no better off scrolling on notes than scrolling on Reels or TikTok or Shorts. It’s just another social media platform that will increasingly turn towards profit.</p><h1>Is substack cooked?</h1><p>The Substack community has placed an extraordinary emphasis on “genuine connection” and “thoughtful human discussion”, trying to differentiate itself from larger platforms by appealing to discontent with TikTok, Medium, and Instagram. Out of every 20 notes I see, maybe 12 of them are completely performative—because every user now understands that authenticity is rewarded with likes, restacks, and subscribers. Rewarding people to be authentic is a terrible strategy to build a genuine platform.</p><p><em>Incentivizing authenticity kills authenticity.</em></p><p>If you also write the “dear Substack, connect me with people who…” notes or any other viral note trend, that’s perfectly fine. I’ve done that myself—that seems to be the only reliable way to grow; as long as you’re replying to every comment and not putting false promises like “subscribing to <em>everyone</em> who…”, that’s fine. It’s lazy of course, but coming up with 4-6 creative notes ideas <em>every day?</em> That’s absurdly difficult. Especially when you don’t have a stable enough subscriber base to push your best notes forward and reward real creative effort. But following up on the engagement you get takes an absurd amount of time, time that realistically, most creators don’t have.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://aalx.substack.com/p/90-of-your-feed-is-a-lie/comments&quot;,&quot;text&quot;:&quot;Leave a comment&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://aalx.substack.com/p/90-of-your-feed-is-a-lie/comments\"><span>Leave a comment</span></a></p><h1>You can’t stop Substack from wasting your time.</h1><p>You can’t stop Substack from taking productive time away from you. You can’t expect Substack to create some type of “benevolent” algorithm. But being realistic requires understanding the amount of issues that Substack, as a niche and still growing platform, has. You can’t solve issues when you pretend they don’t exist. Even with all of that being said, Substack has so much potential as a platform. The amount of real intellectuals, deep thought, and healthy discourse that takes place on this platform relative to its mere 50 million users is impressive!</p><p>There is a reason that I, along with millions of other users quit using every social media <em>except Substack</em>, it’s the best platform that the internet has to offer right now. On no other platform can you sustain a career with only 10,000 subscribers. On no other platform is the barrier or entry to making quality content so low. If we manage to just reduce the dominance of performative authenticity on Substack by even a little bit, I think the platform has even brighter days ahead. I’ll leave it at that.</p><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://aalx.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">If you want more shit like this, subscribe. I had to just get this out here, appreciate anyone who read this xD</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email…\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div><p></p>",
+  "truncated_body_text": "Performative authenticity is killing Substack.",
+  "wordcount": 1335,
+  "postTags": [
+    {
+      "id": "5e380ebd-295a-4d05-90a5-a3ed993c8f66",
+      "publication_id": 6219272,
+      "name": "Social media",
+      "slug": "social-media",
+      "hidden": false
+    },
+    {
+      "id": "8f9eb3ae-bab6-4290-b497-927018d08c16",
+      "publication_id": 6219272,
+      "name": "announcement",
+      "slug": "announcement",
+      "hidden": false
+    },
+    "... (3 total)"
+  ],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        248,
+        232,
+        "... (3 total)"
+      ],
+      "population": 477
+    },
+    "DarkVibrant": {
+      "rgb": [
+        151,
+        144,
+        "... (3 total)"
+      ],
+      "population": 108
+    },
+    "LightVibrant": {
+      "rgb": [
+        237,
+        234,
+        "... (3 total)"
+      ],
+      "population": 125
+    },
+    "Muted": {
+      "rgb": [
+        100,
+        113,
+        "... (3 total)"
+      ],
+      "population": 3
+    },
+    "DarkMuted": {
+      "rgb": [
+        60,
+        64,
+        "... (3 total)"
+      ],
+      "population": 6
+    },
+    "LightMuted": {
+      "rgb": [
+        176,
+        191,
+        "... (3 total)"
+      ],
+      "population": 38
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 113060464,
+      "name": "alex",
+      "handle": "usrnmtaken",
+      "previous_name": "alx",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/5ea58246-7af5-4930-8ed1-17bfc919841c_360x360.png",
+      "bio": "14 || I write about politics, philosophy, culture, and more! - Subscribe. idk",
+      "profile_set_up_at": "2025-08-10T13:30:41.926Z",
+      "reader_installed_at": "2026-02-04T23:04:57.816Z",
+      "publicationUsers": [
+        {
+          "id": 6344959,
+          "user_id": 113060464,
+          "publication_id": 6219272,
+          "role": "admin",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 6219272,
+            "name": "facts [unfiltered]",
+            "subdomain": "aalx",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "A substack I started to write some essays :)",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/b87a0e65-91e0-4a2c-8d26-773ad241bfc3_720x720.png",
+            "author_id": 113060464,
+            "primary_user_id": 113060464,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-09-07T17:59:32.692Z",
+            "email_from_name": "usrnmtaken (alex)",
+            "copyright": "alex",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": null,
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/f7c68cc8-68e9-4aa0-900f-eef84786b9c0_612x407.png"
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": null
+    }
+  ],
+  "reaction": true,
+  "reaction_count": 23,
+  "comment_count": 20,
+  "child_comment_count": 9,
+  "audio_items": [
+    {
+      "post_id": 191067613,
+      "voice_id": "en-US-OnyxTurboMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/191067613/tts/ca000d99-5ca2-4660-b230-2250a5b9cf6d/en-US-OnyxTurboMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "hasCashtag": false,
+  "inboxItem": {
+    "content_key": "post:191067613",
+    "updated_at": "2026-03-16T03:38:01.192Z",
+    "content_date": "2026-03-15T22:08:23.672Z",
+    "seen_at": "2026-03-16T02:54:07.529Z",
+    "saved_at": null,
+    "archived_at": null,
+    "skip_inbox": true,
+    "type": "post",
+    "post_id": 191067613,
+    "extra_views": [],
+    "read_progress": 0,
+    "max_read_progress": 1,
+    "audio_progress": 0,
+    "max_audio_progress": 0,
+    "video_progress": 0,
+    "max_video_progress": 0,
+    "postType": "newsletter",
+    "title": "90% of your feed is a lie.",
+    "subtitle": "stop performing for authenticity. real authenticity comes when you stop trying so hard to be genuine.",
+    "detail_view_subtitle": "stop performing for authenticity. real authenticity comes when you stop trying so hard to be genuine.",
+    "cover_photo_url": "https://substackcdn.com/image/fetch/$s_!pu4J!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3baa88b-fb0a-4ea5-81e9-a2fa82140f2f_1280x720.png",
+    "audience": "everyone",
+    "is_preview": false,
+    "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/191067613/tts/ca000d99-5ca2-4660-b230-2250a5b9cf6d/en-US-OnyxTurboMultilingualNeural.mp3",
+    "audio_type": "tts",
+    "web_url": "https://aalx.substack.com/p/90-of-your-feed-is-a-lie",
+    "duration_metadata": {
+      "word_count": 1335
+    },
+    "authors": [
+      "alex"
+    ],
+    "published_bylines": [
+      {
+        "id": 113060464,
+        "name": "alex",
+        "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/5ea58246-7af5-4930-8ed1-17bfc919841c_360x360.png"
+      }
+    ],
+    "coverImagePalette": {
+      "Vibrant": {
+        "rgb": [
+          248,
+          232,
+          "... (3 total)"
+        ],
+        "population": 477
+      },
+      "DarkVibrant": {
+        "rgb": [
+          151,
+          144,
+          "... (3 total)"
+        ],
+        "population": 108
+      },
+      "LightVibrant": {
+        "rgb": [
+          237,
+          234,
+          "... (3 total)"
+        ],
+        "population": 125
+      },
+      "Muted": {
+        "rgb": [
+          100,
+          113,
+          "... (3 total)"
+        ],
+        "population": 3
+      },
+      "DarkMuted": {
+        "rgb": [
+          60,
+          64,
+          "... (3 total)"
+        ],
+        "population": 6
+      },
+      "LightMuted": {
+        "rgb": [
+          176,
+          191,
+          "... (3 total)"
+        ],
+        "population": 38
+      }
+    },
+    "publication_id": 6219272,
+    "publisher_image_url": "https://substackcdn.com/image/fetch/$s_!IGfl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb87a0e65-91e0-4a2c-8d26-773ad241bfc3_720x720.png",
+    "publisher_name": "facts [unfiltered]",
+    "is_personal_mode": false,
+    "like_count": 23,
+    "comment_count": 20,
+    "tracking_parameters": {
+      "is_saved": false,
+      "is_seen": true,
+      "post_id": 191067613,
+      "post_type": "newsletter",
+      "publication_id": 6219272,
+      "tabId": "home",
+      "tabType": "base",
+      "max_read_progress": 1,
+      "max_audio_progress": 0,
+      "max_video_progress": 0,
+      "last_seen_at": "2026-03-16T02:54:07.529Z",
+      "last_reading_queue_impression_at": "2026-03-16T03:38:01.192Z",
+      "impression_id": "6c07c2ad-3994-4ef2-be14-96dd38941569"
+    }
+  },
+  "is_saved": false,
+  "saved_at": null,
+  "is_viewed": true,
+  "read_progress": 0,
+  "max_read_progress": 1,
+  "audio_progress": 0,
+  "max_audio_progress": 0,
+  "video_progress": 0,
+  "max_video_progress": 0,
+  "restacked": true,
+  "unlockedWithIP": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#3d9970",
+    "background_pop": "#3d9970",
+    "color_theme_bg_web": "#f5f5dc",
+    "cover_bg_color": "#f5f5dc",
+    "cover_bg_color_secondary": "#e6e6cf",
+    "background_pop_darken": "#368763",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#368763",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(61, 153, 112, 0.2)",
+    "color_theme_bg_pop_30": "rgba(61, 153, 112, 0.3)",
+    "print_pop": "#3d9970",
+    "color_theme_accent": "#3d9970",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#3d9970",
+    "font_family_headings_preset": "Lora,sans-serif",
+    "font_weight_headings_preset": 600,
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_heading": "fancy_serif",
+    "font_preset_body": "sans",
+    "home_hero": "magaziney",
+    "home_posts": "custom",
+    "home_show_top_posts": true,
+    "web_bg_color": "#f5f5dc",
+    "background_contrast_1": "#e6e6cf",
+    "background_contrast_2": "#d4d4be",
+    "background_contrast_3": "#b0b09e",
+    "background_contrast_4": "#8d8d7e",
+    "background_contrast_5": "#4d4d45",
+    "color_theme_bg_contrast_1": "#e6e6cf",
+    "color_theme_bg_contrast_2": "#d4d4be",
+    "color_theme_bg_contrast_3": "#b0b09e",
+    "color_theme_bg_contrast_4": "#8d8d7e",
+    "color_theme_bg_contrast_5": "#4d4d45",
+    "color_theme_bg_elevated": "#f5f5dc",
+    "color_theme_bg_elevated_secondary": "#e6e6cf",
+    "color_theme_bg_elevated_tertiary": "#d4d4be",
+    "color_theme_detail": "#ddddc6",
+    "background_contrast_pop": "rgba(61, 153, 112, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(61, 153, 112, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "hsl(60.000000000000036, 14.576962283384312%, 28.35294117647059%)",
+    "print_secondary_on_web_bg_color": "#828379",
+    "background_pop_rgb": "61, 153, 112",
+    "color_theme_bg_pop_rgb": "61, 153, 112",
+    "color_theme_accent_rgb": "61, 153, 112"
+  },
+  "comments": [
+    {
+      "id": 228345986,
+      "body": "I have a 90% confidence that this article is bs haha",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "I have a 90% confidence that this article is bs haha"
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 6219272,
+      "post_id": 191067613,
+      "user_id": 389976224,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-03-15T22:10:57.874Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "gavin yu",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/517d62d7-dfa6-41cd-8fa7-5f572fdb10c6_96x96.png",
+      "handle": "gavinyu",
+      "reactor_names": [
+        "alex"
+      ],
+      "reaction": "❤",
+      "reactions": {
+        "❤": 5
+      },
+      "reaction_count": 5,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "gavinyu",
+      "metadata": {
+        "is_author": false,
+        "membership_state": "free_signup",
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "gavin yu",
+          "id": 8169577,
+          "base_url": "https://gavinyu.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 10,
+      "children_count": 3,
+      "reported_by_user": false,
+      "restacked": false,
+      "childrenSummary": "6 replies by alex and others"
+    },
+    {
+      "id": 228401700,
+      "body": "90% of the people telling you that they want to “read your work” are lying to you -- very true. my substack homepage is filled by this kind of Notes. it's almost like the email junk folder now. Some are really asking for reading matter, while some just post that for increasing followers without any inspiring idea 😓",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "90% of the people telling you that they want to “read your work” are lying to you -- very true. my substack homepage is filled by this kind of Notes. it's almost like the email junk folder now. Some are really asking for reading matter, while some just post that for increasing followers without any inspiring idea 😓"
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 6219272,
+      "post_id": 191067613,
+      "user_id": 478217046,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-03-16T00:45:07.666Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "LucioX",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/016867d0-444d-4cee-898e-da0bc84a49cf_992x1070.png",
+      "handle": "luciox",
+      "reactor_names": [
+        "alex"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "luciox",
+      "metadata": {
+        "is_author": false,
+        "membership_state": "free_signup",
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "China Close-Up",
+          "id": 8311095,
+          "base_url": "https://chinacloseup.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 6,
+      "children_count": 1,
+      "reported_by_user": false,
+      "restacked": false,
+      "childrenSummary": "1 reply by alex"
+    }
+  ]
+}

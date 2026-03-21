@@ -1,7 +1,6 @@
 import { Profile } from '@substack-api/domain/profile'
 import { Note } from '@substack-api/domain/note'
-import type { GatewayProfile } from '@substack-api/internal/types'
-import type { GatewayCreateNoteResponse } from '@substack-api/internal/types'
+import type { SubstackProfile, SubstackCreateNoteResponse } from '@substack-api/internal/types'
 import type {
   ProfileService,
   PostService,
@@ -13,7 +12,7 @@ import type {
 
 export class OwnProfile extends Profile {
   constructor(
-    rawData: GatewayProfile,
+    rawData: SubstackProfile,
     postService: PostService,
     noteService: NoteService,
     commentService: CommentService,
@@ -27,9 +26,9 @@ export class OwnProfile extends Profile {
 
   async publishNote(
     content: string,
-    options?: { attachment?: string }
-  ): Promise<GatewayCreateNoteResponse> {
-    return this.newNoteService.publishNote(content, options?.attachment)
+    options?: { attachmentIds?: string[] }
+  ): Promise<SubstackCreateNoteResponse> {
+    return this.newNoteService.publishNote(content, options?.attachmentIds)
   }
 
   async *following(options: { limit?: number } = {}): AsyncIterable<Profile> {
@@ -61,7 +60,7 @@ export class OwnProfile extends Profile {
       let totalYielded = 0
 
       while (true) {
-        const paginatedNotes = await this.noteService.getNotesForLoggedUser({ cursor })
+        const paginatedNotes = await this.noteService.getNotesForProfile(this.id, { cursor })
 
         for (const noteData of paginatedNotes.notes) {
           if (options.limit && totalYielded >= options.limit) {

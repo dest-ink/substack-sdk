@@ -1,4 +1,4 @@
-import type { GatewayProfile } from '@substack-api/internal/types'
+import type { SubstackProfile } from '@substack-api/internal/types'
 import type { CommentService, PostService, NoteService } from '@substack-api/internal/services'
 import { PreviewPost } from '@substack-api/domain/post'
 import { Note } from '@substack-api/domain/note'
@@ -13,7 +13,7 @@ export class Profile {
   public readonly bio?: string
 
   constructor(
-    protected readonly rawData: GatewayProfile,
+    protected readonly rawData: SubstackProfile,
     protected readonly postService: PostService,
     protected readonly noteService: NoteService,
     protected readonly commentService: CommentService,
@@ -23,39 +23,35 @@ export class Profile {
     this.slug = rawData.handle
     this.handle = rawData.handle
     this.name = rawData.name
-    this.url = rawData.url
-    this.avatarUrl = rawData.avatar_url
+    this.url = `https://substack.com/@${rawData.handle}`
+    this.avatarUrl = rawData.photo_url
     this.bio = rawData.bio ?? undefined
   }
 
   async *posts(options: { limit?: number } = {}): AsyncIterable<PreviewPost> {
     try {
-      let offset = 0
+      let cursor: string | undefined = undefined
       let totalYielded = 0
 
       while (true) {
-        const postsData = await this.postService.getPostsForProfile(this.slug, {
-          limit: this.perPage,
-          offset
-        })
+        const result = await this.postService.getPostsForProfile(this.id, { cursor })
 
-        if (!postsData || postsData.length === 0) {
-          break
-        }
-
-        for (const postData of postsData) {
+        for (const feedItem of result.posts) {
           if (options.limit && totalYielded >= options.limit) {
             return
           }
-          yield new PreviewPost(postData, this.commentService, this.postService)
-          totalYielded++
+          if (feedItem.post) {
+            const subdomain = feedItem.publication?.subdomain
+            yield new PreviewPost(feedItem.post, this.commentService, this.postService, subdomain)
+            totalYielded++
+          }
         }
 
-        if (postsData.length < this.perPage) {
+        if (!result.nextCursor || result.posts.length === 0) {
           break
         }
 
-        offset += this.perPage
+        cursor = result.nextCursor
       }
     } catch {
       yield* []
@@ -68,7 +64,7 @@ export class Profile {
       let totalYielded = 0
 
       while (true) {
-        const paginatedNotes = await this.noteService.getNotesForProfile(this.slug, { cursor })
+        const paginatedNotes = await this.noteService.getNotesForProfile(this.id, { cursor })
 
         for (const item of paginatedNotes.notes) {
           if (options.limit && totalYielded >= options.limit) {

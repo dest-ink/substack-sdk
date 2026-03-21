@@ -13,9 +13,9 @@ import {
 } from '@substack-api/internal/services'
 import {
   createMockHttpClient,
-  makeGatewayProfile,
-  makeGatewayPost,
-  makeGatewayNote
+  makeSubstackProfile,
+  makeSubstackFeedItem,
+  makeSubstackFeedComment
 } from '@test/unit/fixtures'
 
 jest.mock('@substack-api/internal/http-client')
@@ -32,20 +32,18 @@ describe('Profile Entity', () => {
 
   beforeEach(() => {
     mockPostService = {
-      getPostById: jest.fn(),
+      getPostBySlug: jest.fn(),
       getPostsForProfile: jest.fn()
     } as unknown as jest.Mocked<PostService>
 
     mockNoteService = {
-      getNoteById: jest.fn(),
-      getNotesForLoggedUser: jest.fn(),
       getNotesForProfile: jest.fn()
     } as unknown as jest.Mocked<NoteService>
 
     mockCommentService = { getCommentsForPost: jest.fn() } as unknown as jest.Mocked<CommentService>
 
     profile = new Profile(
-      makeGatewayProfile(123, 'testuser', 'Test User'),
+      makeSubstackProfile(123, 'testuser', 'Test User'),
       mockPostService,
       mockNoteService,
       mockCommentService,
@@ -54,17 +52,28 @@ describe('Profile Entity', () => {
   })
 
   describe('properties', () => {
-    it('should expose id, name, and slug', () => {
+    it('should expose id, name, handle, and slug', () => {
       expect(profile.id).toBe(123)
       expect(profile.name).toBe('Test User')
+      expect(profile.handle).toBe('testuser')
       expect(profile.slug).toBe('testuser')
+    })
+
+    it('should derive url from handle', () => {
+      expect(profile.url).toBe('https://substack.com/@testuser')
+    })
+
+    it('should map photo_url to avatarUrl', () => {
+      expect(profile.avatarUrl).toBe('https://example.com/testuser.jpg')
     })
   })
 
   describe('posts()', () => {
     it('should iterate through profile posts as PreviewPost instances', async () => {
-      const mockPosts = [makeGatewayPost(1, 'Post 1'), makeGatewayPost(2, 'Post 2')]
-      mockPostService.getPostsForProfile.mockResolvedValue(mockPosts)
+      mockPostService.getPostsForProfile.mockResolvedValue({
+        posts: [makeSubstackFeedItem(1, 'Post 1'), makeSubstackFeedItem(2, 'Post 2')],
+        nextCursor: null
+      })
 
       const posts = []
       for await (const post of profile.posts()) {
@@ -75,17 +84,14 @@ describe('Profile Entity', () => {
       expect(posts[0]).toBeInstanceOf(PreviewPost)
       expect(posts[0].title).toBe('Post 1')
       expect(posts[1].title).toBe('Post 2')
-      expect(mockPostService.getPostsForProfile).toHaveBeenCalledWith(
-        'testuser',
-        expect.any(Object)
-      )
+      expect(mockPostService.getPostsForProfile).toHaveBeenCalledWith(123, { cursor: undefined })
     })
 
     it('should respect limit parameter', async () => {
-      mockPostService.getPostsForProfile.mockResolvedValue([
-        makeGatewayPost(1, 'Post 1'),
-        makeGatewayPost(2, 'Post 2')
-      ])
+      mockPostService.getPostsForProfile.mockResolvedValue({
+        posts: [makeSubstackFeedItem(1, 'Post 1'), makeSubstackFeedItem(2, 'Post 2')],
+        nextCursor: null
+      })
 
       const posts = []
       for await (const post of profile.posts({ limit: 1 })) {
@@ -96,21 +102,19 @@ describe('Profile Entity', () => {
       expect(posts[0].title).toBe('Post 1')
     })
 
-    it('should stop fetching after a partial page', async () => {
-      const profileWithPerPage2 = new Profile(
-        makeGatewayProfile(123, 'testuser', 'Test User'),
-        mockPostService,
-        mockNoteService,
-        mockCommentService,
-        2
-      )
-
+    it('should paginate using cursor', async () => {
       mockPostService.getPostsForProfile
-        .mockResolvedValueOnce([makeGatewayPost(1, 'Post 1'), makeGatewayPost(2, 'Post 2')])
-        .mockResolvedValueOnce([makeGatewayPost(3, 'Post 3')])
+        .mockResolvedValueOnce({
+          posts: [makeSubstackFeedItem(1, 'Post 1'), makeSubstackFeedItem(2, 'Post 2')],
+          nextCursor: 'cursor1'
+        })
+        .mockResolvedValueOnce({
+          posts: [makeSubstackFeedItem(3, 'Post 3')],
+          nextCursor: null
+        })
 
       const posts = []
-      for await (const post of profileWithPerPage2.posts()) {
+      for await (const post of profile.posts()) {
         posts.push(post)
       }
 
@@ -120,7 +124,7 @@ describe('Profile Entity', () => {
     })
 
     it('should handle empty posts', async () => {
-      mockPostService.getPostsForProfile.mockResolvedValue([])
+      mockPostService.getPostsForProfile.mockResolvedValue({ posts: [], nextCursor: null })
 
       const posts = []
       for await (const post of profile.posts()) {
@@ -133,9 +137,8 @@ describe('Profile Entity', () => {
 
   describe('notes()', () => {
     it('should iterate through profile notes as Note instances', async () => {
-      const mockNotes = [makeGatewayNote(10, 'Note 1'), makeGatewayNote(11, 'Note 2')]
       mockNoteService.getNotesForProfile.mockResolvedValue({
-        notes: mockNotes,
+        notes: [makeSubstackFeedComment(10, 'Note 1'), makeSubstackFeedComment(11, 'Note 2')],
         nextCursor: undefined
       })
 
@@ -147,14 +150,14 @@ describe('Profile Entity', () => {
       expect(notes).toHaveLength(2)
       expect(notes[0]).toBeInstanceOf(Note)
       expect(notes[0].body).toBe('Note 1')
-      expect(mockNoteService.getNotesForProfile).toHaveBeenCalledWith('testuser', {
+      expect(mockNoteService.getNotesForProfile).toHaveBeenCalledWith(123, {
         cursor: undefined
       })
     })
 
     it('should respect limit parameter', async () => {
       mockNoteService.getNotesForProfile.mockResolvedValue({
-        notes: [makeGatewayNote(10, 'Note 1'), makeGatewayNote(11, 'Note 2')],
+        notes: [makeSubstackFeedComment(10, 'Note 1'), makeSubstackFeedComment(11, 'Note 2')],
         nextCursor: undefined
       })
 
@@ -169,10 +172,13 @@ describe('Profile Entity', () => {
     it('should paginate using cursor until no next cursor', async () => {
       mockNoteService.getNotesForProfile
         .mockResolvedValueOnce({
-          notes: [makeGatewayNote(1, 'Note 1'), makeGatewayNote(2, 'Note 2')],
+          notes: [makeSubstackFeedComment(1, 'Note 1'), makeSubstackFeedComment(2, 'Note 2')],
           nextCursor: 'cursor1'
         })
-        .mockResolvedValueOnce({ notes: [makeGatewayNote(3, 'Note 3')], nextCursor: undefined })
+        .mockResolvedValueOnce({
+          notes: [makeSubstackFeedComment(3, 'Note 3')],
+          nextCursor: undefined
+        })
 
       const notes = []
       for await (const note of profile.notes()) {
@@ -217,15 +223,13 @@ describe('OwnProfile Entity', () => {
     } as unknown as jest.Mocked<ProfileService>
 
     mockPostService = {
-      getPostById: jest.fn(),
+      getPostBySlug: jest.fn(),
       getPostsForProfile: jest.fn()
     } as unknown as jest.Mocked<PostService>
 
     mockCommentService = { getCommentsForPost: jest.fn() } as unknown as jest.Mocked<CommentService>
 
     mockNoteService = {
-      getNoteById: jest.fn(),
-      getNotesForLoggedUser: jest.fn(),
       getNotesForProfile: jest.fn()
     } as unknown as jest.Mocked<NoteService>
 
@@ -236,7 +240,7 @@ describe('OwnProfile Entity', () => {
     } as unknown as jest.Mocked<NewNoteService>
 
     ownProfile = new OwnProfile(
-      makeGatewayProfile(123, 'testuser', 'Test User'),
+      makeSubstackProfile(123, 'testuser', 'Test User'),
       mockPostService,
       mockNoteService,
       mockCommentService,
@@ -260,12 +264,9 @@ describe('OwnProfile Entity', () => {
       expect(result).toEqual({ id: 42 })
     })
 
-    it('should pass attachment when provided', async () => {
-      await ownProfile.publishNote('Check this out', { attachment: 'https://example.com' })
-      expect(mockNewNoteService.publishNote).toHaveBeenCalledWith(
-        'Check this out',
-        'https://example.com'
-      )
+    it('should pass attachmentIds when provided', async () => {
+      await ownProfile.publishNote('Check this out', { attachmentIds: ['uuid-1'] })
+      expect(mockNewNoteService.publishNote).toHaveBeenCalledWith('Check this out', ['uuid-1'])
     })
   })
 
@@ -276,8 +277,8 @@ describe('OwnProfile Entity', () => {
         { id: 2, handle: 'user2' }
       ])
       mockProfileService.getProfileBySlug
-        .mockResolvedValueOnce(makeGatewayProfile(1, 'user1', 'User One'))
-        .mockResolvedValueOnce(makeGatewayProfile(2, 'user2', 'User Two'))
+        .mockResolvedValueOnce(makeSubstackProfile(1, 'user1', 'User One'))
+        .mockResolvedValueOnce(makeSubstackProfile(2, 'user2', 'User Two'))
 
       const following = []
       for await (const p of ownProfile.following()) {
@@ -299,7 +300,7 @@ describe('OwnProfile Entity', () => {
       mockProfileService.getProfileBySlug.mockImplementation((slug: string) => {
         if (slug === 'user2') return Promise.reject(new Error('Not found'))
         const id = slug === 'user1' ? 1 : 3
-        return Promise.resolve(makeGatewayProfile(id, slug, `User ${id}`))
+        return Promise.resolve(makeSubstackProfile(id, slug, `User ${id}`))
       })
 
       const following = []
@@ -314,10 +315,9 @@ describe('OwnProfile Entity', () => {
   })
 
   describe('notes()', () => {
-    it('should use getNotesForLoggedUser (not getNotesForProfile)', async () => {
-      const mockNotes = [makeGatewayNote(1, 'Note 1'), makeGatewayNote(2, 'Note 2')]
-      mockNoteService.getNotesForLoggedUser.mockResolvedValue({
-        notes: mockNotes,
+    it('should use getNotesForProfile with own userId', async () => {
+      mockNoteService.getNotesForProfile.mockResolvedValue({
+        notes: [makeSubstackFeedComment(1, 'Note 1'), makeSubstackFeedComment(2, 'Note 2')],
         nextCursor: undefined
       })
 
@@ -328,13 +328,12 @@ describe('OwnProfile Entity', () => {
 
       expect(notes).toHaveLength(2)
       expect(notes[0]).toBeInstanceOf(Note)
-      expect(mockNoteService.getNotesForLoggedUser).toHaveBeenCalled()
-      expect(mockNoteService.getNotesForProfile).not.toHaveBeenCalled()
+      expect(mockNoteService.getNotesForProfile).toHaveBeenCalledWith(123, { cursor: undefined })
     })
 
     it('should respect limit parameter', async () => {
-      mockNoteService.getNotesForLoggedUser.mockResolvedValue({
-        notes: [makeGatewayNote(1, 'Note 1'), makeGatewayNote(2, 'Note 2')],
+      mockNoteService.getNotesForProfile.mockResolvedValue({
+        notes: [makeSubstackFeedComment(1, 'Note 1'), makeSubstackFeedComment(2, 'Note 2')],
         nextCursor: undefined
       })
 
@@ -363,27 +362,27 @@ describe('ProfileService', () => {
   })
 
   describe('getOwnProfile', () => {
-    it('should return own profile from GET /me', async () => {
-      const mockProfile = makeGatewayProfile(123, 'testuser', 'Test User')
+    it('should return profile from /api/v1/user/{handle}/public_profile', async () => {
+      const mockProfile = makeSubstackProfile(123, 'testuser', 'Test User')
       mockClient.get.mockResolvedValueOnce(mockProfile)
 
-      expect(await profileService.getOwnProfile()).toEqual(mockProfile)
-      expect(mockClient.get).toHaveBeenCalledWith('/me')
+      expect(await profileService.getOwnProfile('testuser')).toEqual(mockProfile)
+      expect(mockClient.get).toHaveBeenCalledWith('/api/v1/user/testuser/public_profile')
     })
 
     it('should throw when request fails', async () => {
       mockClient.get.mockRejectedValueOnce(new Error('Unauthorized'))
-      await expect(profileService.getOwnProfile()).rejects.toThrow('Unauthorized')
+      await expect(profileService.getOwnProfile('testuser')).rejects.toThrow('Unauthorized')
     })
   })
 
   describe('getProfileBySlug', () => {
-    it('should return profile from GET /profiles/{slug}', async () => {
-      const mockProfile = makeGatewayProfile(456, 'sluguser', 'Slug User')
+    it('should return profile from /api/v1/user/{handle}/public_profile', async () => {
+      const mockProfile = makeSubstackProfile(456, 'sluguser', 'Slug User')
       mockClient.get.mockResolvedValueOnce(mockProfile)
 
       expect(await profileService.getProfileBySlug('sluguser')).toEqual(mockProfile)
-      expect(mockClient.get).toHaveBeenCalledWith('/profiles/sluguser')
+      expect(mockClient.get).toHaveBeenCalledWith('/api/v1/user/sluguser/public_profile')
     })
 
     it('should throw when profile not found', async () => {

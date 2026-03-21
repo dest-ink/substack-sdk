@@ -1,0 +1,3155 @@
+{
+  "items": [
+    {
+      "entity_key": "c-226843331",
+      "type": "comment",
+      "context": {
+        "type": "comment_restack",
+        "timestamp": "2026-03-12T17:29:34.955Z",
+        "users": [
+          {
+            "id": 41856304,
+            "name": "Substack Team",
+            "handle": "substackteam",
+            "previous_name": "Substack Writers",
+            "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/a0cc9b93-5469-46f3-b2c9-ee0392b93a64_1000x1000.png",
+            "bio": "Resources, news, and stories for @Substack writers and creators.",
+            "profile_set_up_at": "2022-06-16T19:10:43.399Z",
+            "reader_installed_at": "2022-10-28T15:33:47.314Z",
+            "bestseller_tier": null,
+            "status": null,
+            "primary_publication": {
+              "id": 1,
+              "subdomain": "on",
+              "custom_domain_optional": false,
+              "name": "On Substack",
+              "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/29d14a4b-a2da-47fa-9031-0853099b7fe6_1280x1280.png",
+              "author_id": 41856304,
+              "user_id": 41856304,
+              "handles_enabled": false,
+              "explicit": false,
+              "is_personal_mode": false,
+              "payments_state": "disabled",
+              "pledges_enabled": false
+            }
+          }
+        ],
+        "fallbackReason": "//TODO: create fallback reasons",
+        "fallbackUrl": null,
+        "isFresh": false,
+        "source": "db-restack",
+        "page": null,
+        "page_rank": 0
+      },
+      "publication": null,
+      "post": null,
+      "comment": {
+        "name": "Zach @ Substack",
+        "handle": "zach1taylor",
+        "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/7d8e99d9-ad50-43c4-9f5b-4802d42fd367_787x1285.jpeg",
+        "id": 226843331,
+        "body": "The Substack Recording Studio is here, a built-in studio that makes it easier than ever to pre-record and publish a show on Substack.\n\nFor the team, this is our starting line (not the finish line) and we want to hear from you about your experience using the product and what features we should add next!",
+        "body_json": {
+          "type": "doc",
+          "attrs": {
+            "schemaVersion": "v1"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "The Substack Recording Studio is here, a built-in studio that makes it easier than ever to pre-record and publish a show on Substack."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "For the team, this is our starting line (not the finish line) and we want to "
+                },
+                {
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "text": "hear from you "
+                },
+                {
+                  "type": "text",
+                  "text": "about your experience using the product and what features we should add next!"
+                }
+              ]
+            }
+          ]
+        },
+        "publication_id": null,
+        "post_id": null,
+        "user_id": 212893994,
+        "type": "feed",
+        "date": "2026-03-12T17:24:20.452Z",
+        "edited_at": null,
+        "ancestor_path": "",
+        "reply_minimum_role": "everyone",
+        "media_clip_id": null,
+        "reaction_count": 150,
+        "reactions": {
+          "❤": 150
+        },
+        "restacks": 23,
+        "restacked": false,
+        "children_count": 17,
+        "attachments": [
+          {
+            "id": "f7ddafd4-691e-4c2a-8447-55a052a8367c",
+            "type": "post",
+            "publication": {
+              "apple_pay_disabled": false,
+              "apex_domain": null,
+              "author_id": 41856304,
+              "byline_images_enabled": true,
+              "bylines_enabled": true,
+              "chartable_token": null,
+              "community_enabled": true,
+              "copyright": "Substack",
+              "cover_photo_url": null,
+              "created_at": "2017-12-12T04:37:34.302Z",
+              "custom_domain_optional": false,
+              "custom_domain": null,
+              "default_comment_sort": "best_first",
+              "default_coupon": "its-on",
+              "default_group_coupon": null,
+              "default_show_guest_bios": true,
+              "email_banner_url": null,
+              "email_from_name": "Substack",
+              "email_from": null,
+              "embed_tracking_disabled": false,
+              "explicit": false,
+              "expose_paywall_content_to_search_engines": true,
+              "fb_pixel_id": null,
+              "fb_site_verification_token": null,
+              "flagged_as_spam": false,
+              "founding_subscription_benefits": null,
+              "free_subscription_benefits": null,
+              "ga_pixel_id": "UA-189374947-1",
+              "google_site_verification_token": null,
+              "google_tag_manager_token": null,
+              "hero_image": null,
+              "hero_text": "Resources, stories, and news for the writers, podcasters, musicians, video creators, and culture makers publishing on Substack. ",
+              "hide_intro_subtitle": false,
+              "hide_intro_title": true,
+              "hide_podcast_feed_link": false,
+              "homepage_type": "newspaper",
+              "id": 1,
+              "image_thumbnails_always_enabled": false,
+              "invite_only": false,
+              "hide_podcast_from_pub_listings": false,
+              "language": "en",
+              "logo_url_wide": null,
+              "logo_url": "https://substackcdn.com/image/fetch/$s_!JtoZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29d14a4b-a2da-47fa-9031-0853099b7fe6_1280x1280.png",
+              "minimum_group_size": 2,
+              "moderation_enabled": true,
+              "name": "On Substack",
+              "paid_subscription_benefits": null,
+              "parsely_pixel_id": null,
+              "chartbeat_domain": null,
+              "payments_state": "disabled",
+              "paywall_free_trial_enabled": false,
+              "podcast_art_url": "https://cdn.substack.com/image/fetch/w_1400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fpodcast%2Fgeneric.png",
+              "paid_podcast_episode_art_url": null,
+              "podcast_byline": "The Substack team",
+              "podcast_description": "Conversations with writers, creators, and independent thinkers about how they got here. Produced by Substack, a new media app that connects you with the creators, ideas, and communities building the future of culture.",
+              "podcast_enabled": true,
+              "podcast_feed_url": null,
+              "podcast_title": "The Substack Podcast",
+              "post_preview_limit": null,
+              "primary_user_id": 41856304,
+              "require_clickthrough": false,
+              "show_pub_podcast_tab": false,
+              "show_recs_on_homepage": true,
+              "subdomain": "on",
+              "subscriber_invites": 0,
+              "support_email": null,
+              "theme_var_background_pop": "#FF6719",
+              "theme_var_color_links": false,
+              "theme_var_cover_bg_color": null,
+              "trial_end_override": null,
+              "twitter_pixel_id": null,
+              "type": "newsletter",
+              "post_reaction_faces_enabled": true,
+              "is_personal_mode": false,
+              "plans": null,
+              "stripe_user_id": null,
+              "stripe_country": null,
+              "stripe_publishable_key": null,
+              "stripe_platform_account": null,
+              "automatic_tax_enabled": null,
+              "author_name": "Substack Team",
+              "author_handle": "substackteam",
+              "author_photo_url": "https://substackcdn.com/image/fetch/$s_!_gXu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0cc9b93-5469-46f3-b2c9-ee0392b93a64_1000x1000.png",
+              "author_bio": "Resources, news, and stories for @Substack writers and creators.",
+              "has_custom_tos": false,
+              "has_custom_privacy": false,
+              "theme": {
+                "background_pop_color": "#FF6719",
+                "web_bg_color": "#fafafa",
+                "cover_bg_color": "#fafafa",
+                "publication_id": 1,
+                "color_links": null,
+                "font_preset_heading": "fancy_serif",
+                "font_preset_body": "fancy_serif",
+                "font_family_headings": null,
+                "font_family_body": null,
+                "font_family_ui": null,
+                "font_size_body_desktop": null,
+                "print_secondary": null,
+                "custom_css_web": null,
+                "custom_css_email": null,
+                "home_hero": "feature-media",
+                "home_posts": "custom",
+                "home_show_top_posts": false,
+                "hide_images_from_list": false,
+                "home_hero_alignment": "left",
+                "home_hero_show_podcast_links": true,
+                "default_post_header_variant": null,
+                "custom_header": {
+                  "layout": "stacked",
+                  "navStyle": "text",
+                  "navPosition": "bottom",
+                  "backgroundColor": "#fafafa",
+                  "wordmarkLogoSize": 61
+                },
+                "custom_footer": {
+                  "layout": "default",
+                  "backgroundColor": null,
+                  "publicationNameSize": 50,
+                  "showPublicationName": true,
+                  "publicationNameStyle": "text",
+                  "publicationNamePosition": "bottom",
+                  "publicationNameBackgroundColor": null
+                },
+                "social_media_links": null,
+                "font_options": null,
+                "section_template": null
+              },
+              "threads_v2_settings": {
+                "photo_replies_enabled": true,
+                "first_thread_email_sent_at": "2022-11-03T17:13:06.383+00:00",
+                "create_thread_minimum_role": "contributor",
+                "activated_at": "2022-11-03T14:57:01.834+00:00",
+                "reader_thread_notifications_enabled": false,
+                "boost_free_subscriber_chat_preview_enabled": false,
+                "push_suppression_enabled": false
+              },
+              "default_group_coupon_percent_off": null,
+              "pause_return_date": null,
+              "has_posts": true,
+              "has_recommendations": true,
+              "first_post_date": "2017-07-18T02:30:57.690Z",
+              "has_podcast": true,
+              "has_free_podcast": true,
+              "has_subscriber_only_podcast": false,
+              "has_community_content": true,
+              "rankingDetail": null,
+              "rankingDetailFreeIncluded": null,
+              "rankingDetailOrderOfMagnitude": null,
+              "rankingDetailFreeIncludedOrderOfMagnitude": null,
+              "rankingDetailFreeSubscriberCount": null,
+              "rankingDetailByLanguage": {},
+              "freeSubscriberCount": null,
+              "freeSubscriberCountOrderOfMagnitude": null,
+              "author_bestseller_tier": 0,
+              "author_badge": null,
+              "disable_monthly_subscriptions": false,
+              "disable_annual_subscriptions": false,
+              "hide_post_restacks": false,
+              "notes_feed_enabled": true,
+              "showIntroModule": false,
+              "isPortraitLayout": false,
+              "last_chat_post_at": "2023-06-20T21:30:48.627Z",
+              "primary_profile_name": "Substack Team",
+              "primary_profile_photo_url": "https://substackcdn.com/image/fetch/$s_!_gXu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0cc9b93-5469-46f3-b2c9-ee0392b93a64_1000x1000.png",
+              "no_follow": false,
+              "paywall_chat": "free",
+              "sections": [
+                {
+                  "id": 2519,
+                  "created_at": "2021-07-01T19:48:57.564Z",
+                  "updated_at": "2021-07-01T19:48:57.564Z",
+                  "publication_id": 1,
+                  "name": "Stories",
+                  "description": "Exploring the great writing on Substack.",
+                  "slug": "stories",
+                  "is_podcast": false,
+                  "is_live": true,
+                  "is_default_on": true,
+                  "sibling_rank": 0,
+                  "port_status": "success",
+                  "logo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/5e4b7fa8-785a-4294-bdf4-ecd39cdd85a0_500x500.png",
+                  "hide_from_navbar": true,
+                  "email_from_name": null,
+                  "hide_posts_from_pub_listings": false,
+                  "email_banner_url": null,
+                  "cover_photo_url": null,
+                  "hide_intro_title": false,
+                  "hide_intro_subtitle": false,
+                  "ignore_publication_email_settings": false,
+                  "custom_config": {},
+                  "spotifyPodcastSettings": null,
+                  "podcastSettings": null,
+                  "showLinks": [],
+                  "pageTheme": null,
+                  "podcastPalette": {
+                    "DarkMuted": {
+                      "population": 72,
+                      "rgb": [
+                        73,
+                        153,
+                        137
+                      ]
+                    },
+                    "DarkVibrant": {
+                      "population": 6013,
+                      "rgb": [
+                        4,
+                        100,
+                        84
+                      ]
+                    },
+                    "LightMuted": {
+                      "population": 7,
+                      "rgb": [
+                        142,
+                        198,
+                        186
+                      ]
+                    },
+                    "LightVibrant": {
+                      "population": 3,
+                      "rgb": [
+                        166,
+                        214,
+                        206
+                      ]
+                    },
+                    "Muted": {
+                      "population": 6,
+                      "rgb": [
+                        92,
+                        164,
+                        156
+                      ]
+                    },
+                    "Vibrant": {
+                      "population": 5,
+                      "rgb": [
+                        76,
+                        164,
+                        146
+                      ]
+                    }
+                  },
+                  "spotify_podcast_settings": null
+                },
+                {
+                  "id": 2474,
+                  "created_at": "2021-06-30T18:52:32.494Z",
+                  "updated_at": "2021-06-30T18:52:32.494Z",
+                  "publication_id": 1,
+                  "name": "Resources",
+                  "description": "Tips, ideas, and resources for writers.",
+                  "slug": "resources",
+                  "is_podcast": true,
+                  "is_live": true,
+                  "is_default_on": true,
+                  "sibling_rank": 1,
+                  "port_status": "success",
+                  "logo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/3fb6fe8c-9597-48a2-8155-795292033f33_2800x2800.png",
+                  "hide_from_navbar": false,
+                  "email_from_name": null,
+                  "hide_posts_from_pub_listings": false,
+                  "email_banner_url": null,
+                  "cover_photo_url": null,
+                  "hide_intro_title": false,
+                  "hide_intro_subtitle": false,
+                  "ignore_publication_email_settings": false,
+                  "custom_config": {},
+                  "spotifyPodcastSettings": null,
+                  "podcastSettings": {
+                    "section_id": 2474,
+                    "itunes_podcast_primary_category": "Education",
+                    "itunes_podcast_primary_subcategory": "How To",
+                    "itunes_podcast_secondary_category": "Business",
+                    "itunes_podcast_secondary_subcategory": "Entrepreneurship",
+                    "itunes_email": null,
+                    "language": "",
+                    "itunes_explicit": false,
+                    "podcast_art_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/3fb6fe8c-9597-48a2-8155-795292033f33_2800x2800.png",
+                    "podcast_subtitle": null,
+                    "podcast_keywords": null,
+                    "hide_podcast_feed_link": false,
+                    "podcast_feed_url": null,
+                    "podcast_title": "Resources",
+                    "podcast_description": "Tips, ideas, and resources for writers.",
+                    "podcast_byline": null,
+                    "paid_podcast_episode_art_url": null,
+                    "migrated_to_attached_podcast": true
+                  },
+                  "showLinks": [],
+                  "pageTheme": null,
+                  "podcastPalette": {
+                    "Vibrant": {
+                      "rgb": [
+                        252,
+                        172,
+                        36
+                      ],
+                      "population": 953
+                    },
+                    "DarkVibrant": {
+                      "rgb": [
+                        19,
+                        114,
+                        92
+                      ],
+                      "population": 40
+                    },
+                    "LightVibrant": {
+                      "rgb": [
+                        252,
+                        212,
+                        136
+                      ],
+                      "population": 17
+                    },
+                    "Muted": {
+                      "rgb": [
+                        153,
+                        147,
+                        84
+                      ],
+                      "population": 31
+                    },
+                    "DarkMuted": {
+                      "rgb": [
+                        60,
+                        84,
+                        84
+                      ],
+                      "population": 3
+                    },
+                    "LightMuted": {
+                      "rgb": [
+                        175,
+                        171,
+                        208
+                      ],
+                      "population": 20
+                    }
+                  },
+                  "spotify_podcast_settings": null
+                },
+                {
+                  "id": 2520,
+                  "created_at": "2021-07-01T19:53:53.337Z",
+                  "updated_at": "2021-07-01T19:53:53.337Z",
+                  "publication_id": 1,
+                  "name": "News & Views",
+                  "description": "Product updates and perspectives on the subscription publishing model. ",
+                  "slug": "news",
+                  "is_podcast": false,
+                  "is_live": true,
+                  "is_default_on": true,
+                  "sibling_rank": 2,
+                  "port_status": "success",
+                  "logo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/cbc77b5a-1f24-45e7-9374-61c6ddc5dd56_500x500.png",
+                  "hide_from_navbar": false,
+                  "email_from_name": null,
+                  "hide_posts_from_pub_listings": false,
+                  "email_banner_url": null,
+                  "cover_photo_url": null,
+                  "hide_intro_title": false,
+                  "hide_intro_subtitle": false,
+                  "ignore_publication_email_settings": false,
+                  "custom_config": {},
+                  "spotifyPodcastSettings": null,
+                  "podcastSettings": null,
+                  "showLinks": [],
+                  "pageTheme": null,
+                  "podcastPalette": {
+                    "DarkMuted": {
+                      "population": 72,
+                      "rgb": [
+                        73,
+                        153,
+                        137
+                      ]
+                    },
+                    "DarkVibrant": {
+                      "population": 6013,
+                      "rgb": [
+                        4,
+                        100,
+                        84
+                      ]
+                    },
+                    "LightMuted": {
+                      "population": 7,
+                      "rgb": [
+                        142,
+                        198,
+                        186
+                      ]
+                    },
+                    "LightVibrant": {
+                      "population": 3,
+                      "rgb": [
+                        166,
+                        214,
+                        206
+                      ]
+                    },
+                    "Muted": {
+                      "population": 6,
+                      "rgb": [
+                        92,
+                        164,
+                        156
+                      ]
+                    },
+                    "Vibrant": {
+                      "population": 5,
+                      "rgb": [
+                        76,
+                        164,
+                        146
+                      ]
+                    }
+                  },
+                  "spotify_podcast_settings": null
+                },
+                {
+                  "id": 22019,
+                  "created_at": "2022-07-06T21:32:12.379Z",
+                  "updated_at": "2022-07-06T21:32:12.379Z",
+                  "publication_id": 1,
+                  "name": "Product",
+                  "description": "Sharing the latest changes and updates to the Substack product. ",
+                  "slug": "product",
+                  "is_podcast": false,
+                  "is_live": true,
+                  "is_default_on": true,
+                  "sibling_rank": 3,
+                  "port_status": "success",
+                  "logo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/5eed323c-5ba7-4007-b4e0-9c64a28438ca_462x462.png",
+                  "hide_from_navbar": false,
+                  "email_from_name": null,
+                  "hide_posts_from_pub_listings": false,
+                  "email_banner_url": null,
+                  "cover_photo_url": null,
+                  "hide_intro_title": false,
+                  "hide_intro_subtitle": false,
+                  "ignore_publication_email_settings": false,
+                  "custom_config": {},
+                  "spotifyPodcastSettings": null,
+                  "podcastSettings": null,
+                  "showLinks": [],
+                  "pageTheme": null,
+                  "podcastPalette": {
+                    "DarkMuted": {
+                      "population": 72,
+                      "rgb": [
+                        73,
+                        153,
+                        137
+                      ]
+                    },
+                    "DarkVibrant": {
+                      "population": 6013,
+                      "rgb": [
+                        4,
+                        100,
+                        84
+                      ]
+                    },
+                    "LightMuted": {
+                      "population": 7,
+                      "rgb": [
+                        142,
+                        198,
+                        186
+                      ]
+                    },
+                    "LightVibrant": {
+                      "population": 3,
+                      "rgb": [
+                        166,
+                        214,
+                        206
+                      ]
+                    },
+                    "Muted": {
+                      "population": 6,
+                      "rgb": [
+                        92,
+                        164,
+                        156
+                      ]
+                    },
+                    "Vibrant": {
+                      "population": 5,
+                      "rgb": [
+                        76,
+                        164,
+                        146
+                      ]
+                    }
+                  },
+                  "spotify_podcast_settings": null
+                },
+                {
+                  "id": 39917,
+                  "created_at": "2022-10-20T14:35:17.049Z",
+                  "updated_at": "2026-02-17T18:44:11.384Z",
+                  "publication_id": 1,
+                  "name": "Office Hours",
+                  "description": "The writer community and the Substack team gather together in a discussion thread to share knowledge and answer questions weekly on Thursdays.",
+                  "slug": "office-hours",
+                  "is_podcast": false,
+                  "is_live": true,
+                  "is_default_on": true,
+                  "sibling_rank": 4,
+                  "port_status": "success",
+                  "logo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b3cfd25a-e7f3-47d7-a651-a1910ebbc36f_1280x1280.png",
+                  "hide_from_navbar": true,
+                  "email_from_name": "",
+                  "hide_posts_from_pub_listings": false,
+                  "email_banner_url": null,
+                  "cover_photo_url": null,
+                  "hide_intro_title": false,
+                  "hide_intro_subtitle": false,
+                  "ignore_publication_email_settings": false,
+                  "custom_config": {},
+                  "spotifyPodcastSettings": null,
+                  "podcastSettings": null,
+                  "showLinks": [],
+                  "pageTheme": null,
+                  "podcastPalette": {
+                    "DarkMuted": {
+                      "population": 72,
+                      "rgb": [
+                        73,
+                        153,
+                        137
+                      ]
+                    },
+                    "DarkVibrant": {
+                      "population": 6013,
+                      "rgb": [
+                        4,
+                        100,
+                        84
+                      ]
+                    },
+                    "LightMuted": {
+                      "population": 7,
+                      "rgb": [
+                        142,
+                        198,
+                        186
+                      ]
+                    },
+                    "LightVibrant": {
+                      "population": 3,
+                      "rgb": [
+                        166,
+                        214,
+                        206
+                      ]
+                    },
+                    "Muted": {
+                      "population": 6,
+                      "rgb": [
+                        92,
+                        164,
+                        156
+                      ]
+                    },
+                    "Vibrant": {
+                      "population": 5,
+                      "rgb": [
+                        76,
+                        164,
+                        146
+                      ]
+                    }
+                  },
+                  "spotify_podcast_settings": null
+                }
+              ],
+              "multipub_migration": null,
+              "navigationBarItems": [
+                {
+                  "id": "3b5f1701-9c8d-4d19-b54c-fe14907177b6",
+                  "publication_id": 1,
+                  "sibling_rank": 0,
+                  "link_title": null,
+                  "link_url": null,
+                  "section_id": 2519,
+                  "post_id": null,
+                  "is_hidden": null,
+                  "standard_key": null,
+                  "post_tag_id": null,
+                  "parent_id": null,
+                  "is_group": false,
+                  "post": null,
+                  "postTag": null,
+                  "section": {
+                    "id": 2519,
+                    "created_at": "2021-07-01T19:48:57.564Z",
+                    "updated_at": "2021-07-01T19:48:57.564Z",
+                    "publication_id": 1,
+                    "name": "Stories",
+                    "description": "Exploring the great writing on Substack.",
+                    "slug": "stories",
+                    "is_podcast": false,
+                    "is_live": true,
+                    "is_default_on": true,
+                    "sibling_rank": 0,
+                    "port_status": "success",
+                    "logo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/5e4b7fa8-785a-4294-bdf4-ecd39cdd85a0_500x500.png",
+                    "hide_from_navbar": true,
+                    "email_from_name": null,
+                    "hide_posts_from_pub_listings": false,
+                    "email_banner_url": null,
+                    "cover_photo_url": null,
+                    "hide_intro_title": false,
+                    "hide_intro_subtitle": false,
+                    "ignore_publication_email_settings": false,
+                    "custom_config": {}
+                  },
+                  "children": []
+                },
+                {
+                  "id": "51ffe74b-f5aa-430e-b1c9-0bb5cdcb5db4",
+                  "publication_id": 1,
+                  "sibling_rank": 0,
+                  "link_title": null,
+                  "link_url": null,
+                  "section_id": null,
+                  "post_id": null,
+                  "is_hidden": true,
+                  "standard_key": "notes",
+                  "post_tag_id": null,
+                  "parent_id": null,
+                  "is_group": false,
+                  "post": null,
+                  "postTag": null,
+                  "section": null,
+                  "children": []
+                },
+                {
+                  "id": "e9220882-2609-4914-a9d2-2f9e8599bbed",
+                  "publication_id": 1,
+                  "sibling_rank": 0,
+                  "link_title": null,
+                  "link_url": null,
+                  "section_id": null,
+                  "post_id": null,
+                  "is_hidden": false,
+                  "standard_key": "archive",
+                  "post_tag_id": null,
+                  "parent_id": null,
+                  "is_group": false,
+                  "post": null,
+                  "postTag": null,
+                  "section": null,
+                  "children": []
+                },
+                {
+                  "id": "14ecd69b-f6b7-45f2-9290-badde315a078",
+                  "publication_id": 1,
+                  "sibling_rank": 1,
+                  "link_title": null,
+                  "link_url": null,
+                  "section_id": 2474,
+                  "post_id": null,
+                  "is_hidden": null,
+                  "standard_key": null,
+                  "post_tag_id": null,
+                  "parent_id": null,
+                  "is_group": false,
+                  "post": null,
+                  "postTag": null,
+                  "section": {
+                    "id": 2474,
+                    "created_at": "2021-06-30T18:52:32.494Z",
+                    "updated_at": "2021-06-30T18:52:32.494Z",
+                    "publication_id": 1,
+                    "name": "Resources",
+                    "description": "Tips, ideas, and resources for writers.",
+                    "slug": "resources",
+                    "is_podcast": true,
+                    "is_live": true,
+                    "is_default_on": true,
+                    "sibling_rank": 1,
+                    "port_status": "success",
+                    "logo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/3fb6fe8c-9597-48a2-8155-795292033f33_2800x2800.png",
+                    "hide_from_navbar": false,
+                    "email_from_name": null,
+                    "hide_posts_from_pub_listings": false,
+                    "email_banner_url": null,
+                    "cover_photo_url": null,
+                    "hide_intro_title": false,
+                    "hide_intro_subtitle": false,
+                    "ignore_publication_email_settings": false,
+                    "custom_config": {}
+                  },
+                  "children": []
+                },
+                {
+                  "id": "1bb3335f-be73-4f88-ad1f-50efbf77111e",
+                  "publication_id": 1,
+                  "sibling_rank": 2,
+                  "link_title": null,
+                  "link_url": null,
+                  "section_id": 2520,
+                  "post_id": null,
+                  "is_hidden": null,
+                  "standard_key": null,
+                  "post_tag_id": null,
+                  "parent_id": null,
+                  "is_group": false,
+                  "post": null,
+                  "postTag": null,
+                  "section": {
+                    "id": 2520,
+                    "created_at": "2021-07-01T19:53:53.337Z",
+                    "updated_at": "2021-07-01T19:53:53.337Z",
+                    "publication_id": 1,
+                    "name": "News & Views",
+                    "description": "Product updates and perspectives on the subscription publishing model. ",
+                    "slug": "news",
+                    "is_podcast": false,
+                    "is_live": true,
+                    "is_default_on": true,
+                    "sibling_rank": 2,
+                    "port_status": "success",
+                    "logo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/cbc77b5a-1f24-45e7-9374-61c6ddc5dd56_500x500.png",
+                    "hide_from_navbar": false,
+                    "email_from_name": null,
+                    "hide_posts_from_pub_listings": false,
+                    "email_banner_url": null,
+                    "cover_photo_url": null,
+                    "hide_intro_title": false,
+                    "hide_intro_subtitle": false,
+                    "ignore_publication_email_settings": false,
+                    "custom_config": {}
+                  },
+                  "children": []
+                },
+                {
+                  "id": "2d9ba6ae-a8e1-4cf3-8028-1a9f8272ed14",
+                  "publication_id": 1,
+                  "sibling_rank": 3,
+                  "link_title": null,
+                  "link_url": null,
+                  "section_id": 22019,
+                  "post_id": null,
+                  "is_hidden": null,
+                  "standard_key": null,
+                  "post_tag_id": null,
+                  "parent_id": null,
+                  "is_group": false,
+                  "post": null,
+                  "postTag": null,
+                  "section": {
+                    "id": 22019,
+                    "created_at": "2022-07-06T21:32:12.379Z",
+                    "updated_at": "2022-07-06T21:32:12.379Z",
+                    "publication_id": 1,
+                    "name": "Product",
+                    "description": "Sharing the latest changes and updates to the Substack product. ",
+                    "slug": "product",
+                    "is_podcast": false,
+                    "is_live": true,
+                    "is_default_on": true,
+                    "sibling_rank": 3,
+                    "port_status": "success",
+                    "logo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/5eed323c-5ba7-4007-b4e0-9c64a28438ca_462x462.png",
+                    "hide_from_navbar": false,
+                    "email_from_name": null,
+                    "hide_posts_from_pub_listings": false,
+                    "email_banner_url": null,
+                    "cover_photo_url": null,
+                    "hide_intro_title": false,
+                    "hide_intro_subtitle": false,
+                    "ignore_publication_email_settings": false,
+                    "custom_config": {}
+                  },
+                  "children": []
+                },
+                {
+                  "id": "d70b70db-e2d8-444b-bca9-b7ab8b493d27",
+                  "publication_id": 1,
+                  "sibling_rank": 9999,
+                  "link_title": null,
+                  "link_url": null,
+                  "section_id": 39917,
+                  "post_id": null,
+                  "is_hidden": null,
+                  "standard_key": null,
+                  "post_tag_id": null,
+                  "parent_id": null,
+                  "is_group": false,
+                  "post": null,
+                  "postTag": null,
+                  "section": {
+                    "id": 39917,
+                    "created_at": "2022-10-20T14:35:17.049Z",
+                    "updated_at": "2026-02-17T18:44:11.384Z",
+                    "publication_id": 1,
+                    "name": "Office Hours",
+                    "description": "The writer community and the Substack team gather together in a discussion thread to share knowledge and answer questions weekly on Thursdays.",
+                    "slug": "office-hours",
+                    "is_podcast": false,
+                    "is_live": true,
+                    "is_default_on": true,
+                    "sibling_rank": 4,
+                    "port_status": "success",
+                    "logo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b3cfd25a-e7f3-47d7-a651-a1910ebbc36f_1280x1280.png",
+                    "hide_from_navbar": true,
+                    "email_from_name": "",
+                    "hide_posts_from_pub_listings": false,
+                    "email_banner_url": null,
+                    "cover_photo_url": null,
+                    "hide_intro_title": false,
+                    "hide_intro_subtitle": false,
+                    "ignore_publication_email_settings": false,
+                    "custom_config": {}
+                  },
+                  "children": []
+                }
+              ],
+              "contributors": [
+                {
+                  "name": "Substack Team",
+                  "handle": "substackteam",
+                  "role": "admin",
+                  "owner": true,
+                  "user_id": 41856304,
+                  "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/a0cc9b93-5469-46f3-b2c9-ee0392b93a64_1000x1000.png",
+                  "bio": "Resources, news, and stories for @Substack writers and creators."
+                }
+              ],
+              "threads_v2_enabled": true,
+              "viralGiftsConfig": {
+                "id": "1d540c50-22f9-4606-8be3-ec104d5f8af4",
+                "publication_id": 1,
+                "enabled": false,
+                "gifts_per_user": 5,
+                "gift_length_months": 1,
+                "send_extra_gifts": true,
+                "message": "Resources and stories for writers. Written by the Substack team.",
+                "created_at": "2021-09-02T21:02:24.510815+00:00",
+                "updated_at": "2021-09-02T21:02:24.510815+00:00",
+                "days_til_invite": 14,
+                "send_emails": true,
+                "show_link": null,
+                "grant_email_body": null,
+                "grant_email_subject": null
+              },
+              "tier": 2,
+              "no_index": false,
+              "can_set_google_site_verification": true,
+              "can_have_sitemap": true,
+              "founding_plan_name_english": "Founding Member",
+              "draft_plans": null,
+              "bundles": [],
+              "base_url": "https://on.substack.com",
+              "hostname": "on.substack.com",
+              "is_on_substack": true,
+              "spotify_podcast_settings": {
+                "id": 1670,
+                "publication_id": 1,
+                "section_id": null,
+                "spotify_access_token": "36d53a0a-6ad2-4563-8b05-b5b33c7b089e",
+                "spotify_uri": null,
+                "spotify_podcast_title": null,
+                "created_at": "2024-03-14T23:36:29.221Z",
+                "updated_at": "2024-03-14T23:36:29.221Z",
+                "currently_published_on_spotify": false,
+                "feed_url_for_spotify": "https://api.substack.com/feed/podcast/spotify/36d53a0a-6ad2-4563-8b05-b5b33c7b089e/1.rss",
+                "spotify_show_url": ""
+              },
+              "podcastPalette": null,
+              "pageThemes": {
+                "podcast": null
+              },
+              "live_subscriber_counts": false,
+              "supports_ip_content_unlock": false,
+              "appTheme": {
+                "colors": {
+                  "accent": {
+                    "name": "#ff6719",
+                    "primary": {
+                      "r": 255,
+                      "g": 103,
+                      "b": 25,
+                      "a": 1
+                    },
+                    "primary_hover": {
+                      "r": 232,
+                      "g": 83,
+                      "b": 0,
+                      "a": 1
+                    },
+                    "primary_elevated": {
+                      "r": 232,
+                      "g": 83,
+                      "b": 0,
+                      "a": 1
+                    },
+                    "secondary": {
+                      "r": 255,
+                      "g": 103,
+                      "b": 25,
+                      "a": 0.2
+                    },
+                    "contrast": {
+                      "r": 255,
+                      "g": 255,
+                      "b": 255,
+                      "a": 1
+                    },
+                    "bg": {
+                      "r": 255,
+                      "g": 103,
+                      "b": 25,
+                      "a": 0.2
+                    },
+                    "bg_hover": {
+                      "r": 255,
+                      "g": 103,
+                      "b": 25,
+                      "a": 0.3
+                    },
+                    "dark": {
+                      "primary": {
+                        "r": 255,
+                        "g": 103,
+                        "b": 25,
+                        "a": 1
+                      },
+                      "primary_hover": {
+                        "r": 255,
+                        "g": 132,
+                        "b": 73,
+                        "a": 1
+                      },
+                      "primary_elevated": {
+                        "r": 255,
+                        "g": 132,
+                        "b": 73,
+                        "a": 1
+                      },
+                      "secondary": {
+                        "r": 255,
+                        "g": 103,
+                        "b": 25,
+                        "a": 0.2
+                      },
+                      "contrast": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 1
+                      },
+                      "bg": {
+                        "r": 255,
+                        "g": 103,
+                        "b": 25,
+                        "a": 0.2
+                      },
+                      "bg_hover": {
+                        "r": 255,
+                        "g": 103,
+                        "b": 25,
+                        "a": 0.3
+                      }
+                    }
+                  },
+                  "fg": {
+                    "primary": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 0.8
+                    },
+                    "secondary": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 0.6
+                    },
+                    "tertiary": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 0.4
+                    },
+                    "accent": {
+                      "r": 213,
+                      "g": 66,
+                      "b": 0,
+                      "a": 1
+                    },
+                    "dark": {
+                      "primary": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 0.9
+                      },
+                      "secondary": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 0.6
+                      },
+                      "tertiary": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 0.4
+                      },
+                      "accent": {
+                        "r": 255,
+                        "g": 103,
+                        "b": 25,
+                        "a": 1
+                      }
+                    }
+                  },
+                  "bg": {
+                    "name": "#ffffff",
+                    "hue": {
+                      "r": 255,
+                      "g": 255,
+                      "b": 255,
+                      "a": 0
+                    },
+                    "tint": {
+                      "r": 255,
+                      "g": 255,
+                      "b": 255,
+                      "a": 0
+                    },
+                    "primary": {
+                      "r": 255,
+                      "g": 255,
+                      "b": 255,
+                      "a": 1
+                    },
+                    "primary_hover": {
+                      "r": 250,
+                      "g": 250,
+                      "b": 250,
+                      "a": 1
+                    },
+                    "primary_elevated": {
+                      "r": 250,
+                      "g": 250,
+                      "b": 250,
+                      "a": 1
+                    },
+                    "secondary": {
+                      "r": 238,
+                      "g": 238,
+                      "b": 238,
+                      "a": 1
+                    },
+                    "secondary_elevated": {
+                      "r": 206.90096477355226,
+                      "g": 206.90096477355175,
+                      "b": 206.9009647735519,
+                      "a": 1
+                    },
+                    "tertiary": {
+                      "r": 219,
+                      "g": 219,
+                      "b": 219,
+                      "a": 1
+                    },
+                    "quaternary": {
+                      "r": 182,
+                      "g": 182,
+                      "b": 182,
+                      "a": 1
+                    },
+                    "dark": {
+                      "primary": {
+                        "r": 22,
+                        "g": 23,
+                        "b": 24,
+                        "a": 1
+                      },
+                      "primary_hover": {
+                        "r": 27,
+                        "g": 28,
+                        "b": 29,
+                        "a": 1
+                      },
+                      "primary_elevated": {
+                        "r": 27,
+                        "g": 28,
+                        "b": 29,
+                        "a": 1
+                      },
+                      "secondary": {
+                        "r": 35,
+                        "g": 37,
+                        "b": 37,
+                        "a": 1
+                      },
+                      "secondary_elevated": {
+                        "r": 41.35899397549579,
+                        "g": 43.405356429195315,
+                        "b": 43.40489285041963,
+                        "a": 1
+                      },
+                      "tertiary": {
+                        "r": 54,
+                        "g": 55,
+                        "b": 55,
+                        "a": 1
+                      },
+                      "quaternary": {
+                        "r": 90,
+                        "g": 91,
+                        "b": 91,
+                        "a": 1
+                      }
+                    }
+                  }
+                },
+                "cover_image": {
+                  "url": "https://substackcdn.com/image/fetch/$s_!JtoZ!,w_1200,h_400,c_pad,f_auto,q_auto:best,fl_progressive:steep,b_auto:border,b_rgb:fafafa/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29d14a4b-a2da-47fa-9031-0853099b7fe6_1280x1280.png",
+                  "height": 1280,
+                  "width": 3840
+                }
+              },
+              "portalAppTheme": {
+                "colors": {
+                  "accent": {
+                    "name": "#FF6719",
+                    "primary": {
+                      "r": 255,
+                      "g": 103,
+                      "b": 25,
+                      "a": 1
+                    },
+                    "primary_hover": {
+                      "r": 255,
+                      "g": 86,
+                      "b": 0,
+                      "a": 1
+                    },
+                    "primary_elevated": {
+                      "r": 255,
+                      "g": 103,
+                      "b": 25,
+                      "a": 1
+                    },
+                    "secondary": {
+                      "r": 255,
+                      "g": 103,
+                      "b": 25,
+                      "a": 1
+                    },
+                    "contrast": {
+                      "r": 255,
+                      "g": 255,
+                      "b": 255,
+                      "a": 1
+                    },
+                    "bg": {
+                      "r": 255,
+                      "g": 103,
+                      "b": 25,
+                      "a": 0.2
+                    },
+                    "bg_hover": {
+                      "r": 255,
+                      "g": 103,
+                      "b": 25,
+                      "a": 0.3
+                    },
+                    "dark": {
+                      "primary": {
+                        "r": 255,
+                        "g": 103,
+                        "b": 25,
+                        "a": 1
+                      },
+                      "primary_hover": {
+                        "r": 255,
+                        "g": 132,
+                        "b": 73,
+                        "a": 1
+                      },
+                      "primary_elevated": {
+                        "r": 255,
+                        "g": 132,
+                        "b": 73,
+                        "a": 1
+                      },
+                      "secondary": {
+                        "r": 255,
+                        "g": 103,
+                        "b": 25,
+                        "a": 0.2
+                      },
+                      "contrast": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 1
+                      },
+                      "bg": {
+                        "r": 255,
+                        "g": 103,
+                        "b": 25,
+                        "a": 0.2
+                      },
+                      "bg_hover": {
+                        "r": 255,
+                        "g": 103,
+                        "b": 25,
+                        "a": 0.3
+                      }
+                    }
+                  },
+                  "fg": {
+                    "primary": {
+                      "r": 54,
+                      "g": 55,
+                      "b": 55,
+                      "a": 1
+                    },
+                    "secondary": {
+                      "r": 132,
+                      "g": 133,
+                      "b": 133,
+                      "a": 1
+                    },
+                    "tertiary": {
+                      "r": 144,
+                      "g": 144,
+                      "b": 144,
+                      "a": 1
+                    },
+                    "accent": {
+                      "r": 255,
+                      "g": 103,
+                      "b": 25,
+                      "a": 1
+                    },
+                    "dark": {
+                      "primary": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 0.9
+                      },
+                      "secondary": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 0.6
+                      },
+                      "tertiary": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 0.4
+                      },
+                      "accent": {
+                        "r": 255,
+                        "g": 103,
+                        "b": 25,
+                        "a": 1
+                      }
+                    }
+                  },
+                  "bg": {
+                    "name": "#fafafa",
+                    "hue": {
+                      "r": 250,
+                      "g": 250,
+                      "b": 250,
+                      "a": 1
+                    },
+                    "tint": {
+                      "r": 250,
+                      "g": 250,
+                      "b": 250,
+                      "a": 1
+                    },
+                    "primary": {
+                      "r": 250,
+                      "g": 250,
+                      "b": 250,
+                      "a": 1
+                    },
+                    "primary_hover": {
+                      "r": 235,
+                      "g": 235,
+                      "b": 235,
+                      "a": 1
+                    },
+                    "primary_elevated": {
+                      "r": 250,
+                      "g": 250,
+                      "b": 250,
+                      "a": 1
+                    },
+                    "secondary": {
+                      "r": 235,
+                      "g": 235,
+                      "b": 235,
+                      "a": 1
+                    },
+                    "secondary_elevated": {
+                      "r": 235,
+                      "g": 235,
+                      "b": 235,
+                      "a": 1
+                    },
+                    "tertiary": {
+                      "r": 216,
+                      "g": 216,
+                      "b": 216,
+                      "a": 1
+                    },
+                    "quaternary": {
+                      "r": 179,
+                      "g": 179,
+                      "b": 179,
+                      "a": 1
+                    },
+                    "dark": {
+                      "primary": {
+                        "r": 22,
+                        "g": 23,
+                        "b": 24,
+                        "a": 1
+                      },
+                      "primary_hover": {
+                        "r": 27,
+                        "g": 28,
+                        "b": 29,
+                        "a": 1
+                      },
+                      "primary_elevated": {
+                        "r": 27,
+                        "g": 28,
+                        "b": 29,
+                        "a": 1
+                      },
+                      "secondary": {
+                        "r": 35,
+                        "g": 37,
+                        "b": 37,
+                        "a": 1
+                      },
+                      "secondary_elevated": {
+                        "r": 41.35899397549579,
+                        "g": 43.405356429195315,
+                        "b": 43.40489285041963,
+                        "a": 1
+                      },
+                      "tertiary": {
+                        "r": 54,
+                        "g": 55,
+                        "b": 55,
+                        "a": 1
+                      },
+                      "quaternary": {
+                        "r": 90,
+                        "g": 91,
+                        "b": 91,
+                        "a": 1
+                      }
+                    }
+                  }
+                },
+                "fonts": {
+                  "heading": "fancy_serif",
+                  "body": "fancy_serif"
+                }
+              },
+              "logoPalette": {
+                "Vibrant": {
+                  "rgb": [
+                    244,
+                    108,
+                    60
+                  ],
+                  "population": 4929
+                },
+                "DarkVibrant": {
+                  "rgb": [
+                    125.51941747572819,
+                    37.9776699029126,
+                    7.0805825242718115
+                  ],
+                  "population": 0
+                },
+                "LightVibrant": {
+                  "rgb": [
+                    252,
+                    153,
+                    121
+                  ],
+                  "population": 91
+                },
+                "Muted": {
+                  "rgb": [
+                    144.83009708737868,
+                    43.82038834951454,
+                    8.169902912621334
+                  ],
+                  "population": 0
+                },
+                "DarkMuted": {
+                  "rgb": [
+                    144.83009708737868,
+                    43.82038834951454,
+                    8.169902912621334
+                  ],
+                  "population": 0
+                },
+                "LightMuted": {
+                  "rgb": [
+                    149.64963503649636,
+                    39.0875912408759,
+                    3.350364963503634
+                  ],
+                  "population": 0
+                }
+              }
+            },
+            "post": {
+              "id": 190636964,
+              "publication_id": 1,
+              "title": "Introducing the Substack Recording Studio",
+              "social_title": null,
+              "search_engine_title": null,
+              "search_engine_description": null,
+              "type": "newsletter",
+              "slug": "introducing-the-substack-recording",
+              "post_date": "2026-03-12T17:01:34.272Z",
+              "audience": "everyone",
+              "podcast_duration": null,
+              "video_upload_id": null,
+              "write_comment_permissions": "none",
+              "should_send_free_preview": false,
+              "free_unlock_required": false,
+              "default_comment_sort": null,
+              "canonical_url": "https://on.substack.com/p/introducing-the-substack-recording",
+              "section_id": 22019,
+              "podcast_art_url": null,
+              "is_published": true,
+              "live_stream_id": null,
+              "restacks": 242,
+              "top_exclusions": [],
+              "pins": [],
+              "is_section_pinned": false,
+              "has_shareable_clips": false,
+              "section_slug": "product",
+              "section_name": "Product",
+              "reactions": {
+                "❤": 1989
+              },
+              "subtitle": "Pre-record your show, plus new tools for going live",
+              "cover_image": "https://substackcdn.com/image/fetch/$s_!AELV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F607f6e4c-1284-41cf-a9b1-eddeabfa2ddb_1600x818.png",
+              "cover_image_is_square": false,
+              "cover_image_is_explicit": false,
+              "podcast_url": null,
+              "videoUpload": null,
+              "podcastFields": {
+                "post_id": 190636964,
+                "podcast_episode_number": null,
+                "podcast_season_number": null,
+                "podcast_episode_type": null,
+                "should_syndicate_to_other_feed": null,
+                "syndicate_to_section_id": null,
+                "hide_from_feed": false,
+                "free_podcast_url": null,
+                "free_podcast_duration": null
+              },
+              "podcast_upload_id": null,
+              "podcast_preview_upload_id": null,
+              "podcastUpload": null,
+              "podcastPreviewUpload": null,
+              "voiceover_upload_id": null,
+              "voiceoverUpload": null,
+              "has_voiceover": false,
+              "description": "Pre-record your show, plus new tools for going live",
+              "body_json": null,
+              "body_html": null,
+              "truncated_body_text": "Today, we’re launching the Substack Recording Studio, a built-in studio that makes it easier than ever to pre-record and publish a show on Substack. Substack Studio, currently available on desktop only, lets you record a solo video or a conversation with up to two guests and publish it when you’re ready, with auto-generated clips and thumbnails included.",
+              "wordcount": 620,
+              "postTags": [],
+              "teaser_post_eligible": true,
+              "postCountryBlocks": [],
+              "headlineTest": null,
+              "coverImagePalette": {
+                "Vibrant": {
+                  "rgb": [
+                    204,
+                    121,
+                    71
+                  ],
+                  "population": 93
+                },
+                "DarkVibrant": {
+                  "rgb": [
+                    100,
+                    76,
+                    46
+                  ],
+                  "population": 618
+                },
+                "LightVibrant": {
+                  "rgb": [
+                    224,
+                    150,
+                    146
+                  ],
+                  "population": 599
+                },
+                "Muted": {
+                  "rgb": [
+                    149,
+                    119,
+                    88
+                  ],
+                  "population": 477
+                },
+                "DarkMuted": {
+                  "rgb": [
+                    63,
+                    44,
+                    27
+                  ],
+                  "population": 220
+                },
+                "LightMuted": {
+                  "rgb": [
+                    212,
+                    172,
+                    207
+                  ],
+                  "population": 677
+                }
+              },
+              "publishedBylines": [
+                {
+                  "id": 212893994,
+                  "name": "Zach @ Substack",
+                  "handle": "zach1taylor",
+                  "previous_name": "Zach @ Substack TESTINGTESTING",
+                  "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/7d8e99d9-ad50-43c4-9f5b-4802d42fd367_787x1285.jpeg",
+                  "bio": "I’m a Product Manager at Substack. Subscribe to me if you want lots of “Test live video” notifications. ",
+                  "profile_set_up_at": "2024-03-06T22:20:08.292Z",
+                  "reader_installed_at": "2024-03-15T19:12:53.394Z",
+                  "publicationUsers": [
+                    {
+                      "id": 2444256,
+                      "user_id": 212893994,
+                      "publication_id": 2418713,
+                      "role": "admin",
+                      "public": true,
+                      "is_primary": true,
+                      "publication": {
+                        "id": 2418713,
+                        "name": "Zach’s Substack",
+                        "subdomain": "zach1taylor",
+                        "custom_domain": null,
+                        "custom_domain_optional": false,
+                        "hero_text": "My personal Substack",
+                        "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/feaca026-fdbd-49e3-a01e-aef01bb3a453_144x144.png",
+                        "author_id": 212893994,
+                        "primary_user_id": null,
+                        "theme_var_background_pop": "#6B26FF",
+                        "created_at": "2024-03-11T23:33:17.051Z",
+                        "email_from_name": null,
+                        "copyright": "Zach Taylor",
+                        "founding_plan_name": "Founding Member",
+                        "community_enabled": true,
+                        "invite_only": false,
+                        "payments_state": "enabled",
+                        "language": null,
+                        "explicit": false,
+                        "homepage_type": "magaziney",
+                        "is_personal_mode": false,
+                        "logo_url_wide": null
+                      }
+                    },
+                    {
+                      "id": 4122614,
+                      "user_id": 212893994,
+                      "publication_id": 4043097,
+                      "role": "admin",
+                      "public": true,
+                      "is_primary": false,
+                      "publication": {
+                        "id": 4043097,
+                        "name": "Zach’s Substack",
+                        "subdomain": "zach108",
+                        "custom_domain": null,
+                        "custom_domain_optional": false,
+                        "hero_text": "My personal Substack",
+                        "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/7d8e99d9-ad50-43c4-9f5b-4802d42fd367_787x1285.jpeg",
+                        "author_id": 212893994,
+                        "primary_user_id": null,
+                        "theme_var_background_pop": "#FF6719",
+                        "created_at": "2025-02-06T19:22:41.244Z",
+                        "email_from_name": null,
+                        "copyright": "Zach @ Substack",
+                        "founding_plan_name": null,
+                        "community_enabled": true,
+                        "invite_only": false,
+                        "payments_state": "disabled",
+                        "language": null,
+                        "explicit": false,
+                        "homepage_type": "newspaper",
+                        "is_personal_mode": false,
+                        "logo_url_wide": null
+                      }
+                    },
+                    {
+                      "id": 4774265,
+                      "user_id": 212893994,
+                      "publication_id": 2435029,
+                      "role": "contributor",
+                      "public": true,
+                      "is_primary": false,
+                      "publication": {
+                        "id": 2435029,
+                        "name": "Zach’s Personal Substack",
+                        "subdomain": "zach1taylor1",
+                        "custom_domain": null,
+                        "custom_domain_optional": false,
+                        "hero_text": "My personal Substack",
+                        "logo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e713d19f-910d-4169-8f11-d4a97194d41f_144x144.png",
+                        "author_id": 95182704,
+                        "primary_user_id": 95182704,
+                        "theme_var_background_pop": "#FF81CD",
+                        "created_at": "2024-03-18T04:38:14.638Z",
+                        "email_from_name": null,
+                        "copyright": "Zach Taylor",
+                        "founding_plan_name": null,
+                        "community_enabled": true,
+                        "invite_only": false,
+                        "payments_state": "disabled",
+                        "language": null,
+                        "explicit": false,
+                        "homepage_type": "newspaper",
+                        "is_personal_mode": false,
+                        "logo_url_wide": null
+                      }
+                    }
+                  ],
+                  "is_guest": false,
+                  "bestseller_tier": null,
+                  "status": {
+                    "bestsellerTier": null,
+                    "subscriberTier": 5,
+                    "leaderboard": null,
+                    "vip": false,
+                    "badge": {
+                      "type": "subscriber",
+                      "tier": 5,
+                      "accent_colors": null
+                    },
+                    "paidPublicationIds": [
+                      3658212,
+                      1301210,
+                      6027,
+                      1946031,
+                      218241,
+                      2880588,
+                      35345,
+                      87281
+                    ],
+                    "subscriber": null
+                  },
+                  "primary_publication": {
+                    "id": 2418713,
+                    "subdomain": "zach1taylor",
+                    "custom_domain_optional": false,
+                    "name": "Zach’s Substack",
+                    "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/feaca026-fdbd-49e3-a01e-aef01bb3a453_144x144.png",
+                    "author_id": 212893994,
+                    "user_id": 212893994,
+                    "handles_enabled": false,
+                    "explicit": false,
+                    "is_personal_mode": false,
+                    "payments_state": "enabled",
+                    "pledges_enabled": false
+                  }
+                }
+              ],
+              "reaction": false,
+              "reaction_count": 1989,
+              "comment_count": 0,
+              "child_comment_count": 0,
+              "audio_items": [
+                {
+                  "post_id": 190636964,
+                  "voice_id": "en-US-OnyxTurboMultilingualNeural",
+                  "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/190636964/tts/ceb879cd-1c9a-42d4-9362-3850445b952c/en-US-OnyxTurboMultilingualNeural.mp3",
+                  "type": "tts",
+                  "status": "completed"
+                }
+              ],
+              "is_geoblocked": false,
+              "hasCashtag": false,
+              "is_saved": false,
+              "saved_at": null,
+              "is_viewed": false,
+              "read_progress": 0,
+              "max_read_progress": 0,
+              "audio_progress": 0,
+              "max_audio_progress": 0,
+              "video_progress": 0,
+              "max_video_progress": 0,
+              "restacked": false
+            },
+            "postSelection": null,
+            "postSelectionTheme": null,
+            "postImageSelection": null,
+            "clipInfo": null,
+            "mediaClip": null
+          }
+        ],
+        "user_bestseller_tier": null,
+        "userStatus": {
+          "bestsellerTier": null,
+          "subscriberTier": 5,
+          "leaderboard": null,
+          "vip": false,
+          "badge": {
+            "type": "subscriber",
+            "tier": 5,
+            "accent_colors": null
+          },
+          "paidPublicationIds": [
+            3658212,
+            1301210,
+            "... (8 total)"
+          ],
+          "subscriber": null
+        },
+        "user_primary_publication": {
+          "id": 2418713,
+          "subdomain": "zach1taylor",
+          "custom_domain_optional": false,
+          "name": "Zach’s Substack",
+          "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/feaca026-fdbd-49e3-a01e-aef01bb3a453_144x144.png",
+          "author_id": 212893994,
+          "user_id": 212893994,
+          "handles_enabled": false,
+          "explicit": false,
+          "is_personal_mode": false,
+          "payments_state": "enabled",
+          "pledges_enabled": false
+        }
+      },
+      "parentComments": [],
+      "canReply": true,
+      "isMuted": false,
+      "trackingParameters": {
+        "item_primary_entity_key": "c-226843331",
+        "item_entity_key": "c-226843331",
+        "item_type": "comment",
+        "item_comment_id": 226843331,
+        "item_content_user_id": 212893994,
+        "item_content_timestamp": "2026-03-12T17:24:20.452Z",
+        "item_context_type": "comment_restack",
+        "item_context_type_bucket": "",
+        "item_context_timestamp": "2026-03-12T17:29:34.955Z",
+        "item_context_user_id": 41856304,
+        "item_context_user_ids": [
+          41856304
+        ],
+        "item_can_reply": true,
+        "item_is_fresh": false,
+        "item_last_impression_at": null,
+        "item_source": "db-restack",
+        "item_page": null,
+        "item_page_rank": 0,
+        "impression_id": "ac444aef-060b-4389-bcf2-2f01ec8f805d",
+        "followed_user_count": 2,
+        "subscribed_publication_count": 2,
+        "is_following": false,
+        "is_explicitly_subscribed": false,
+        "note_velocity_factor": 0.950343080261,
+        "note_delay_seconds": 158,
+        "note_notes_per_hour": 2576.061552,
+        "item_current_reaction_count": 150,
+        "item_current_restack_count": 23,
+        "item_current_reply_count": 17
+      },
+      "canShowFollowUpsell": false
+    },
+    {
+      "entity_key": "p-190151325",
+      "type": "post",
+      "context": {
+        "type": "post",
+        "timestamp": "2026-03-09T17:02:05.767Z",
+        "users": [
+          {
+            "id": 41856304,
+            "name": "Substack Team",
+            "handle": "substackteam",
+            "previous_name": "Substack Writers",
+            "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/a0cc9b93-5469-46f3-b2c9-ee0392b93a64_1000x1000.png",
+            "bio": "Resources, news, and stories for @Substack writers and creators.",
+            "profile_set_up_at": "2022-06-16T19:10:43.399Z",
+            "reader_installed_at": "2022-10-28T15:33:47.314Z",
+            "bestseller_tier": null,
+            "status": null,
+            "primary_publication": {
+              "id": 1,
+              "subdomain": "on",
+              "custom_domain_optional": false,
+              "name": "On Substack",
+              "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/29d14a4b-a2da-47fa-9031-0853099b7fe6_1280x1280.png",
+              "author_id": 41856304,
+              "user_id": 41856304,
+              "handles_enabled": false,
+              "explicit": false,
+              "is_personal_mode": false,
+              "payments_state": "disabled",
+              "pledges_enabled": false
+            }
+          }
+        ],
+        "fallbackReason": "//TODO: create fallback reasons",
+        "fallbackUrl": null,
+        "isFresh": false,
+        "source": "db-post",
+        "page": null,
+        "page_rank": 1
+      },
+      "isMuted": false,
+      "canReply": false,
+      "publication": {
+        "apple_pay_disabled": false,
+        "apex_domain": null,
+        "author_id": 41856304,
+        "byline_images_enabled": true,
+        "bylines_enabled": true,
+        "chartable_token": null,
+        "community_enabled": true,
+        "copyright": "Substack",
+        "cover_photo_url": null,
+        "created_at": "2017-12-12T04:37:34.302Z",
+        "custom_domain_optional": false,
+        "custom_domain": null,
+        "default_comment_sort": "best_first",
+        "default_coupon": "its-on",
+        "default_group_coupon": null,
+        "default_show_guest_bios": true,
+        "email_banner_url": null,
+        "email_from_name": "Substack",
+        "email_from": null,
+        "embed_tracking_disabled": false,
+        "explicit": false,
+        "expose_paywall_content_to_search_engines": true,
+        "fb_pixel_id": null,
+        "fb_site_verification_token": null,
+        "flagged_as_spam": false,
+        "founding_subscription_benefits": null,
+        "free_subscription_benefits": null,
+        "ga_pixel_id": "UA-189374947-1",
+        "google_site_verification_token": null,
+        "google_tag_manager_token": null,
+        "hero_image": null,
+        "hero_text": "Resources, stories, and news for the writers, podcasters, musicians, video creators, and culture makers publishing on Substack. ",
+        "hide_intro_subtitle": false,
+        "hide_intro_title": true,
+        "hide_podcast_feed_link": false,
+        "homepage_type": "newspaper",
+        "id": 1,
+        "image_thumbnails_always_enabled": false,
+        "invite_only": false,
+        "hide_podcast_from_pub_listings": false,
+        "language": "en",
+        "logo_url_wide": null,
+        "logo_url": "https://substackcdn.com/image/fetch/$s_!JtoZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29d14a4b-a2da-47fa-9031-0853099b7fe6_1280x1280.png",
+        "minimum_group_size": 2,
+        "moderation_enabled": true,
+        "name": "On Substack",
+        "paid_subscription_benefits": null,
+        "parsely_pixel_id": null,
+        "chartbeat_domain": null,
+        "payments_state": "disabled",
+        "paywall_free_trial_enabled": false,
+        "podcast_art_url": "https://cdn.substack.com/image/fetch/w_1400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fpodcast%2Fgeneric.png",
+        "paid_podcast_episode_art_url": null,
+        "podcast_byline": "The Substack team",
+        "podcast_description": "Conversations with writers, creators, and independent thinkers about how they got here. Produced by Substack, a new media app that connects you with the creators, ideas, and communities building the future of culture.",
+        "podcast_enabled": true,
+        "podcast_feed_url": null,
+        "podcast_title": "The Substack Podcast",
+        "post_preview_limit": null,
+        "primary_user_id": 41856304,
+        "require_clickthrough": false,
+        "show_pub_podcast_tab": false,
+        "show_recs_on_homepage": true,
+        "subdomain": "on",
+        "subscriber_invites": 0,
+        "support_email": null,
+        "theme_var_background_pop": "#FF6719",
+        "theme_var_color_links": false,
+        "theme_var_cover_bg_color": null,
+        "trial_end_override": null,
+        "twitter_pixel_id": null,
+        "type": "newsletter",
+        "post_reaction_faces_enabled": true,
+        "is_personal_mode": false,
+        "plans": null,
+        "stripe_user_id": null,
+        "stripe_country": null,
+        "stripe_publishable_key": null,
+        "stripe_platform_account": null,
+        "automatic_tax_enabled": null,
+        "author_name": "Substack Team",
+        "author_handle": "substackteam",
+        "author_photo_url": "https://substackcdn.com/image/fetch/$s_!_gXu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0cc9b93-5469-46f3-b2c9-ee0392b93a64_1000x1000.png",
+        "author_bio": "Resources, news, and stories for @Substack writers and creators.",
+        "has_custom_tos": false,
+        "has_custom_privacy": false,
+        "theme": {
+          "background_pop_color": "#FF6719",
+          "web_bg_color": "#fafafa",
+          "cover_bg_color": "#fafafa",
+          "publication_id": 1,
+          "color_links": null,
+          "font_preset_heading": "fancy_serif",
+          "font_preset_body": "fancy_serif",
+          "font_family_headings": null,
+          "font_family_body": null,
+          "font_family_ui": null,
+          "font_size_body_desktop": null,
+          "print_secondary": null,
+          "custom_css_web": null,
+          "custom_css_email": null,
+          "home_hero": "feature-media",
+          "home_posts": "custom",
+          "home_show_top_posts": false,
+          "hide_images_from_list": false,
+          "home_hero_alignment": "left",
+          "home_hero_show_podcast_links": true,
+          "default_post_header_variant": null,
+          "custom_header": {
+            "layout": "stacked",
+            "navStyle": "text",
+            "navPosition": "bottom",
+            "backgroundColor": "#fafafa",
+            "wordmarkLogoSize": 61
+          },
+          "custom_footer": {
+            "layout": "default",
+            "backgroundColor": null,
+            "publicationNameSize": 50,
+            "showPublicationName": true,
+            "publicationNameStyle": "text",
+            "publicationNamePosition": "bottom",
+            "publicationNameBackgroundColor": null
+          },
+          "social_media_links": null,
+          "font_options": null,
+          "section_template": null
+        },
+        "threads_v2_settings": {
+          "photo_replies_enabled": true,
+          "first_thread_email_sent_at": "2022-11-03T17:13:06.383+00:00",
+          "create_thread_minimum_role": "contributor",
+          "activated_at": "2022-11-03T14:57:01.834+00:00",
+          "reader_thread_notifications_enabled": false,
+          "boost_free_subscriber_chat_preview_enabled": false,
+          "push_suppression_enabled": false
+        },
+        "default_group_coupon_percent_off": null,
+        "pause_return_date": null,
+        "has_posts": true,
+        "has_recommendations": true,
+        "first_post_date": "2017-07-18T02:30:57.690Z",
+        "has_podcast": true,
+        "has_free_podcast": true,
+        "has_subscriber_only_podcast": false,
+        "has_community_content": true,
+        "rankingDetail": null,
+        "rankingDetailFreeIncluded": null,
+        "rankingDetailOrderOfMagnitude": null,
+        "rankingDetailFreeIncludedOrderOfMagnitude": null,
+        "rankingDetailFreeSubscriberCount": null,
+        "rankingDetailByLanguage": {},
+        "freeSubscriberCount": null,
+        "freeSubscriberCountOrderOfMagnitude": null,
+        "author_bestseller_tier": 0,
+        "author_badge": null,
+        "disable_monthly_subscriptions": false,
+        "disable_annual_subscriptions": false,
+        "hide_post_restacks": false,
+        "notes_feed_enabled": true,
+        "showIntroModule": false,
+        "isPortraitLayout": false,
+        "last_chat_post_at": "2023-06-20T21:30:48.627Z",
+        "primary_profile_name": "Substack Team",
+        "primary_profile_photo_url": "https://substackcdn.com/image/fetch/$s_!_gXu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0cc9b93-5469-46f3-b2c9-ee0392b93a64_1000x1000.png",
+        "no_follow": false,
+        "paywall_chat": "free",
+        "sections": [
+          {
+            "id": 2519,
+            "created_at": "2021-07-01T19:48:57.564Z",
+            "updated_at": "2021-07-01T19:48:57.564Z",
+            "publication_id": 1,
+            "name": "Stories",
+            "description": "Exploring the great writing on Substack.",
+            "slug": "stories",
+            "is_podcast": false,
+            "is_live": true,
+            "is_default_on": true,
+            "sibling_rank": 0,
+            "port_status": "success",
+            "logo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/5e4b7fa8-785a-4294-bdf4-ecd39cdd85a0_500x500.png",
+            "hide_from_navbar": true,
+            "email_from_name": null,
+            "hide_posts_from_pub_listings": false,
+            "email_banner_url": null,
+            "cover_photo_url": null,
+            "hide_intro_title": false,
+            "hide_intro_subtitle": false,
+            "ignore_publication_email_settings": false,
+            "custom_config": {},
+            "spotifyPodcastSettings": null,
+            "podcastSettings": null,
+            "showLinks": [],
+            "pageTheme": null,
+            "podcastPalette": {
+              "DarkMuted": {
+                "population": 72,
+                "rgb": [
+                  73,
+                  153,
+                  137
+                ]
+              },
+              "DarkVibrant": {
+                "population": 6013,
+                "rgb": [
+                  4,
+                  100,
+                  84
+                ]
+              },
+              "LightMuted": {
+                "population": 7,
+                "rgb": [
+                  142,
+                  198,
+                  186
+                ]
+              },
+              "LightVibrant": {
+                "population": 3,
+                "rgb": [
+                  166,
+                  214,
+                  206
+                ]
+              },
+              "Muted": {
+                "population": 6,
+                "rgb": [
+                  92,
+                  164,
+                  156
+                ]
+              },
+              "Vibrant": {
+                "population": 5,
+                "rgb": [
+                  76,
+                  164,
+                  146
+                ]
+              }
+            },
+            "spotify_podcast_settings": null
+          },
+          {
+            "id": 2474,
+            "created_at": "2021-06-30T18:52:32.494Z",
+            "updated_at": "2021-06-30T18:52:32.494Z",
+            "publication_id": 1,
+            "name": "Resources",
+            "description": "Tips, ideas, and resources for writers.",
+            "slug": "resources",
+            "is_podcast": true,
+            "is_live": true,
+            "is_default_on": true,
+            "sibling_rank": 1,
+            "port_status": "success",
+            "logo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/3fb6fe8c-9597-48a2-8155-795292033f33_2800x2800.png",
+            "hide_from_navbar": false,
+            "email_from_name": null,
+            "hide_posts_from_pub_listings": false,
+            "email_banner_url": null,
+            "cover_photo_url": null,
+            "hide_intro_title": false,
+            "hide_intro_subtitle": false,
+            "ignore_publication_email_settings": false,
+            "custom_config": {},
+            "spotifyPodcastSettings": null,
+            "podcastSettings": {
+              "section_id": 2474,
+              "itunes_podcast_primary_category": "Education",
+              "itunes_podcast_primary_subcategory": "How To",
+              "itunes_podcast_secondary_category": "Business",
+              "itunes_podcast_secondary_subcategory": "Entrepreneurship",
+              "itunes_email": null,
+              "language": "",
+              "itunes_explicit": false,
+              "podcast_art_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/3fb6fe8c-9597-48a2-8155-795292033f33_2800x2800.png",
+              "podcast_subtitle": null,
+              "podcast_keywords": null,
+              "hide_podcast_feed_link": false,
+              "podcast_feed_url": null,
+              "podcast_title": "Resources",
+              "podcast_description": "Tips, ideas, and resources for writers.",
+              "podcast_byline": null,
+              "paid_podcast_episode_art_url": null,
+              "migrated_to_attached_podcast": true
+            },
+            "showLinks": [],
+            "pageTheme": null,
+            "podcastPalette": {
+              "Vibrant": {
+                "rgb": [
+                  252,
+                  172,
+                  36
+                ],
+                "population": 953
+              },
+              "DarkVibrant": {
+                "rgb": [
+                  19,
+                  114,
+                  92
+                ],
+                "population": 40
+              },
+              "LightVibrant": {
+                "rgb": [
+                  252,
+                  212,
+                  136
+                ],
+                "population": 17
+              },
+              "Muted": {
+                "rgb": [
+                  153,
+                  147,
+                  84
+                ],
+                "population": 31
+              },
+              "DarkMuted": {
+                "rgb": [
+                  60,
+                  84,
+                  84
+                ],
+                "population": 3
+              },
+              "LightMuted": {
+                "rgb": [
+                  175,
+                  171,
+                  208
+                ],
+                "population": 20
+              }
+            },
+            "spotify_podcast_settings": null
+          },
+          "... (5 total)"
+        ],
+        "multipub_migration": null,
+        "navigationBarItems": [
+          {
+            "id": "3b5f1701-9c8d-4d19-b54c-fe14907177b6",
+            "publication_id": 1,
+            "sibling_rank": 0,
+            "link_title": null,
+            "link_url": null,
+            "section_id": 2519,
+            "post_id": null,
+            "is_hidden": null,
+            "standard_key": null,
+            "post_tag_id": null,
+            "parent_id": null,
+            "is_group": false,
+            "post": null,
+            "postTag": null,
+            "section": {
+              "id": 2519,
+              "created_at": "2021-07-01T19:48:57.564Z",
+              "updated_at": "2021-07-01T19:48:57.564Z",
+              "publication_id": 1,
+              "name": "Stories",
+              "description": "Exploring the great writing on Substack.",
+              "slug": "stories",
+              "is_podcast": false,
+              "is_live": true,
+              "is_default_on": true,
+              "sibling_rank": 0,
+              "port_status": "success",
+              "logo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/5e4b7fa8-785a-4294-bdf4-ecd39cdd85a0_500x500.png",
+              "hide_from_navbar": true,
+              "email_from_name": null,
+              "hide_posts_from_pub_listings": false,
+              "email_banner_url": null,
+              "cover_photo_url": null,
+              "hide_intro_title": false,
+              "hide_intro_subtitle": false,
+              "ignore_publication_email_settings": false,
+              "custom_config": {}
+            },
+            "children": []
+          },
+          {
+            "id": "51ffe74b-f5aa-430e-b1c9-0bb5cdcb5db4",
+            "publication_id": 1,
+            "sibling_rank": 0,
+            "link_title": null,
+            "link_url": null,
+            "section_id": null,
+            "post_id": null,
+            "is_hidden": true,
+            "standard_key": "notes",
+            "post_tag_id": null,
+            "parent_id": null,
+            "is_group": false,
+            "post": null,
+            "postTag": null,
+            "section": null,
+            "children": []
+          },
+          "... (7 total)"
+        ],
+        "contributors": [
+          {
+            "name": "Substack Team",
+            "handle": "substackteam",
+            "role": "admin",
+            "owner": true,
+            "user_id": 41856304,
+            "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/a0cc9b93-5469-46f3-b2c9-ee0392b93a64_1000x1000.png",
+            "bio": "Resources, news, and stories for @Substack writers and creators."
+          }
+        ],
+        "threads_v2_enabled": true,
+        "viralGiftsConfig": {
+          "id": "1d540c50-22f9-4606-8be3-ec104d5f8af4",
+          "publication_id": 1,
+          "enabled": false,
+          "gifts_per_user": 5,
+          "gift_length_months": 1,
+          "send_extra_gifts": true,
+          "message": "Resources and stories for writers. Written by the Substack team.",
+          "created_at": "2021-09-02T21:02:24.510815+00:00",
+          "updated_at": "2021-09-02T21:02:24.510815+00:00",
+          "days_til_invite": 14,
+          "send_emails": true,
+          "show_link": null,
+          "grant_email_body": null,
+          "grant_email_subject": null
+        },
+        "tier": 2,
+        "no_index": false,
+        "can_set_google_site_verification": true,
+        "can_have_sitemap": true,
+        "founding_plan_name_english": "Founding Member",
+        "draft_plans": null,
+        "bundles": [],
+        "base_url": "https://on.substack.com",
+        "hostname": "on.substack.com",
+        "is_on_substack": true,
+        "spotify_podcast_settings": {
+          "id": 1670,
+          "publication_id": 1,
+          "section_id": null,
+          "spotify_access_token": "36d53a0a-6ad2-4563-8b05-b5b33c7b089e",
+          "spotify_uri": null,
+          "spotify_podcast_title": null,
+          "created_at": "2024-03-14T23:36:29.221Z",
+          "updated_at": "2024-03-14T23:36:29.221Z",
+          "currently_published_on_spotify": false,
+          "feed_url_for_spotify": "https://api.substack.com/feed/podcast/spotify/36d53a0a-6ad2-4563-8b05-b5b33c7b089e/1.rss",
+          "spotify_show_url": ""
+        },
+        "podcastPalette": null,
+        "pageThemes": {
+          "podcast": null
+        },
+        "live_subscriber_counts": false,
+        "supports_ip_content_unlock": false,
+        "appTheme": {
+          "colors": {
+            "accent": {
+              "name": "#ff6719",
+              "primary": {
+                "r": 255,
+                "g": 103,
+                "b": 25,
+                "a": 1
+              },
+              "primary_hover": {
+                "r": 232,
+                "g": 83,
+                "b": 0,
+                "a": 1
+              },
+              "primary_elevated": {
+                "r": 232,
+                "g": 83,
+                "b": 0,
+                "a": 1
+              },
+              "secondary": {
+                "r": 255,
+                "g": 103,
+                "b": 25,
+                "a": 0.2
+              },
+              "contrast": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              },
+              "bg": {
+                "r": 255,
+                "g": 103,
+                "b": 25,
+                "a": 0.2
+              },
+              "bg_hover": {
+                "r": 255,
+                "g": 103,
+                "b": 25,
+                "a": 0.3
+              },
+              "dark": {
+                "primary": {
+                  "r": 255,
+                  "g": 103,
+                  "b": 25,
+                  "a": 1
+                },
+                "primary_hover": {
+                  "r": 255,
+                  "g": 132,
+                  "b": 73,
+                  "a": 1
+                },
+                "primary_elevated": {
+                  "r": 255,
+                  "g": 132,
+                  "b": 73,
+                  "a": 1
+                },
+                "secondary": {
+                  "r": 255,
+                  "g": 103,
+                  "b": 25,
+                  "a": 0.2
+                },
+                "contrast": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1
+                },
+                "bg": {
+                  "r": 255,
+                  "g": 103,
+                  "b": 25,
+                  "a": 0.2
+                },
+                "bg_hover": {
+                  "r": 255,
+                  "g": 103,
+                  "b": 25,
+                  "a": 0.3
+                }
+              }
+            },
+            "fg": {
+              "primary": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.8
+              },
+              "secondary": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.6
+              },
+              "tertiary": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.4
+              },
+              "accent": {
+                "r": 213,
+                "g": 66,
+                "b": 0,
+                "a": 1
+              },
+              "dark": {
+                "primary": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 0.9
+                },
+                "secondary": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 0.6
+                },
+                "tertiary": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 0.4
+                },
+                "accent": {
+                  "r": 255,
+                  "g": 103,
+                  "b": 25,
+                  "a": 1
+                }
+              }
+            },
+            "bg": {
+              "name": "#ffffff",
+              "hue": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 0
+              },
+              "tint": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 0
+              },
+              "primary": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              },
+              "primary_hover": {
+                "r": 250,
+                "g": 250,
+                "b": 250,
+                "a": 1
+              },
+              "primary_elevated": {
+                "r": 250,
+                "g": 250,
+                "b": 250,
+                "a": 1
+              },
+              "secondary": {
+                "r": 238,
+                "g": 238,
+                "b": 238,
+                "a": 1
+              },
+              "secondary_elevated": {
+                "r": 206.90096477355226,
+                "g": 206.90096477355175,
+                "b": 206.9009647735519,
+                "a": 1
+              },
+              "tertiary": {
+                "r": 219,
+                "g": 219,
+                "b": 219,
+                "a": 1
+              },
+              "quaternary": {
+                "r": 182,
+                "g": 182,
+                "b": 182,
+                "a": 1
+              },
+              "dark": {
+                "primary": {
+                  "r": 22,
+                  "g": 23,
+                  "b": 24,
+                  "a": 1
+                },
+                "primary_hover": {
+                  "r": 27,
+                  "g": 28,
+                  "b": 29,
+                  "a": 1
+                },
+                "primary_elevated": {
+                  "r": 27,
+                  "g": 28,
+                  "b": 29,
+                  "a": 1
+                },
+                "secondary": {
+                  "r": 35,
+                  "g": 37,
+                  "b": 37,
+                  "a": 1
+                },
+                "secondary_elevated": {
+                  "r": 41.35899397549579,
+                  "g": 43.405356429195315,
+                  "b": 43.40489285041963,
+                  "a": 1
+                },
+                "tertiary": {
+                  "r": 54,
+                  "g": 55,
+                  "b": 55,
+                  "a": 1
+                },
+                "quaternary": {
+                  "r": 90,
+                  "g": 91,
+                  "b": 91,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "cover_image": {
+            "url": "https://substackcdn.com/image/fetch/$s_!JtoZ!,w_1200,h_400,c_pad,f_auto,q_auto:best,fl_progressive:steep,b_auto:border,b_rgb:fafafa/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29d14a4b-a2da-47fa-9031-0853099b7fe6_1280x1280.png",
+            "height": 1280,
+            "width": 3840
+          }
+        },
+        "portalAppTheme": {
+          "colors": {
+            "accent": {
+              "name": "#FF6719",
+              "primary": {
+                "r": 255,
+                "g": 103,
+                "b": 25,
+                "a": 1
+              },
+              "primary_hover": {
+                "r": 255,
+                "g": 86,
+                "b": 0,
+                "a": 1
+              },
+              "primary_elevated": {
+                "r": 255,
+                "g": 103,
+                "b": 25,
+                "a": 1
+              },
+              "secondary": {
+                "r": 255,
+                "g": 103,
+                "b": 25,
+                "a": 1
+              },
+              "contrast": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              },
+              "bg": {
+                "r": 255,
+                "g": 103,
+                "b": 25,
+                "a": 0.2
+              },
+              "bg_hover": {
+                "r": 255,
+                "g": 103,
+                "b": 25,
+                "a": 0.3
+              },
+              "dark": {
+                "primary": {
+                  "r": 255,
+                  "g": 103,
+                  "b": 25,
+                  "a": 1
+                },
+                "primary_hover": {
+                  "r": 255,
+                  "g": 132,
+                  "b": 73,
+                  "a": 1
+                },
+                "primary_elevated": {
+                  "r": 255,
+                  "g": 132,
+                  "b": 73,
+                  "a": 1
+                },
+                "secondary": {
+                  "r": 255,
+                  "g": 103,
+                  "b": 25,
+                  "a": 0.2
+                },
+                "contrast": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1
+                },
+                "bg": {
+                  "r": 255,
+                  "g": 103,
+                  "b": 25,
+                  "a": 0.2
+                },
+                "bg_hover": {
+                  "r": 255,
+                  "g": 103,
+                  "b": 25,
+                  "a": 0.3
+                }
+              }
+            },
+            "fg": {
+              "primary": {
+                "r": 54,
+                "g": 55,
+                "b": 55,
+                "a": 1
+              },
+              "secondary": {
+                "r": 132,
+                "g": 133,
+                "b": 133,
+                "a": 1
+              },
+              "tertiary": {
+                "r": 144,
+                "g": 144,
+                "b": 144,
+                "a": 1
+              },
+              "accent": {
+                "r": 255,
+                "g": 103,
+                "b": 25,
+                "a": 1
+              },
+              "dark": {
+                "primary": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 0.9
+                },
+                "secondary": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 0.6
+                },
+                "tertiary": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 0.4
+                },
+                "accent": {
+                  "r": 255,
+                  "g": 103,
+                  "b": 25,
+                  "a": 1
+                }
+              }
+            },
+            "bg": {
+              "name": "#fafafa",
+              "hue": {
+                "r": 250,
+                "g": 250,
+                "b": 250,
+                "a": 1
+              },
+              "tint": {
+                "r": 250,
+                "g": 250,
+                "b": 250,
+                "a": 1
+              },
+              "primary": {
+                "r": 250,
+                "g": 250,
+                "b": 250,
+                "a": 1
+              },
+              "primary_hover": {
+                "r": 235,
+                "g": 235,
+                "b": 235,
+                "a": 1
+              },
+              "primary_elevated": {
+                "r": 250,
+                "g": 250,
+                "b": 250,
+                "a": 1
+              },
+              "secondary": {
+                "r": 235,
+                "g": 235,
+                "b": 235,
+                "a": 1
+              },
+              "secondary_elevated": {
+                "r": 235,
+                "g": 235,
+                "b": 235,
+                "a": 1
+              },
+              "tertiary": {
+                "r": 216,
+                "g": 216,
+                "b": 216,
+                "a": 1
+              },
+              "quaternary": {
+                "r": 179,
+                "g": 179,
+                "b": 179,
+                "a": 1
+              },
+              "dark": {
+                "primary": {
+                  "r": 22,
+                  "g": 23,
+                  "b": 24,
+                  "a": 1
+                },
+                "primary_hover": {
+                  "r": 27,
+                  "g": 28,
+                  "b": 29,
+                  "a": 1
+                },
+                "primary_elevated": {
+                  "r": 27,
+                  "g": 28,
+                  "b": 29,
+                  "a": 1
+                },
+                "secondary": {
+                  "r": 35,
+                  "g": 37,
+                  "b": 37,
+                  "a": 1
+                },
+                "secondary_elevated": {
+                  "r": 41.35899397549579,
+                  "g": 43.405356429195315,
+                  "b": 43.40489285041963,
+                  "a": 1
+                },
+                "tertiary": {
+                  "r": 54,
+                  "g": 55,
+                  "b": 55,
+                  "a": 1
+                },
+                "quaternary": {
+                  "r": 90,
+                  "g": 91,
+                  "b": 91,
+                  "a": 1
+                }
+              }
+            }
+          },
+          "fonts": {
+            "heading": "fancy_serif",
+            "body": "fancy_serif"
+          }
+        },
+        "logoPalette": {
+          "Vibrant": {
+            "rgb": [
+              244,
+              108,
+              60
+            ],
+            "population": 4929
+          },
+          "DarkVibrant": {
+            "rgb": [
+              125.51941747572819,
+              37.9776699029126,
+              7.0805825242718115
+            ],
+            "population": 0
+          },
+          "LightVibrant": {
+            "rgb": [
+              252,
+              153,
+              121
+            ],
+            "population": 91
+          },
+          "Muted": {
+            "rgb": [
+              144.83009708737868,
+              43.82038834951454,
+              8.169902912621334
+            ],
+            "population": 0
+          },
+          "DarkMuted": {
+            "rgb": [
+              144.83009708737868,
+              43.82038834951454,
+              8.169902912621334
+            ],
+            "population": 0
+          },
+          "LightMuted": {
+            "rgb": [
+              149.64963503649636,
+              39.0875912408759,
+              3.350364963503634
+            ],
+            "population": 0
+          }
+        }
+      },
+      "post": {
+        "id": 190151325,
+        "publication_id": 1,
+        "title": "New on Substack: draft Notes, hide revenue stats, pin multiple posts, and more",
+        "social_title": null,
+        "search_engine_title": null,
+        "search_engine_description": null,
+        "type": "newsletter",
+        "slug": "new-on-substack-draft-notes-hide",
+        "post_date": "2026-03-09T17:02:05.767Z",
+        "audience": "everyone",
+        "podcast_duration": null,
+        "video_upload_id": null,
+        "write_comment_permissions": "none",
+        "should_send_free_preview": false,
+        "free_unlock_required": false,
+        "default_comment_sort": null,
+        "canonical_url": "https://on.substack.com/p/new-on-substack-draft-notes-hide",
+        "section_id": 22019,
+        "podcast_art_url": null,
+        "is_published": true,
+        "live_stream_id": null,
+        "restacks": 219,
+        "top_exclusions": [],
+        "pins": [],
+        "is_section_pinned": false,
+        "has_shareable_clips": false,
+        "section_slug": "product",
+        "section_name": "Product",
+        "reactions": {
+          "❤": 2258
+        },
+        "subtitle": "Improvements across your dashboard, publishing tools, and design",
+        "cover_image": "https://substackcdn.com/image/fetch/$s_!KYkj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faaf90678-3f85-437d-98bc-6bffed8e4207_800x384.gif",
+        "cover_image_is_square": false,
+        "cover_image_is_explicit": false,
+        "podcast_url": null,
+        "videoUpload": null,
+        "podcastFields": {
+          "post_id": 190151325,
+          "podcast_episode_number": null,
+          "podcast_season_number": null,
+          "podcast_episode_type": null,
+          "should_syndicate_to_other_feed": null,
+          "syndicate_to_section_id": null,
+          "hide_from_feed": false,
+          "free_podcast_url": null,
+          "free_podcast_duration": null
+        },
+        "podcast_upload_id": null,
+        "podcast_preview_upload_id": null,
+        "podcastUpload": null,
+        "podcastPreviewUpload": null,
+        "voiceover_upload_id": null,
+        "voiceoverUpload": null,
+        "has_voiceover": false,
+        "description": "Improvements across your dashboard, publishing tools, and design",
+        "body_json": null,
+        "body_html": null,
+        "truncated_body_text": "Today, we’re introducing a series of updates across Notes, your dashboard, live video, and your feed. These updates make it easier to draft, manage, and publish your work on Substack.",
+        "wordcount": 647,
+        "postTags": [],
+        "teaser_post_eligible": true,
+        "postCountryBlocks": [],
+        "headlineTest": null,
+        "coverImagePalette": {
+          "Vibrant": {
+            "rgb": [
+              221,
+              157,
+              76
+            ],
+            "population": 6
+          },
+          "DarkVibrant": {
+            "rgb": [
+              157,
+              102,
+              32
+            ],
+            "population": 17
+          },
+          "LightVibrant": {
+            "rgb": [
+              244,
+              244,
+              228
+            ],
+            "population": 3983
+          },
+          "Muted": {
+            "rgb": [
+              116,
+              124,
+              116
+            ],
+            "population": 111
+          },
+          "DarkMuted": {
+            "rgb": [
+              86,
+              72,
+              58
+            ],
+            "population": 170
+          },
+          "LightMuted": {
+            "rgb": [
+              215,
+              213,
+              194
+            ],
+            "population": 7
+          }
+        },
+        "publishedBylines": [],
+        "reaction": false,
+        "reaction_count": 2258,
+        "comment_count": 0,
+        "child_comment_count": 0,
+        "audio_items": [
+          {
+            "post_id": 190151325,
+            "voice_id": "en-US-OnyxTurboMultilingualNeural",
+            "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/190151325/tts/b9c4713f-d909-4492-a8a3-a3a3941c23a7/en-US-OnyxTurboMultilingualNeural.mp3",
+            "type": "tts",
+            "status": "completed"
+          }
+        ],
+        "is_geoblocked": false,
+        "hasCashtag": false,
+        "is_saved": false,
+        "saved_at": null,
+        "is_viewed": false,
+        "read_progress": 0,
+        "max_read_progress": 0,
+        "audio_progress": 0,
+        "max_audio_progress": 0,
+        "video_progress": 0,
+        "max_video_progress": 0,
+        "restacked": false
+      },
+      "mediaClip": null,
+      "trackingParameters": {
+        "item_primary_entity_key": "p-190151325",
+        "item_entity_key": "p-190151325",
+        "item_type": "post",
+        "item_publication_id": 1,
+        "item_post_id": 190151325,
+        "item_media_clip_prompt_variant": null,
+        "item_media_clip_prompt_experiment_version": null,
+        "item_content_user_id": 41856304,
+        "item_content_timestamp": "2026-03-09T17:02:05.767Z",
+        "item_context_type": "post",
+        "item_context_type_bucket": "",
+        "item_context_timestamp": "2026-03-09T17:02:05.767Z",
+        "item_context_user_id": 41856304,
+        "item_context_user_ids": [
+          41856304
+        ],
+        "item_can_reply": false,
+        "item_is_fresh": false,
+        "item_last_impression_at": null,
+        "item_source": "db-post",
+        "item_live_stream_status": null,
+        "item_page": null,
+        "item_page_rank": 1,
+        "impression_id": "88d50d1b-6481-43c1-a194-84450095853f",
+        "followed_user_count": 2,
+        "subscribed_publication_count": 2,
+        "is_following": false,
+        "is_explicitly_subscribed": false
+      }
+    },
+    "... (11 total)"
+  ],
+  "originalCursorTimestamp": "2026-03-16T05:45:37.993Z",
+  "nextCursor": "eyJiZWZvcmVfdGltZXN0YW1wIjoiMjAyNi0wMy0xNlQwNTo0NTozNy45OTNaIiwiZW50aXR5X2tleSI6ImMtMTg4OTY0NzgyIiwicGlubmVkX2VudGl0eV9rZXlzIjpbInAtMTkwNjM2OTY0Il0sImNvbnRleHRfdGltZXN0YW1wIjoiMjAyNS0xMi0xN1QyMjo1NTo1Mi4zNzBaIiwic2Vjb25kYXJ5X2NvbnRleHRfdGltZXN0YW1wIjpudWxsLCJwcmVwZW5kZWRfcG9zdF9pZHMiOm51bGwsInBhZ2VfbnVtYmVyIjowfQ=="
+}

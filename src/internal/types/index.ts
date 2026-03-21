@@ -3,36 +3,29 @@
  */
 
 export {
-  GatewayProfileC,
-  GatewayNoteAuthorC,
-  GatewayNoteC,
-  GatewayNotesPageC,
-  GatewayCreateNoteResponseC,
-  GatewayPostC,
-  GatewayPostsPageC,
-  GatewayFullPostC,
-  GatewayCommentC,
-  GatewayCommentsResponseC,
-  GatewayFollowingUserC,
-  GatewayFollowingResponseC
-} from '@substack-api/internal/types/gateway'
+  SubstackProfileC,
+  SubstackFeedItemPostC,
+  SubstackFeedPublicationC,
+  SubstackFeedCommentC,
+  SubstackFeedItemC,
+  SubstackFeedPageC,
+  SubstackFullPostC,
+  SubstackCommentC,
+  SubstackCommentsResponseC,
+  SubstackSubscriptionsResponseC,
+  SubstackCreateNoteResponseC
+} from '@substack-api/internal/types/substack-responses'
 
 export type {
-  GatewayProfile,
-  GatewayNote,
-  GatewayNoteAuthor,
-  GatewayNotesPage,
-  GatewayCreateNoteResponse,
-  GatewayCreateNoteRequest,
-  GatewayPost,
-  GatewayPostsPage,
-  GatewayFullPost,
-  GatewayComment,
-  GatewayCommentsResponse,
-  GatewayFollowingUser,
-  GatewayFollowingResponse,
-  GatewayDraft,
-  GatewayCreateDraftResponse,
-  GatewayCreateDraftRequest,
-  GatewayUpdateDraftRequest
-} from '@substack-api/internal/types/gateway'
+  SubstackProfile,
+  SubstackFeedItemPost,
+  SubstackFeedPublication,
+  SubstackFeedComment,
+  SubstackFeedItem,
+  SubstackFeedPage,
+  SubstackFullPost,
+  SubstackComment,
+  SubstackCommentsResponse,
+  SubstackSubscriptionsResponse,
+  SubstackCreateNoteResponse
+} from '@substack-api/internal/types/substack-responses'

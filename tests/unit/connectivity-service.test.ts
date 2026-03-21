@@ -15,13 +15,13 @@ describe('ConnectivityService', () => {
   })
 
   describe('isConnected', () => {
-    it('should return true when GET /health/ready succeeds', async () => {
-      mockClient.get.mockResolvedValue({})
+    it('should return true when GET /api/v1/subscriptions/page succeeds', async () => {
+      mockClient.get.mockResolvedValue({ subscriptions: [] })
 
       const result = await connectivityService.isConnected()
 
       expect(result).toBe(true)
-      expect(mockClient.get).toHaveBeenCalledWith('/health/ready')
+      expect(mockClient.get).toHaveBeenCalledWith('/api/v1/subscriptions/page')
     })
 
     it('should return false when request fails', async () => {

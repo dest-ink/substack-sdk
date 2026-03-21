@@ -1,5 +1,5 @@
 import { HttpClient } from '@substack-api/internal/http-client'
-import { FullPost, Note, OwnProfile, Profile } from '@substack-api/domain'
+import { FullPost, OwnProfile, Profile } from '@substack-api/domain'
 import {
   CommentService,
   ConnectivityService,
@@ -21,22 +21,18 @@ export class SubstackClient {
   private readonly connectivityService: ConnectivityService
   private readonly newNoteService: NewNoteService
   private readonly perPage: number
+  private readonly handle?: string
 
   constructor(config: SubstackConfig) {
-    const gatewayBase = (config.gatewayUrl ?? 'https://substack-gateway.vercel.app').replace(
-      /\/$/,
-      ''
-    )
-    const baseUrl = `${gatewayBase}/api/v1`
-
     this.perPage = config.perPage || 25
-    const maxRequestsPerSecond = config.maxRequestsPerSecond || 25
+    this.handle = config.handle
 
-    this.client = new HttpClient(
-      baseUrl,
-      { token: config.token, publicationUrl: config.publicationUrl },
-      maxRequestsPerSecond
-    )
+    this.client = new HttpClient({
+      substackSid: config.substackSid,
+      substackLli: config.substackLli,
+      publicationUrl: config.publicationUrl,
+      maxRequestsPerSecond: config.maxRequestsPerSecond
+    })
 
     this.postService = new PostService(this.client)
     this.noteService = new NoteService(this.client)
@@ -52,8 +48,15 @@ export class SubstackClient {
   }
 
   async ownProfile(): Promise<OwnProfile> {
+    if (!this.handle) {
+      throw new Error(
+        'Cannot get own profile: "handle" must be set in SubstackConfig. ' +
+          'Provide your Substack handle (e.g. "myname") in the config.'
+      )
+    }
+
     try {
-      const profile = await this.profileService.getOwnProfile()
+      const profile = await this.profileService.getOwnProfile(this.handle)
       return new OwnProfile(
         profile,
         this.postService,
@@ -69,13 +72,13 @@ export class SubstackClient {
     }
   }
 
-  async profileForSlug(slug: string): Promise<Profile> {
-    if (!slug || slug.trim() === '') {
-      throw new Error('Profile slug cannot be empty')
+  async profileForHandle(handle: string): Promise<Profile> {
+    if (!handle || handle.trim() === '') {
+      throw new Error('Profile handle cannot be empty')
     }
 
     try {
-      const profile = await this.profileService.getProfileBySlug(slug)
+      const profile = await this.profileService.getProfileBySlug(handle)
       return new Profile(
         profile,
         this.postService,
@@ -84,25 +87,20 @@ export class SubstackClient {
         this.perPage
       )
     } catch (error) {
-      throw new Error(`Profile with slug '${slug}' not found: ${(error as Error).message}`)
+      throw new Error(`Profile with handle '${handle}' not found: ${(error as Error).message}`)
     }
   }
 
-  async postForId(id: number): Promise<FullPost> {
+  async postForSlug(slug: string, publicationSubdomain?: string): Promise<FullPost> {
     try {
-      const post = await this.postService.getPostById(id)
-      return new FullPost(post, this.commentService)
+      const post = await this.postService.getPostBySlug(slug, publicationSubdomain)
+      return new FullPost(post, this.commentService, publicationSubdomain)
     } catch (error) {
-      throw new Error(`Post with ID ${id} not found: ${(error as Error).message}`)
+      throw new Error(`Post with slug '${slug}' not found: ${(error as Error).message}`)
     }
   }
 
-  async noteForId(id: number): Promise<Note> {
-    try {
-      const noteData = await this.noteService.getNoteById(id)
-      return new Note(noteData)
-    } catch {
-      throw new Error(`Note with ID ${id} not found`)
-    }
+  async close(): Promise<void> {
+    await this.client.close()
   }
 }

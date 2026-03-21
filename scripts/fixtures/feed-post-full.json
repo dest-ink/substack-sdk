@@ -1,0 +1,142 @@
+{
+  "id": 190151325,
+  "publication_id": 1,
+  "title": "New on Substack: draft Notes, hide revenue stats, pin multiple posts, and more",
+  "social_title": null,
+  "search_engine_title": null,
+  "search_engine_description": null,
+  "type": "newsletter",
+  "slug": "new-on-substack-draft-notes-hide",
+  "post_date": "2026-03-09T17:02:05.767Z",
+  "audience": "everyone",
+  "podcast_duration": null,
+  "video_upload_id": null,
+  "write_comment_permissions": "none",
+  "should_send_free_preview": false,
+  "free_unlock_required": false,
+  "default_comment_sort": null,
+  "canonical_url": "https://on.substack.com/p/new-on-substack-draft-notes-hide",
+  "section_id": 22019,
+  "podcast_art_url": null,
+  "is_published": true,
+  "live_stream_id": null,
+  "restacks": 219,
+  "top_exclusions": [],
+  "pins": [],
+  "is_section_pinned": false,
+  "has_shareable_clips": false,
+  "section_slug": "product",
+  "section_name": "Product",
+  "reactions": {
+    "❤": 2258
+  },
+  "subtitle": "Improvements across your dashboard, publishing tools, and design",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!KYkj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faaf90678-3f85-437d-98bc-6bffed8e4207_800x384.gif",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "podcast_url": null,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 190151325,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null
+  },
+  "podcast_upload_id": null,
+  "podcast_preview_upload_id": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Improvements across your dashboard, publishing tools, and design",
+  "body_json": null,
+  "body_html": null,
+  "truncated_body_text": "Today, we’re introducing a series of updates across Notes, your dashboard, live video, and your feed. These updates make it easier to draft, manage, and publish your work on Substack.",
+  "wordcount": 647,
+  "postTags": [],
+  "teaser_post_eligible": true,
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        221,
+        157,
+        76
+      ],
+      "population": 6
+    },
+    "DarkVibrant": {
+      "rgb": [
+        157,
+        102,
+        32
+      ],
+      "population": 17
+    },
+    "LightVibrant": {
+      "rgb": [
+        244,
+        244,
+        228
+      ],
+      "population": 3983
+    },
+    "Muted": {
+      "rgb": [
+        116,
+        124,
+        116
+      ],
+      "population": 111
+    },
+    "DarkMuted": {
+      "rgb": [
+        86,
+        72,
+        58
+      ],
+      "population": 170
+    },
+    "LightMuted": {
+      "rgb": [
+        215,
+        213,
+        194
+      ],
+      "population": 7
+    }
+  },
+  "publishedBylines": [],
+  "reaction": false,
+  "reaction_count": 2258,
+  "comment_count": 0,
+  "child_comment_count": 0,
+  "audio_items": [
+    {
+      "post_id": 190151325,
+      "voice_id": "en-US-OnyxTurboMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/190151325/tts/b9c4713f-d909-4492-a8a3-a3a3941c23a7/en-US-OnyxTurboMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "hasCashtag": false,
+  "is_saved": false,
+  "saved_at": null,
+  "is_viewed": false,
+  "read_progress": 0,
+  "max_read_progress": 0,
+  "audio_progress": 0,
+  "max_audio_progress": 0,
+  "video_progress": 0,
+  "max_video_progress": 0,
+  "restacked": false
+}

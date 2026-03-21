@@ -6,29 +6,19 @@ describe('SubstackClient Integration Tests', () => {
 
   beforeEach(() => {
     client = new SubstackClient({
-      gatewayUrl: global.INTEGRATION_SERVER.url,
-      publicationUrl: 'https://test.substack.com',
-      token: 'dummy-token'
+      substackSid: 'test-sid',
+      substackLli: 'test-lli',
+      publicationUrl: 'https://iam-slys-dev.substack.com',
+      handle: 'jakubslys'
     })
   })
 
-  describe('Infrastructure Tests', () => {
-    test('should have integration server available', () => {
-      expect(global.INTEGRATION_SERVER).toBeDefined()
-      expect(global.INTEGRATION_SERVER.url).toBeTruthy()
-      expect(global.INTEGRATION_SERVER.server).toBeDefined()
-    })
-
-    test('should serve gateway health endpoint', async () => {
-      const res = await fetch(`${global.INTEGRATION_SERVER.url}/api/v1/health/ready`)
-      expect(res.status).toBe(200)
-      const data = await res.json()
-      expect(data.status).toBe('ok')
-    })
+  afterEach(async () => {
+    await client.close()
   })
 
   describe('testConnectivity', () => {
-    test('should return true when gateway is accessible', async () => {
+    test('should return true when API is accessible', async () => {
       const result = await client.testConnectivity()
       expect(result).toBe(true)
     })
@@ -45,9 +35,9 @@ describe('SubstackClient Integration Tests', () => {
     })
   })
 
-  describe('profileForSlug', () => {
-    test('should retrieve profile by slug', async () => {
-      const profile = await client.profileForSlug('jakubslys')
+  describe('profileForHandle', () => {
+    test('should retrieve profile by handle', async () => {
+      const profile = await client.profileForHandle('jakubslys')
       expect(profile).toBeInstanceOf(Profile)
       expect(profile.id).toBeGreaterThan(0)
       expect(profile.name).toBeTruthy()
@@ -57,19 +47,19 @@ describe('SubstackClient Integration Tests', () => {
       expect(typeof profile.notes).toBe('function')
     })
 
-    test('should reject empty slug', async () => {
-      await expect(client.profileForSlug('')).rejects.toThrow('Profile slug cannot be empty')
-      await expect(client.profileForSlug('   ')).rejects.toThrow('Profile slug cannot be empty')
+    test('should reject empty handle', async () => {
+      await expect(client.profileForHandle('')).rejects.toThrow('Profile handle cannot be empty')
+      await expect(client.profileForHandle('   ')).rejects.toThrow('Profile handle cannot be empty')
     })
 
     test('should throw when profile not found', async () => {
-      await expect(client.profileForSlug('nonexistentuser123')).rejects.toThrow(/not found/)
+      await expect(client.profileForHandle('nonexistentuser123')).rejects.toThrow(/not found/)
     })
   })
 
-  describe('postForId', () => {
-    test('should retrieve full post by ID', async () => {
-      const post = await client.postForId(167180194)
+  describe('postForSlug', () => {
+    test('should retrieve full post by slug', async () => {
+      const post = await client.postForSlug('week-of-june-24-2025-build-saas-without')
       expect(post).toBeInstanceOf(FullPost)
       expect(post.id).toBe(167180194)
       expect(post.title).toBeTruthy()
@@ -79,34 +69,18 @@ describe('SubstackClient Integration Tests', () => {
       expect(post.createdAt).toBeInstanceOf(Date)
       expect(typeof post.reactions).toBe('object')
       expect(typeof post.restacks).toBe('number')
-      expect(Array.isArray(post.postTags)).toBe(true)
       expect(typeof post.coverImage).toBe('string')
       expect(typeof post.comments).toBe('function')
     })
 
     test('should throw when post not found', async () => {
-      await expect(client.postForId(999999999)).rejects.toThrow()
-    })
-  })
-
-  describe('noteForId', () => {
-    test('should retrieve note by ID', async () => {
-      const note = await client.noteForId(789)
-      expect(note).toBeInstanceOf(Note)
-      expect(note.id).toBeGreaterThan(0)
-      expect(note.body).toBeTruthy()
-      expect(note.author).toBeTruthy()
-      expect(note.publishedAt).toBeInstanceOf(Date)
-    })
-
-    test('should throw when note not found', async () => {
-      await expect(client.noteForId(999999999)).rejects.toThrow('Note with ID 999999999 not found')
+      await expect(client.postForSlug('nonexistent-post-slug')).rejects.toThrow()
     })
   })
 
   describe('profile.posts() iteration', () => {
     test('should yield PreviewPost instances', async () => {
-      const profile = await client.profileForSlug('jakubslys')
+      const profile = await client.profileForHandle('jakubslys')
       const posts: PreviewPost[] = []
       for await (const post of profile.posts()) {
         posts.push(post)
@@ -121,7 +95,7 @@ describe('SubstackClient Integration Tests', () => {
 
   describe('profile.notes() iteration', () => {
     test('should yield Note instances', async () => {
-      const profile = await client.profileForSlug('jakubslys')
+      const profile = await client.profileForHandle('jakubslys')
       const notes: Note[] = []
       for await (const note of profile.notes()) {
         notes.push(note)
@@ -135,7 +109,7 @@ describe('SubstackClient Integration Tests', () => {
 
   describe('post.comments() iteration', () => {
     test('should yield Comment instances', async () => {
-      const post = await client.postForId(167180194)
+      const post = await client.postForSlug('week-of-june-24-2025-build-saas-without')
       const comments: Comment[] = []
       for await (const comment of post.comments()) {
         comments.push(comment)

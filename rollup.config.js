@@ -13,7 +13,7 @@ const external = [
   // Handle deep imports from dependencies (e.g., 'fp-ts/function', 'io-ts/PathReporter')
   /^fp-ts\//,
   /^io-ts\//,
-  /^axios/
+  /^cycletls/
 ]
 
 export default [

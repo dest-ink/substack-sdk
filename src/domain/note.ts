@@ -1,4 +1,4 @@
-import type { GatewayNote } from '@substack-api/internal/types'
+import type { SubstackFeedComment } from '@substack-api/internal/types'
 
 export class Note {
   public readonly id: number
@@ -12,16 +12,16 @@ export class Note {
   }
   public readonly publishedAt: Date
 
-  constructor(private readonly rawData: GatewayNote) {
+  constructor(private readonly rawData: SubstackFeedComment) {
     this.id = rawData.id
     this.body = rawData.body
-    this.likesCount = rawData.likes_count
-    this.publishedAt = new Date(rawData.published_at)
+    this.likesCount = rawData.reaction_count ?? 0
+    this.publishedAt = new Date(rawData.date)
     this.author = {
-      id: rawData.author.id,
-      name: rawData.author.name,
-      handle: rawData.author.handle,
-      avatarUrl: rawData.author.avatar_url
+      id: rawData.user_id,
+      name: rawData.name || '',
+      handle: rawData.handle || '',
+      avatarUrl: rawData.photo_url || ''
     }
   }
 }

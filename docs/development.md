@@ -9,8 +9,8 @@
 ## Local Setup
 
 ```bash
-git clone https://github.com/jakub-k-slys/substack-api.git
-cd substack-api
+git clone https://github.com/dest-ink/substack-sdk.git
+cd substack-sdk
 pnpm install
 pnpm build
 ```
@@ -18,7 +18,7 @@ pnpm build
 ## Project Structure
 
 ```
-substack-api/
+substack-sdk/
 ├── src/
 │   ├── substack-client.ts          # Main client class
 │   ├── index.ts                    # Public API exports
@@ -69,12 +69,11 @@ substack-api/
 
 ### HTTP Layer
 
-`HttpClient` (`src/internal/http-client.ts`) wraps axios and attaches two headers to every request:
+`HttpClient` (`src/internal/http-client.ts`) uses CycleTLS to make requests directly to Substack's API with browser-like TLS fingerprints. Authentication is via session cookies:
 
-- `Authorization: Bearer <token>` — the base64-encoded credentials
-- `x-publication-url` — the user's publication URL
+- `Cookie: substack.sid=...; substack.lli=...`
 
-All requests go to the configured gateway (default: `https://substack-gateway.vercel.app`).
+No third-party proxy or gateway is involved.
 
 ### Services
 

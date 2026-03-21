@@ -6,7 +6,7 @@ import prettier from 'eslint-plugin-prettier'
 export default [
   eslint.configs.recommended,
   {
-    ignores: ['dist/**', 'coverage/**', 'node_modules/**', 'samples/**']
+    ignores: ['dist/**', 'coverage/**', 'node_modules/**', 'samples/**', 'scripts/**']
   },
   {
     files: ['jest.config.js', 'jest.e2e.config.js'],
@@ -35,6 +35,9 @@ export default [
         btoa: 'readonly',
         global: 'readonly',
         console: 'readonly',
+        setTimeout: 'readonly',
+        process: 'readonly',
+        Buffer: 'readonly',
         jest: 'readonly',
         describe: 'readonly',
         it: 'readonly',

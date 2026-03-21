@@ -2,7 +2,7 @@
 
 ## SubstackClient
 
-The main entry point. Routes all requests through the substack-gateway proxy.
+The main entry point. Connects directly to Substack's API via CycleTLS.
 
 ### Constructor
 
@@ -12,9 +12,10 @@ new SubstackClient(config: SubstackConfig)
 
 | Parameter | Type | Required | Description |
 |---|---|---|---|
-| `publicationUrl` | `string` | Yes | Your publication URL, e.g. `'yourname.substack.com'` |
-| `token` | `string` | Yes | Base64-encoded credentials — see [Authentication](#authentication) |
-| `gatewayUrl` | `string` | No | Override gateway URL (default: `'https://substack-gateway.vercel.app'`) |
+| `substackSid` | `string` | Yes | Your `substack.sid` session cookie |
+| `substackLli` | `string` | Yes | Your `substack.lli` session cookie |
+| `publicationUrl` | `string` | Yes | Your publication URL, e.g. `'https://yourname.substack.com'` |
+| `handle` | `string` | No | Your Substack handle (required for `ownProfile()`) |
 | `perPage` | `number` | No | Pagination page size (default: `25`) |
 | `maxRequestsPerSecond` | `number` | No | Rate limit (default: `25`) |
 

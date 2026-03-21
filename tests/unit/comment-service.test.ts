@@ -1,6 +1,6 @@
 import { CommentService } from '@substack-api/internal/services/comment-service'
 import { HttpClient } from '@substack-api/internal/http-client'
-import { createMockHttpClient, makeGatewayComment } from '@test/unit/fixtures'
+import { createMockHttpClient, makeSubstackComment } from '@test/unit/fixtures'
 
 jest.mock('@substack-api/internal/http-client')
 
@@ -15,21 +15,37 @@ describe('CommentService', () => {
   })
 
   describe('getCommentsForPost', () => {
-    it('should return comments from GET /posts/{id}/comments', async () => {
+    it('should return comments from GET /api/v1/post/{id}/comments', async () => {
       const mockComments = [
-        makeGatewayComment(1, 'Test comment 1'),
-        makeGatewayComment(2, 'Test comment 2', true)
+        makeSubstackComment(1, 'Test comment 1'),
+        makeSubstackComment(2, 'Test comment 2')
       ]
-      mockClient.get.mockResolvedValue({ items: mockComments })
+      mockClient.get.mockResolvedValue({ comments: mockComments })
 
       const result = await commentService.getCommentsForPost(123)
 
-      expect(mockClient.get).toHaveBeenCalledWith('/posts/123/comments')
+      expect(mockClient.get).toHaveBeenCalledWith(
+        '/api/v1/post/123/comments',
+        { all_comments: true, sort: 'best_first' },
+        'publication'
+      )
       expect(result).toEqual(mockComments)
     })
 
-    it('should return empty array when items is empty', async () => {
-      mockClient.get.mockResolvedValue({ items: [] })
+    it('should use custom subdomain when provided', async () => {
+      mockClient.get.mockResolvedValue({ comments: [] })
+
+      await commentService.getCommentsForPost(123, 'otherpub')
+
+      expect(mockClient.get).toHaveBeenCalledWith(
+        '/api/v1/post/123/comments',
+        { all_comments: true, sort: 'best_first' },
+        { subdomain: 'otherpub' }
+      )
+    })
+
+    it('should return empty array when no comments', async () => {
+      mockClient.get.mockResolvedValue({ comments: [] })
       expect(await commentService.getCommentsForPost(123)).toEqual([])
     })
 

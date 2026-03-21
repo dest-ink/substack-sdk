@@ -1,4 +1,4 @@
-import type { GatewayFullPost, GatewayPost } from '@substack-api/internal/types'
+import type { SubstackFullPost, SubstackFeedItemPost } from '@substack-api/internal/types'
 import type { CommentService, PostService } from '@substack-api/internal/services'
 import { Comment } from '@substack-api/domain/comment'
 
@@ -22,32 +22,43 @@ export class PreviewPost implements Post {
   public readonly body: string
   public readonly truncatedBody: string
   public readonly publishedAt: Date
+  public readonly slug: string
+  public readonly publicationSubdomain?: string
 
   constructor(
-    rawData: GatewayPost,
+    rawData: SubstackFeedItemPost,
     private readonly commentService: CommentService,
-    private readonly postService: PostService
+    private readonly postService: PostService,
+    publicationSubdomain?: string
   ) {
     this.id = rawData.id
     this.title = rawData.title
+    this.slug = rawData.slug
     this.subtitle = rawData.subtitle || ''
-    this.truncatedBody = rawData.truncated_body || ''
-    this.body = rawData.truncated_body || ''
-    this.publishedAt = new Date(rawData.published_at)
+    this.truncatedBody = rawData.truncated_body_text || ''
+    this.body = rawData.body_html || rawData.truncated_body_text || ''
+    this.publishedAt = new Date(rawData.post_date)
+    this.publicationSubdomain = publicationSubdomain
   }
 
   async fullPost(): Promise<FullPost> {
     try {
-      const fullPostData = await this.postService.getPostById(this.id)
-      return new FullPost(fullPostData, this.commentService)
+      const fullPostData = await this.postService.getPostBySlug(
+        this.slug,
+        this.publicationSubdomain
+      )
+      return new FullPost(fullPostData, this.commentService, this.publicationSubdomain)
     } catch (error) {
-      throw new Error(`Failed to fetch full post ${this.id}: ${(error as Error).message}`)
+      throw new Error(`Failed to fetch full post ${this.slug}: ${(error as Error).message}`)
     }
   }
 
   async *comments(options: { limit?: number } = {}): AsyncIterable<Comment> {
     try {
-      const commentsData = await this.commentService.getCommentsForPost(this.id)
+      const commentsData = await this.commentService.getCommentsForPost(
+        this.id,
+        this.publicationSubdomain
+      )
       let count = 0
       for (const commentData of commentsData) {
         if (options.limit && count >= options.limit) break
@@ -76,39 +87,39 @@ export class FullPost implements Post {
   public readonly truncatedBody: string
   public readonly publishedAt: Date
   public readonly htmlBody: string
-  public readonly markdown: string
   public readonly slug: string
   public readonly createdAt: Date
   public readonly reactions?: Record<string, number>
   public readonly restacks?: number
-  public readonly postTags?: string[]
   public readonly coverImage?: string
   public readonly url: string
 
   constructor(
-    rawData: GatewayFullPost,
-    private readonly commentService: CommentService
+    rawData: SubstackFullPost,
+    private readonly commentService: CommentService,
+    private readonly publicationSubdomain?: string
   ) {
     this.id = rawData.id
     this.title = rawData.title
     this.subtitle = rawData.subtitle || ''
-    this.truncatedBody = rawData.truncated_body || ''
-    this.body = rawData.html_body || rawData.truncated_body || ''
-    this.publishedAt = new Date(rawData.published_at)
-    this.url = rawData.url
-    this.htmlBody = rawData.html_body || ''
-    this.markdown = rawData.markdown || ''
+    this.truncatedBody = rawData.truncated_body_text || ''
+    this.body = rawData.body_html || rawData.truncated_body_text || ''
+    this.publishedAt = new Date(rawData.post_date)
+    this.url = rawData.canonical_url || ''
+    this.htmlBody = rawData.body_html || ''
     this.slug = rawData.slug
-    this.createdAt = new Date(rawData.published_at)
+    this.createdAt = new Date(rawData.post_date)
     this.reactions = rawData.reactions ?? undefined
     this.restacks = rawData.restacks ?? undefined
-    this.postTags = rawData.tags ?? undefined
     this.coverImage = rawData.cover_image ?? undefined
   }
 
   async *comments(options: { limit?: number } = {}): AsyncIterable<Comment> {
     try {
-      const commentsData = await this.commentService.getCommentsForPost(this.id)
+      const commentsData = await this.commentService.getCommentsForPost(
+        this.id,
+        this.publicationSubdomain
+      )
       let count = 0
       for (const commentData of commentsData) {
         if (options.limit && count >= options.limit) break

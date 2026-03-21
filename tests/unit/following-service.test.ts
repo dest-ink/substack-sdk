@@ -15,21 +15,64 @@ describe('FollowingService', () => {
   })
 
   describe('getFollowing', () => {
-    it('should return following users from GET /me/following', async () => {
-      const mockUsers = [
-        { id: 123, handle: 'user123' },
-        { id: 456, handle: 'user456' }
-      ]
-      mockClient.get.mockResolvedValue({ items: mockUsers })
+    it('should return following users from GET /api/v1/subscriptions/page', async () => {
+      mockClient.get.mockResolvedValue({
+        subscriptions: [
+          {
+            id: 1,
+            publication_id: 10,
+            publication: {
+              id: 10,
+              subdomain: 'pub1',
+              name: 'Pub One',
+              author: { id: 100, handle: 'user1' }
+            }
+          },
+          {
+            id: 2,
+            publication_id: 20,
+            publication: {
+              id: 20,
+              subdomain: 'pub2',
+              name: 'Pub Two',
+              author: { id: 200, handle: 'user2' }
+            }
+          }
+        ]
+      })
 
       const result = await followingService.getFollowing()
 
-      expect(mockClient.get).toHaveBeenCalledWith('/me/following')
-      expect(result).toEqual(mockUsers)
+      expect(mockClient.get).toHaveBeenCalledWith('/api/v1/subscriptions/page')
+      expect(result).toEqual([
+        { id: 100, handle: 'user1' },
+        { id: 200, handle: 'user2' }
+      ])
     })
 
-    it('should return empty array when no one is followed', async () => {
-      mockClient.get.mockResolvedValue({ items: [] })
+    it('should skip subscriptions without author info', async () => {
+      mockClient.get.mockResolvedValue({
+        subscriptions: [
+          { id: 1, publication_id: 10, publication: { id: 10, subdomain: 'pub1', name: 'Pub' } },
+          {
+            id: 2,
+            publication_id: 20,
+            publication: {
+              id: 20,
+              subdomain: 'pub2',
+              name: 'Pub Two',
+              author: { id: 200, handle: 'user2' }
+            }
+          }
+        ]
+      })
+
+      const result = await followingService.getFollowing()
+      expect(result).toEqual([{ id: 200, handle: 'user2' }])
+    })
+
+    it('should return empty array when no subscriptions', async () => {
+      mockClient.get.mockResolvedValue({ subscriptions: [] })
       expect(await followingService.getFollowing()).toEqual([])
     })
 

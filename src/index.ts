@@ -10,4 +10,4 @@ export type {
   NotesIteratorOptions
 } from '@substack-api/types'
 
-export type { GatewayCreateNoteResponse } from '@substack-api/internal/types'
+export type { SubstackCreateNoteResponse } from '@substack-api/internal/types'
